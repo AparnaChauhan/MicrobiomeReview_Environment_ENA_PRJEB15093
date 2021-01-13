@@ -1,0 +1,17 @@
+Nephele Version: 2.5.0
+Run Type: QIIME 16S FASTQ Paired End
+Pipeline Description: ENV_PRJEB15093_trial1_QIIME_Greengenes99_OpenReference_PICRUSt
+Job ID: 7feb884caf8a
+Pipeline parameters:
+data_type : PE
+job_id : 7feb884caf8a
+map_file : /mnt/EFS/user_uploads/7feb884caf8a/inputs/Metadata_PRJEB15093_modified_Nephele_corrected.txt
+max_bad_run : 3
+max_n : 0
+min_overlap : 10
+otu_strategy : open
+perc_max_diff : 25
+phred_offset : 33
+phred_quality : 19
+picrust : True
+ref_db : gg99
