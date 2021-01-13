@@ -1,0 +1,672 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within geographic_location	All between geographic_location	-50.5939461797	0.0	0.0	N/A	N/A
+All within geographic_location	Back River, Maine vs. Back River, Maine	-0.465155268809	0.6419672448146979	1	N/A	N/A
+All within geographic_location	Netherlands vs. Netherlands	-3.78658479761	0.0001660567750226514	0.11059381216508583	N/A	N/A
+All within geographic_location	Sheepscot River, Maine vs. Sheepscot River, Maine	4.12406037148	4.048395058209309e-05	0.026962311087673996	N/A	N/A
+All within geographic_location	Oregon Continental Shelf vs. Oregon Continental Shelf	3.60081372484	0.00033839856324924256	0.22537344312399554	N/A	N/A
+All within geographic_location	Kennebec River, Maine vs. Kennebec River, Maine	0.132050387139	0.8949803325629848	1	N/A	N/A
+All within geographic_location	Lewes, Delaware vs. Lewes, Delaware	2.65946612202	0.008004971986248055	1	N/A	N/A
+All within geographic_location	Gulf of Mexico vs. Gulf of Mexico	-5.19003309713	2.609268612228816e-07	0.00017377728957443915	N/A	N/A
+All within geographic_location	Back River, Maine vs. Netherlands	-17.6132836533	6.958433171853628e-58	4.634316492454516e-55	N/A	N/A
+All within geographic_location	Back River, Maine vs. Sheepscot River, Maine	-2.93951363053	0.0033798164266761114	1	N/A	N/A
+All within geographic_location	Back River, Maine vs. Oregon Continental Shelf	-25.0425219302	6.313888001319333e-101	4.2050494088786755e-98	N/A	N/A
+All within geographic_location	Back River, Maine vs. Kennebec River, Maine	-8.75331315464	1.3725635764286326e-17	9.141273419014693e-15	N/A	N/A
+All within geographic_location	Back River, Maine vs. Lewes, Delaware	-13.6869649263	4.428274127142838e-38	2.94923056867713e-35	N/A	N/A
+All within geographic_location	Back River, Maine vs. Damariscotta River, Maine	-4.03243666809	6.145143803629962e-05	0.04092665773217555	N/A	N/A
+All within geographic_location	Back River, Maine vs. Gulf of Mexico	-42.5329258105	1.4879382265848286e-207	9.909668589054959e-205	N/A	N/A
+All within geographic_location	Netherlands vs. Sheepscot River, Maine	-30.5969537612	1.1796389409448648e-137	7.8563953466928e-135	N/A	N/A
+All within geographic_location	Netherlands vs. Oregon Continental Shelf	-21.8886802734	2.0422020129798617e-82	1.360106540644588e-79	N/A	N/A
+All within geographic_location	Netherlands vs. Kennebec River, Maine	-23.3413938593	6.76920998699707e-91	4.508293851340049e-88	N/A	N/A
+All within geographic_location	Netherlands vs. Lewes, Delaware	-16.1749501424	1.8978948021560488e-50	1.2639979382359286e-47	N/A	N/A
+All within geographic_location	Netherlands vs. Damariscotta River, Maine	-6.3960879621	2.965032945891507e-10	1.9747119419637437e-07	N/A	N/A
+All within geographic_location	Netherlands vs. Gulf of Mexico	-38.5575590221	1.2499497815659548e-184	8.324665545229259e-182	N/A	N/A
+All within geographic_location	Sheepscot River, Maine vs. Oregon Continental Shelf	-48.8849991738	5.43884770114796e-263	3.6222725689645416e-260	N/A	N/A
+All within geographic_location	Sheepscot River, Maine vs. Kennebec River, Maine	-8.96013772852	1.6503404838662137e-18	1.0991267622548983e-15	N/A	N/A
+All within geographic_location	Sheepscot River, Maine vs. Lewes, Delaware	-22.4430867274	2.734842841465244e-88	1.8214053324158525e-85	N/A	N/A
+All within geographic_location	Sheepscot River, Maine vs. Damariscotta River, Maine	-6.7132470407	3.9441069345618444e-11	2.6267752184181883e-08	N/A	N/A
+All within geographic_location	Sheepscot River, Maine vs. Gulf of Mexico	-79.1874294263	0.0	0.0	N/A	N/A
+All within geographic_location	Oregon Continental Shelf vs. Kennebec River, Maine	-38.6346827212	1.2294887290236464e-186	8.188394935297485e-184	N/A	N/A
+All within geographic_location	Oregon Continental Shelf vs. Lewes, Delaware	-31.6144798649	2.89034010974995e-141	1.924966513093467e-138	N/A	N/A
+All within geographic_location	Oregon Continental Shelf vs. Damariscotta River, Maine	-12.0331678833	2.149994556847436e-30	1.4318963748603924e-27	N/A	N/A
+All within geographic_location	Oregon Continental Shelf vs. Gulf of Mexico	-32.7929016049	3.79197339080104e-157	2.5254542782734927e-154	N/A	N/A
+All within geographic_location	Kennebec River, Maine vs. Lewes, Delaware	-13.3374516511	1.1668080667876112e-36	7.77094172480549e-34	N/A	N/A
+All within geographic_location	Kennebec River, Maine vs. Damariscotta River, Maine	-5.07657283437	4.955880942982333e-07	0.0003300616708026234	N/A	N/A
+All within geographic_location	Kennebec River, Maine vs. Gulf of Mexico	-62.0606751053	0.0	0.0	N/A	N/A
+All within geographic_location	Lewes, Delaware vs. Damariscotta River, Maine	-3.81237443727	0.00015009836964110363	0.09996551418097502	N/A	N/A
+All within geographic_location	Lewes, Delaware vs. Gulf of Mexico	-46.3645263486	5.099126879101215e-234	3.39601850148141e-231	N/A	N/A
+All within geographic_location	Damariscotta River, Maine vs. Gulf of Mexico	-20.0465375599	6.830155704539607e-71	4.548883699223378e-68	N/A	N/A
+All between geographic_location	Back River, Maine vs. Back River, Maine	7.60361694432	3.730349362740526e-14	2.4844126755851903e-11	N/A	N/A
+All between geographic_location	Netherlands vs. Netherlands	5.04434260277	4.793379624334904e-07	0.0003192390829807046	N/A	N/A
+All between geographic_location	Sheepscot River, Maine vs. Sheepscot River, Maine	37.2156200267	0.0	0.0	N/A	N/A
+All between geographic_location	Oregon Continental Shelf vs. Oregon Continental Shelf	19.4114995546	0.0	0.0	N/A	N/A
+All between geographic_location	Kennebec River, Maine vs. Kennebec River, Maine	16.7670655138	0.0	0.0	N/A	N/A
+All between geographic_location	Lewes, Delaware vs. Lewes, Delaware	12.8802878806	0.0	0.0	N/A	N/A
+All between geographic_location	Gulf of Mexico vs. Gulf of Mexico	23.7289755551	0.0	0.0	N/A	N/A
+All between geographic_location	Back River, Maine vs. Netherlands	-1.17544360733	0.23990049607239852	1	N/A	N/A
+All between geographic_location	Back River, Maine vs. Sheepscot River, Maine	22.400638739	0.0	0.0	N/A	N/A
+All between geographic_location	Back River, Maine vs. Oregon Continental Shelf	-1.52589977914	0.12712786445659463	1	N/A	N/A
+All between geographic_location	Back River, Maine vs. Kennebec River, Maine	10.7861544275	0.0	0.0	N/A	N/A
+All between geographic_location	Back River, Maine vs. Lewes, Delaware	3.88476200641	0.00010439529501216072	0.06952726647809904	N/A	N/A
+All between geographic_location	Back River, Maine vs. Damariscotta River, Maine	1.99261732304	0.04638478887307662	1	N/A	N/A
+All between geographic_location	Back River, Maine vs. Gulf of Mexico	-10.0122495527	2.7886846276669937e-23	1.8572639620262178e-20	N/A	N/A
+All between geographic_location	Netherlands vs. Sheepscot River, Maine	-0.125518729369	0.9001201675938144	1	N/A	N/A
+All between geographic_location	Netherlands vs. Oregon Continental Shelf	0.764205804698	0.4447976542424481	1	N/A	N/A
+All between geographic_location	Netherlands vs. Kennebec River, Maine	-0.747275546274	0.4549489406313938	1	N/A	N/A
+All between geographic_location	Netherlands vs. Lewes, Delaware	1.90138126383	0.057337178782484566	1	N/A	N/A
+All between geographic_location	Netherlands vs. Damariscotta River, Maine	0.205365511611	0.8372991048950154	1	N/A	N/A
+All between geographic_location	Netherlands vs. Gulf of Mexico	-6.82769950185	1.0152063498271366e-11	6.761274289848729e-09	N/A	N/A
+All between geographic_location	Sheepscot River, Maine vs. Oregon Continental Shelf	-2.76039984652	0.005802181596877383	1	N/A	N/A
+All between geographic_location	Sheepscot River, Maine vs. Kennebec River, Maine	27.8104249852	0.0	0.0	N/A	N/A
+All between geographic_location	Sheepscot River, Maine vs. Lewes, Delaware	11.3169840993	0.0	0.0	N/A	N/A
+All between geographic_location	Sheepscot River, Maine vs. Damariscotta River, Maine	4.9963469638	6.141698378758775e-07	0.00040903711202533444	N/A	N/A
+All between geographic_location	Sheepscot River, Maine vs. Gulf of Mexico	-20.9055923009	5.4344204495129666e-92	3.619324019375636e-89	N/A	N/A
+All between geographic_location	Oregon Continental Shelf vs. Kennebec River, Maine	-4.82227845201	1.48024577111482e-06	0.00098584368356247	N/A	N/A
+All between geographic_location	Oregon Continental Shelf vs. Lewes, Delaware	-3.84684669476	0.00012182801708758551	0.08113745938033196	N/A	N/A
+All between geographic_location	Oregon Continental Shelf vs. Damariscotta River, Maine	-1.9546968519	0.050702197247666135	1	N/A	N/A
+All between geographic_location	Oregon Continental Shelf vs. Gulf of Mexico	4.87963007428	1.1092071232621237e-06	0.0007387319440925744	N/A	N/A
+All between geographic_location	Kennebec River, Maine vs. Lewes, Delaware	10.0222542926	0.0	0.0	N/A	N/A
+All between geographic_location	Kennebec River, Maine vs. Damariscotta River, Maine	3.28892366037	0.0010161428165538222	0.6767511158248456	N/A	N/A
+All between geographic_location	Kennebec River, Maine vs. Gulf of Mexico	-16.5545753606	2.2687746345436573e-59	1.5110039066060757e-56	N/A	N/A
+All between geographic_location	Lewes, Delaware vs. Damariscotta River, Maine	2.93723385432	0.0033342200862709337	1	N/A	N/A
+All between geographic_location	Lewes, Delaware vs. Gulf of Mexico	-9.96096962158	4.571231574525647e-23	3.044440228634081e-20	N/A	N/A
+All between geographic_location	Damariscotta River, Maine vs. Gulf of Mexico	-5.74765328657	9.859840663481333e-09	6.566653881878568e-06	N/A	N/A
+Back River, Maine vs. Back River, Maine	Netherlands vs. Netherlands	-2.40342852775	0.02311007744931981	1	N/A	N/A
+Back River, Maine vs. Back River, Maine	Sheepscot River, Maine vs. Sheepscot River, Maine	4.00418266579	7.918471200429877e-05	0.052737018194862983	N/A	N/A
+Back River, Maine vs. Back River, Maine	Oregon Continental Shelf vs. Oregon Continental Shelf	4.15103397879	8.292782609120586e-05	0.0552299321767431	N/A	N/A
+Back River, Maine vs. Back River, Maine	Kennebec River, Maine vs. Kennebec River, Maine	0.8890648413	0.37666745539255464	1	N/A	N/A
+Back River, Maine vs. Back River, Maine	Lewes, Delaware vs. Lewes, Delaware	3.5658197484	0.0009391775372964428	0.6254922398394309	N/A	N/A
+Back River, Maine vs. Back River, Maine	Gulf of Mexico vs. Gulf of Mexico	-0.885843995266	0.3766558374440687	1	N/A	N/A
+Back River, Maine vs. Back River, Maine	Back River, Maine vs. Netherlands	-12.358989349	1.1337271146626672e-16	7.550622583653364e-14	N/A	N/A
+Back River, Maine vs. Back River, Maine	Back River, Maine vs. Sheepscot River, Maine	-1.4652790675	0.14484455882744626	1	N/A	N/A
+Back River, Maine vs. Back River, Maine	Back River, Maine vs. Oregon Continental Shelf	-28.4290504695	3.482595240715117e-45	2.319408430316268e-42	N/A	N/A
+Back River, Maine vs. Back River, Maine	Back River, Maine vs. Kennebec River, Maine	-8.20522794495	2.185705966911711e-12	1.4556801739631996e-09	N/A	N/A
+Back River, Maine vs. Back River, Maine	Back River, Maine vs. Lewes, Delaware	-16.7070562093	1.9340902385644744e-24	1.2881040988839399e-21	N/A	N/A
+Back River, Maine vs. Back River, Maine	Back River, Maine vs. Damariscotta River, Maine	-6.39052097862	3.957752082492579e-06	0.002635862886940058	N/A	N/A
+Back River, Maine vs. Back River, Maine	Back River, Maine vs. Gulf of Mexico	-23.2294594288	1.0487002793563806e-49	6.984343860513495e-47	N/A	N/A
+Back River, Maine vs. Back River, Maine	Netherlands vs. Sheepscot River, Maine	-11.5891716556	7.845836970135601e-23	5.22532742211031e-20	N/A	N/A
+Back River, Maine vs. Back River, Maine	Netherlands vs. Oregon Continental Shelf	-18.7835045283	5.331747303853427e-32	3.5509437043663825e-29	N/A	N/A
+Back River, Maine vs. Back River, Maine	Netherlands vs. Kennebec River, Maine	-12.4441623297	7.595891029061449e-21	5.058863425354925e-18	N/A	N/A
+Back River, Maine vs. Back River, Maine	Netherlands vs. Lewes, Delaware	-13.2624544927	1.254646284517582e-19	8.355944254887097e-17	N/A	N/A
+Back River, Maine vs. Back River, Maine	Netherlands vs. Damariscotta River, Maine	-9.12565809939	2.2496348345555833e-08	1.4982567998140185e-05	N/A	N/A
+Back River, Maine vs. Back River, Maine	Netherlands vs. Gulf of Mexico	-22.0539839397	3.097190539308519e-47	2.0627288991794736e-44	N/A	N/A
+Back River, Maine vs. Back River, Maine	Sheepscot River, Maine vs. Oregon Continental Shelf	-31.6738945178	7.621070587288478e-98	5.075633011134127e-95	N/A	N/A
+Back River, Maine vs. Back River, Maine	Sheepscot River, Maine vs. Kennebec River, Maine	-4.06421307622	6.15626172110533e-05	0.0410007030625615	N/A	N/A
+Back River, Maine vs. Back River, Maine	Sheepscot River, Maine vs. Lewes, Delaware	-17.1718798892	1.5146481831404237e-41	1.0087556899715222e-38	N/A	N/A
+Back River, Maine vs. Back River, Maine	Sheepscot River, Maine vs. Damariscotta River, Maine	-9.01009589877	7.261937295326852e-11	4.8364502386876836e-08	N/A	N/A
+Back River, Maine vs. Back River, Maine	Sheepscot River, Maine vs. Gulf of Mexico	-24.3183621582	1.163244365125758e-87	7.747207471737548e-85	N/A	N/A
+Back River, Maine vs. Back River, Maine	Oregon Continental Shelf vs. Kennebec River, Maine	-31.2019356676	3.3874648765195133e-69	2.256051607761996e-66	N/A	N/A
+Back River, Maine vs. Back River, Maine	Oregon Continental Shelf vs. Lewes, Delaware	-32.4549863274	7.630926496593493e-58	5.0821970467312664e-55	N/A	N/A
+Back River, Maine vs. Back River, Maine	Oregon Continental Shelf vs. Damariscotta River, Maine	-20.1145947028	5.910775412430204e-17	3.9365764246785156e-14	N/A	N/A
+Back River, Maine vs. Back River, Maine	Oregon Continental Shelf vs. Gulf of Mexico	-10.1375657577	1.2701202866133985e-20	8.459001108845235e-18	N/A	N/A
+Back River, Maine vs. Back River, Maine	Kennebec River, Maine vs. Lewes, Delaware	-13.9493541054	5.397081598684783e-26	3.594456344724065e-23	N/A	N/A
+Back River, Maine vs. Back River, Maine	Kennebec River, Maine vs. Damariscotta River, Maine	-7.74608292588	4.209008133448061e-08	2.8031994168764087e-05	N/A	N/A
+Back River, Maine vs. Back River, Maine	Kennebec River, Maine vs. Gulf of Mexico	-27.5933011145	6.844858362630595e-80	4.558675669511976e-77	N/A	N/A
+Back River, Maine vs. Back River, Maine	Lewes, Delaware vs. Damariscotta River, Maine	-5.98902453148	6.059260836741031e-06	0.004035467717269527	N/A	N/A
+Back River, Maine vs. Back River, Maine	Lewes, Delaware vs. Gulf of Mexico	-21.3693294592	2.235529489151033e-51	1.4888626397745882e-48	N/A	N/A
+Back River, Maine vs. Back River, Maine	Damariscotta River, Maine vs. Gulf of Mexico	-24.172445121	5.36116909919683e-23	3.5705386200650885e-20	N/A	N/A
+Netherlands vs. Netherlands	Sheepscot River, Maine vs. Sheepscot River, Maine	10.7612136715	0.0	0.0	N/A	N/A
+Netherlands vs. Netherlands	Oregon Continental Shelf vs. Oregon Continental Shelf	7.31942712214	1.8200529972034474e-10	1.212155296137496e-07	N/A	N/A
+Netherlands vs. Netherlands	Kennebec River, Maine vs. Kennebec River, Maine	4.82998699869	6.569979306147999e-06	0.004375606217894568	N/A	N/A
+Netherlands vs. Netherlands	Lewes, Delaware vs. Lewes, Delaware	5.32816494494	3.881186394494307e-06	0.0025848701387332085	N/A	N/A
+Netherlands vs. Netherlands	Gulf of Mexico vs. Gulf of Mexico	1.31995951994	0.18820188006190386	1	N/A	N/A
+Netherlands vs. Netherlands	Back River, Maine vs. Netherlands	-6.59668198877	2.797360859734286e-08	1.8630423325830346e-05	N/A	N/A
+Netherlands vs. Netherlands	Back River, Maine vs. Sheepscot River, Maine	5.81030279962	3.368097423184224e-08	2.2431528838406933e-05	N/A	N/A
+Netherlands vs. Netherlands	Back River, Maine vs. Oregon Continental Shelf	-11.6910515446	2.2119836655036563e-19	1.473181121225435e-16	N/A	N/A
+Netherlands vs. Netherlands	Back River, Maine vs. Kennebec River, Maine	-0.248548458381	0.8043096139952441	1	N/A	N/A
+Netherlands vs. Netherlands	Back River, Maine vs. Lewes, Delaware	-4.92119448332	6.856177138677031e-06	0.004566213974358903	N/A	N/A
+Netherlands vs. Netherlands	Back River, Maine vs. Damariscotta River, Maine	-1.20003159017	0.24487694415003416	1	N/A	N/A
+Netherlands vs. Netherlands	Back River, Maine vs. Gulf of Mexico	-15.1601838443	2.989002503276991e-31	1.990675667182476e-28	N/A	N/A
+Netherlands vs. Netherlands	Netherlands vs. Sheepscot River, Maine	-7.11446461704	3.7575122488956796e-11	2.5025031577645226e-08	N/A	N/A
+Netherlands vs. Netherlands	Netherlands vs. Oregon Continental Shelf	-8.50628226211	5.390624300481087e-13	3.590155784120404e-10	N/A	N/A
+Netherlands vs. Netherlands	Netherlands vs. Kennebec River, Maine	-7.18178088247	2.4330980888728925e-10	1.6204433271893465e-07	N/A	N/A
+Netherlands vs. Netherlands	Netherlands vs. Lewes, Delaware	-5.75629426503	2.988749372266885e-07	0.00019905070819297455	N/A	N/A
+Netherlands vs. Netherlands	Netherlands vs. Damariscotta River, Maine	-2.89600315916	0.009259640927076951	1	N/A	N/A
+Netherlands vs. Netherlands	Netherlands vs. Gulf of Mexico	-13.7019561794	1.412070652410047e-27	9.404390545050913e-25	N/A	N/A
+Netherlands vs. Netherlands	Sheepscot River, Maine vs. Oregon Continental Shelf	-17.4502422873	1.3336623802785808e-47	8.882191452655348e-45	N/A	N/A
+Netherlands vs. Netherlands	Sheepscot River, Maine vs. Kennebec River, Maine	3.63194337929	0.00033055483477273384	0.22014951995864074	N/A	N/A
+Netherlands vs. Netherlands	Sheepscot River, Maine vs. Lewes, Delaware	-5.34044024665	2.452734761753248e-07	0.00016335213513276632	N/A	N/A
+Netherlands vs. Netherlands	Sheepscot River, Maine vs. Damariscotta River, Maine	-1.37032485419	0.17884299085995783	1	N/A	N/A
+Netherlands vs. Netherlands	Sheepscot River, Maine vs. Gulf of Mexico	-17.9180457293	3.3355660100951826e-56	2.2214869627233916e-53	N/A	N/A
+Netherlands vs. Netherlands	Oregon Continental Shelf vs. Kennebec River, Maine	-16.3397532739	1.0790535815872612e-35	7.18649685337116e-33	N/A	N/A
+Netherlands vs. Netherlands	Oregon Continental Shelf vs. Lewes, Delaware	-14.8527717921	5.978637038271968e-28	3.981772267489131e-25	N/A	N/A
+Netherlands vs. Netherlands	Oregon Continental Shelf vs. Damariscotta River, Maine	-6.53050753715	7.689714293166956e-07	0.0005121349719249193	N/A	N/A
+Netherlands vs. Netherlands	Oregon Continental Shelf vs. Gulf of Mexico	-5.78305370597	2.060311480156733e-08	1.3721674457843842e-05	N/A	N/A
+Netherlands vs. Netherlands	Kennebec River, Maine vs. Lewes, Delaware	-2.53451464665	0.01268032867368938	1	N/A	N/A
+Netherlands vs. Netherlands	Kennebec River, Maine vs. Damariscotta River, Maine	-1.2320208584	0.2294038123102458	1	N/A	N/A
+Netherlands vs. Netherlands	Kennebec River, Maine vs. Gulf of Mexico	-19.3118785792	1.783598764952024e-52	1.1878767774580481e-49	N/A	N/A
+Netherlands vs. Netherlands	Lewes, Delaware vs. Damariscotta River, Maine	-0.755488124459	0.4583468410856816	1	N/A	N/A
+Netherlands vs. Netherlands	Lewes, Delaware vs. Gulf of Mexico	-14.3993256505	7.995990594586149e-32	5.325329735994376e-29	N/A	N/A
+Netherlands vs. Netherlands	Damariscotta River, Maine vs. Gulf of Mexico	-10.9366932577	1.1217991529664499e-12	7.471182358756556e-10	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Oregon Continental Shelf vs. Oregon Continental Shelf	3.8598834549	0.00013575506289598138	0.0904128718887236	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Kennebec River, Maine vs. Kennebec River, Maine	-4.49734398487	9.45441842931571e-06	0.006296642673924263	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Lewes, Delaware vs. Lewes, Delaware	3.49069000206	0.0005536112918906877	0.368705120399198	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Gulf of Mexico vs. Gulf of Mexico	-7.70120872884	7.665656851102999e-14	5.105327462834597e-11	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Back River, Maine vs. Netherlands	-43.2310030451	2.6465410110302186e-133	1.7625963133461256e-130	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Back River, Maine vs. Sheepscot River, Maine	-15.1099208481	1.8151735610138952e-41	1.2089055916352543e-38	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Back River, Maine vs. Oregon Continental Shelf	-73.2702981192	8.871956910707906e-213	5.908723302531465e-210	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Back River, Maine vs. Kennebec River, Maine	-28.4474239504	1.3356351174281594e-92	8.895329882071542e-90	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Back River, Maine vs. Lewes, Delaware	-42.6275905719	1.9058060259077211e-134	1.2692668132545422e-131	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Back River, Maine vs. Damariscotta River, Maine	-13.5798193502	1.2939960009330087e-32	8.618013366213837e-30	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Back River, Maine vs. Gulf of Mexico	-88.2088037375	2.9133038998233325e-264	1.9402603972823396e-261	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Netherlands vs. Sheepscot River, Maine	-50.9588460233	1.9232280609182996e-181	1.2808698885715875e-178	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Netherlands vs. Oregon Continental Shelf	-59.2491671863	3.175416614018037e-183	2.1148274649360127e-180	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Netherlands vs. Kennebec River, Maine	-49.2682263697	1.9097719421069654e-158	1.271908113443239e-155	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Netherlands vs. Lewes, Delaware	-43.5566851617	5.118418189147016e-137	3.408866513971913e-134	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Netherlands vs. Damariscotta River, Maine	-20.0533468782	4.485187496976545e-56	2.987134872986379e-53	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Netherlands vs. Gulf of Mexico	-82.9368354676	4.132834172943947e-254	2.7524675591806684e-251	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Sheepscot River, Maine vs. Oregon Continental Shelf	-114.586682826	0.0	0.0	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Sheepscot River, Maine vs. Kennebec River, Maine	-26.0741523931	7.91451286178485e-99	5.271065565948709e-96	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Sheepscot River, Maine vs. Lewes, Delaware	-61.5988284799	4.614902662009385e-226	3.0735251728982504e-223	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Sheepscot River, Maine vs. Damariscotta River, Maine	-22.5744604611	1.7745109723050663e-66	1.1818243075551741e-63	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Sheepscot River, Maine vs. Gulf of Mexico	-106.997119042	0.0	0.0	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Oregon Continental Shelf vs. Kennebec River, Maine	-99.6755276837	1.8843151547959756e-293	1.2549538930941198e-290	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Oregon Continental Shelf vs. Lewes, Delaware	-89.1031735682	4.2125949525677853e-252	2.805588238410145e-249	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Oregon Continental Shelf vs. Damariscotta River, Maine	-37.6836110186	6.284557374597842e-113	4.1855152114821627e-110	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Oregon Continental Shelf vs. Gulf of Mexico	-47.4172440872	4.494532339777944e-192	2.9933585382921108e-189	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Kennebec River, Maine vs. Lewes, Delaware	-42.2314777236	1.3926503984304044e-143	9.275051653546494e-141	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Kennebec River, Maine vs. Damariscotta River, Maine	-17.2797622807	2.6206453975161018e-46	1.7453498347457237e-43	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Kennebec River, Maine vs. Gulf of Mexico	-111.616501682	0.0	0.0	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Lewes, Delaware vs. Damariscotta River, Maine	-13.2265702736	2.1240916411844636e-31	1.4146450330288526e-28	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Lewes, Delaware vs. Gulf of Mexico	-86.2588763731	1.1638486224003136e-278	7.751231825186089e-276	N/A	N/A
+Sheepscot River, Maine vs. Sheepscot River, Maine	Damariscotta River, Maine vs. Gulf of Mexico	-58.0545201518	1.8917698540961852e-163	1.2599187228280594e-160	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Kennebec River, Maine vs. Kennebec River, Maine	-4.9452008611	2.30416469429558e-06	0.0015345736864008563	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Lewes, Delaware vs. Lewes, Delaware	0.524067806876	0.6014916881360839	1	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Gulf of Mexico vs. Gulf of Mexico	-4.85676064814	2.0088310864901975e-06	0.0013378815036024715	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Back River, Maine vs. Netherlands	-27.0254706601	9.212899252987544e-48	6.135790902489704e-45	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Back River, Maine vs. Sheepscot River, Maine	-13.316584938	1.1490073705795413e-29	7.652389088059746e-27	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Back River, Maine vs. Oregon Continental Shelf	-51.8620371729	1.7754273522422688e-91	1.182434616593351e-88	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Back River, Maine vs. Kennebec River, Maine	-21.2430534279	4.902741048011373e-45	3.2652255379755747e-42	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Back River, Maine vs. Lewes, Delaware	-31.6269270273	1.168377585742347e-57	7.781394721044031e-55	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Back River, Maine vs. Damariscotta River, Maine	-10.8454760747	1.2275093103213065e-16	8.175212006739902e-14	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Back River, Maine vs. Gulf of Mexico	-51.3375360657	2.5343122648334266e-113	1.6878519683790622e-110	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Netherlands vs. Sheepscot River, Maine	-28.3897945688	1.7507245762893596e-73	1.1659825678087134e-70	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Netherlands vs. Oregon Continental Shelf	-39.3607057117	3.3080576579206226e-76	2.2031664001751345e-73	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Netherlands vs. Kennebec River, Maine	-29.0195519522	3.980335971534194e-60	2.6509037570417736e-57	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Netherlands vs. Lewes, Delaware	-28.7970334909	1.353920496938204e-53	9.017110509608438e-51	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Netherlands vs. Damariscotta River, Maine	-15.1188280431	9.669015404271554e-24	6.439564259244855e-21	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Netherlands vs. Gulf of Mexico	-48.996037989	9.698934135783473e-110	6.459490134431793e-107	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Sheepscot River, Maine vs. Oregon Continental Shelf	-70.4409455172	1.4505232348764382e-209	9.660484744277078e-207	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Sheepscot River, Maine vs. Kennebec River, Maine	-18.1660097419	1.697132898630974e-52	1.1302905104882285e-49	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Sheepscot River, Maine vs. Lewes, Delaware	-41.353787301	2.50971317731857e-115	1.6714689760941675e-112	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Sheepscot River, Maine vs. Damariscotta River, Maine	-17.7390807422	8.31581210336701e-31	5.5383308608424285e-28	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Sheepscot River, Maine vs. Gulf of Mexico	-57.0858964445	1.8574402071802233e-237	1.2370551779820288e-234	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Oregon Continental Shelf vs. Kennebec River, Maine	-64.292339653	3.2880546556781735e-139	2.1898444006816634e-136	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Oregon Continental Shelf vs. Lewes, Delaware	-61.1629215268	6.991462573644181e-113	4.6563140740470243e-110	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Oregon Continental Shelf vs. Damariscotta River, Maine	-28.7657520519	1.3332071463565805e-42	8.879159594734827e-40	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Oregon Continental Shelf vs. Gulf of Mexico	-26.0807645715	8.81756381299398e-81	5.872497499453991e-78	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Kennebec River, Maine vs. Lewes, Delaware	-31.3265101819	3.695275163874565e-70	2.4610532591404604e-67	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Kennebec River, Maine vs. Damariscotta River, Maine	-13.8469080075	1.7718693883866179e-22	1.1800650126654875e-19	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Kennebec River, Maine vs. Gulf of Mexico	-62.4092871965	9.280901436033027e-180	6.181080356397996e-177	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Lewes, Delaware vs. Damariscotta River, Maine	-10.75768612	1.2307541817233689e-16	8.196822850277636e-14	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Lewes, Delaware vs. Gulf of Mexico	-48.7172871774	7.842869807045557e-124	5.223351291492341e-121	N/A	N/A
+Oregon Continental Shelf vs. Oregon Continental Shelf	Damariscotta River, Maine vs. Gulf of Mexico	-40.8492578571	1.1997575267147149e-57	7.990385127920001e-55	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Lewes, Delaware vs. Lewes, Delaware	4.01233234165	0.00012233597850941358	0.08147576168726944	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Gulf of Mexico vs. Gulf of Mexico	-2.55538591908	0.011147458017158815	1	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Back River, Maine vs. Netherlands	-22.2494970837	1.6316945151965833e-40	1.0867085471209244e-37	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Back River, Maine vs. Sheepscot River, Maine	-4.63357946315	6.335349089077633e-06	0.004219342493325703	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Back River, Maine vs. Oregon Continental Shelf	-40.7261069652	4.58999585841937e-78	3.0569372417073006e-75	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Back River, Maine vs. Kennebec River, Maine	-13.7060047436	2.1243731827366544e-27	1.4148325397026118e-24	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Back River, Maine vs. Lewes, Delaware	-23.1527094274	1.6710144470624058e-44	1.1128956217435622e-41	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Back River, Maine vs. Damariscotta River, Maine	-7.4522153477	1.858804548960079e-10	1.2379638296074126e-07	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Back River, Maine vs. Gulf of Mexico	-44.4923286038	2.031521400095589e-102	1.3529932524636624e-99	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Netherlands vs. Sheepscot River, Maine	-24.0655383513	4.975984671747112e-62	3.3140057913835766e-59	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Netherlands vs. Oregon Continental Shelf	-31.2387343835	6.479534307510545e-64	4.315369848802023e-61	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Netherlands vs. Kennebec River, Maine	-24.2650095695	2.9171767361284914e-51	1.9428397062615753e-48	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Netherlands vs. Lewes, Delaware	-22.606558383	1.517867113814838e-43	1.0108994978006822e-40	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Netherlands vs. Damariscotta River, Maine	-11.3708159828	1.4608694481759408e-17	9.729390524851767e-15	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Netherlands vs. Gulf of Mexico	-41.8764019943	7.035920619860689e-98	4.685923132827219e-95	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Sheepscot River, Maine vs. Oregon Continental Shelf	-58.3526171007	4.661071711029404e-183	3.104273759545583e-180	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Sheepscot River, Maine vs. Kennebec River, Maine	-9.85469724054	2.1534026095594212e-20	1.4341661379665744e-17	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Sheepscot River, Maine vs. Lewes, Delaware	-30.5967976159	1.7105465559029412e-87	1.1392240062313588e-84	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Sheepscot River, Maine vs. Damariscotta River, Maine	-11.8934319571	5.214408027687356e-20	3.4727957464397786e-17	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Sheepscot River, Maine vs. Gulf of Mexico	-50.915779643	7.498311881347069e-214	4.993875712977148e-211	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Oregon Continental Shelf vs. Kennebec River, Maine	-52.8895687918	1.3676091757255233e-122	9.108277110331985e-120	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Oregon Continental Shelf vs. Lewes, Delaware	-49.0931782826	2.2183753202488945e-98	1.4774379632857637e-95	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Oregon Continental Shelf vs. Damariscotta River, Maine	-22.1520048104	6.818349301643065e-35	4.541020634894281e-32	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Oregon Continental Shelf vs. Gulf of Mexico	-21.7248294501	1.1596470850217373e-64	7.72324958624477e-62	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Kennebec River, Maine vs. Lewes, Delaware	-21.5452852062	3.684064863651496e-49	2.4535871991918963e-46	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Kennebec River, Maine vs. Damariscotta River, Maine	-9.31278451544	3.367888036446838e-14	2.243013432273594e-11	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Kennebec River, Maine vs. Gulf of Mexico	-55.0360056129	5.8872477053771594e-164	3.920906971781188e-161	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Lewes, Delaware vs. Damariscotta River, Maine	-7.07086502275	8.180242070810512e-10	5.448041219159801e-07	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Lewes, Delaware vs. Gulf of Mexico	-42.4790536475	2.0488506324825152e-111	1.3645345212333551e-108	N/A	N/A
+Kennebec River, Maine vs. Kennebec River, Maine	Damariscotta River, Maine vs. Gulf of Mexico	-33.2317195463	1.7838493823930699e-50	1.1880436886737844e-47	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Gulf of Mexico vs. Gulf of Mexico	-3.38145731403	0.0008437877643719879	0.5619626510717439	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Back River, Maine vs. Netherlands	-19.3303007757	6.120083602426761e-28	4.0759756792162223e-25	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Back River, Maine vs. Sheepscot River, Maine	-10.6568716764	1.2395111512312079e-20	8.255144267199844e-18	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Back River, Maine vs. Oregon Continental Shelf	-40.4666229834	5.692053701258288e-63	3.79090776503802e-60	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Back River, Maine vs. Kennebec River, Maine	-16.560641481	3.706155732555911e-30	2.4682997178822364e-27	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Back River, Maine vs. Lewes, Delaware	-25.3281792017	3.3849247215819213e-38	2.2543598645735597e-35	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Back River, Maine vs. Damariscotta River, Maine	-9.22199223726	1.5826406697446442e-10	1.054038686049933e-07	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Back River, Maine vs. Gulf of Mexico	-35.6033772938	1.2303953541060292e-75	8.194433058346155e-73	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Netherlands vs. Sheepscot River, Maine	-19.2795396481	1.2170983674961252e-44	8.105875127524194e-42	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Netherlands vs. Oregon Continental Shelf	-29.1935903728	3.8373007524054524e-50	2.5556423011020313e-47	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Netherlands vs. Kennebec River, Maine	-20.1660713535	1.1850966100798582e-36	7.892743423131856e-34	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Netherlands vs. Lewes, Delaware	-21.2272071025	3.357711311891642e-33	2.2362357337198337e-30	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Netherlands vs. Damariscotta River, Maine	-12.3760033396	9.68235324743922e-14	6.448447262794521e-11	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Netherlands vs. Gulf of Mexico	-34.1906220391	2.9377502322389945e-73	1.9565416546711704e-70	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Sheepscot River, Maine vs. Oregon Continental Shelf	-50.0479891851	1.0875240602125144e-151	7.242910241015346e-149	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Sheepscot River, Maine vs. Kennebec River, Maine	-13.2100814976	5.489905146397295e-32	3.6562768275005984e-29	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Sheepscot River, Maine vs. Lewes, Delaware	-30.5328930374	1.1027456954632401e-80	7.344286331785179e-78	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Sheepscot River, Maine vs. Damariscotta River, Maine	-14.6890156786	9.022831990597219e-20	6.009206105737748e-17	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Sheepscot River, Maine vs. Gulf of Mexico	-38.2178347661	2.0356634175772972e-154	1.35575183610648e-151	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Oregon Continental Shelf vs. Kennebec River, Maine	-47.0175107334	2.3499813989041684e-99	1.5650876116701761e-96	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Oregon Continental Shelf vs. Lewes, Delaware	-46.6803910419	1.1477873659925223e-79	7.644263857510199e-77	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Oregon Continental Shelf vs. Damariscotta River, Maine	-24.2453656875	1.0120668644023527e-24	6.740365316919669e-22	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Oregon Continental Shelf vs. Gulf of Mexico	-17.6116746573	3.787176139243163e-47	2.5222593087359464e-44	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Kennebec River, Maine vs. Lewes, Delaware	-24.6501891241	3.2773379149858732e-49	2.1827070513805914e-46	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Kennebec River, Maine vs. Damariscotta River, Maine	-11.7439199046	3.265928016165175e-14	2.1751080587660064e-11	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Kennebec River, Maine vs. Gulf of Mexico	-42.5521181733	9.338044675570983e-124	6.219137753930275e-121	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Lewes, Delaware vs. Damariscotta River, Maine	-9.20922404927	9.207622133760505e-11	6.132276341084497e-08	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Lewes, Delaware vs. Gulf of Mexico	-33.3358051093	3.05968361624278e-82	2.0377492884176915e-79	N/A	N/A
+Lewes, Delaware vs. Lewes, Delaware	Damariscotta River, Maine vs. Gulf of Mexico	-31.9419162043	1.5946073362315408e-33	1.0620084859302061e-30	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Back River, Maine vs. Netherlands	-9.77257906186	3.0019511987461106e-19	1.9992994983649096e-16	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Back River, Maine vs. Sheepscot River, Maine	1.73271291011	0.08402256321435297	1	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Back River, Maine vs. Oregon Continental Shelf	-13.9534005549	5.930356523451093e-34	3.949617444618428e-31	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Back River, Maine vs. Kennebec River, Maine	-3.18125247817	0.0016313059498966071	1	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Back River, Maine vs. Lewes, Delaware	-6.92047046051	3.601857609964696e-11	2.3988371682364874e-08	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Back River, Maine vs. Damariscotta River, Maine	-1.91194297839	0.0572191391561828	1	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Back River, Maine vs. Gulf of Mexico	-24.5115604339	1.228477802237728e-76	8.181662162903268e-74	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Netherlands vs. Sheepscot River, Maine	-16.3733102395	3.3799537224076387e-45	2.2510491791234874e-42	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Netherlands vs. Oregon Continental Shelf	-11.8540793984	1.5314052168490196e-26	1.0199158744214471e-23	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Netherlands vs. Kennebec River, Maine	-12.755751458	1.0920528863846942e-29	7.273072223322064e-27	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Netherlands vs. Lewes, Delaware	-8.55514574646	1.0955925841171767e-15	7.296646610220397e-13	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Netherlands vs. Damariscotta River, Maine	-3.47600115927	0.0006161626251042293	0.4103643083194167	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Netherlands vs. Gulf of Mexico	-21.9277721771	1.1778930058949449e-66	7.844767419260333e-64	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Sheepscot River, Maine vs. Oregon Continental Shelf	-27.0467202022	1.1633627028167458e-99	7.747995600759528e-97	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Sheepscot River, Maine vs. Kennebec River, Maine	-0.828399006149	0.40784299987804695	1	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Sheepscot River, Maine vs. Lewes, Delaware	-10.5887991044	2.9100804133712037e-23	1.9381135553052217e-20	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Sheepscot River, Maine vs. Damariscotta River, Maine	-2.93036961206	0.0037236986910223696	1	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Sheepscot River, Maine vs. Gulf of Mexico	-44.4262205284	1.9109711955594535e-207	1.272706816242596e-204	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Oregon Continental Shelf vs. Kennebec River, Maine	-21.8328203739	2.012315482083945e-67	1.3402021110679074e-64	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Oregon Continental Shelf vs. Lewes, Delaware	-17.8924140256	2.0790222984969223e-49	1.3846288507989503e-46	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Oregon Continental Shelf vs. Damariscotta River, Maine	-6.89561008161	5.607750164053303e-11	3.7347616092594996e-08	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Oregon Continental Shelf vs. Gulf of Mexico	-16.6658184553	3.946007281726423e-49	2.628040849629798e-46	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Kennebec River, Maine vs. Lewes, Delaware	-5.80860849584	1.5872955730338877e-08	1.0571388516405692e-05	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Kennebec River, Maine vs. Damariscotta River, Maine	-2.28964174979	0.022990356830541035	1	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Kennebec River, Maine vs. Gulf of Mexico	-35.7639509668	6.289842500357981e-135	4.189035105238415e-132	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Lewes, Delaware vs. Damariscotta River, Maine	-1.64910190839	0.10058033552255283	1	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Lewes, Delaware vs. Gulf of Mexico	-26.4182718525	1.045269522416801e-87	6.961495019295894e-85	N/A	N/A
+Gulf of Mexico vs. Gulf of Mexico	Damariscotta River, Maine vs. Gulf of Mexico	-11.8450048542	1.4600338078580988e-25	9.723825160334937e-23	N/A	N/A
+Back River, Maine vs. Netherlands	Back River, Maine vs. Sheepscot River, Maine	32.9519444504	0.0	0.0	N/A	N/A
+Back River, Maine vs. Netherlands	Back River, Maine vs. Oregon Continental Shelf	0.199797683164	0.8420216052112459	1	N/A	N/A
+Back River, Maine vs. Netherlands	Back River, Maine vs. Kennebec River, Maine	17.1765248562	0.0	0.0	N/A	N/A
+Back River, Maine vs. Netherlands	Back River, Maine vs. Lewes, Delaware	7.77304224505	1.963718077035992e-11	1.3078362393059706e-08	N/A	N/A
+Back River, Maine vs. Netherlands	Back River, Maine vs. Damariscotta River, Maine	3.90860621847	0.0003498058856425956	0.2329707198379687	N/A	N/A
+Back River, Maine vs. Netherlands	Back River, Maine vs. Gulf of Mexico	-7.46212741994	5.130086570366387e-12	3.4166376558640136e-09	N/A	N/A
+Back River, Maine vs. Netherlands	Netherlands vs. Sheepscot River, Maine	1.55655793098	0.1213516719992851	1	N/A	N/A
+Back River, Maine vs. Netherlands	Netherlands vs. Oregon Continental Shelf	3.10951553393	0.0024070041010726406	1	N/A	N/A
+Back River, Maine vs. Netherlands	Netherlands vs. Kennebec River, Maine	0.86263792535	0.3902840672984649	1	N/A	N/A
+Back River, Maine vs. Netherlands	Netherlands vs. Lewes, Delaware	4.08819330781	0.00010088749427872301	0.06719107118962953	N/A	N/A
+Back River, Maine vs. Netherlands	Netherlands vs. Damariscotta River, Maine	1.05347556141	0.29844538766554907	1	N/A	N/A
+Back River, Maine vs. Netherlands	Netherlands vs. Gulf of Mexico	-4.5885193863	8.97137520572566e-06	0.00597493588701329	N/A	N/A
+Back River, Maine vs. Netherlands	Sheepscot River, Maine vs. Oregon Continental Shelf	0.61140722347	0.5413614187797204	1	N/A	N/A
+Back River, Maine vs. Netherlands	Sheepscot River, Maine vs. Kennebec River, Maine	30.4824237841	0.0	0.0	N/A	N/A
+Back River, Maine vs. Netherlands	Sheepscot River, Maine vs. Lewes, Delaware	17.2112690485	0.0	0.0	N/A	N/A
+Back River, Maine vs. Netherlands	Sheepscot River, Maine vs. Damariscotta River, Maine	9.12529275275	8.244516180866412e-13	5.490847776457031e-10	N/A	N/A
+Back River, Maine vs. Netherlands	Sheepscot River, Maine vs. Gulf of Mexico	-9.24121431025	5.639361083435335e-19	3.755814481567933e-16	N/A	N/A
+Back River, Maine vs. Netherlands	Oregon Continental Shelf vs. Kennebec River, Maine	-3.05381980509	0.0026064286662511814	1	N/A	N/A
+Back River, Maine vs. Netherlands	Oregon Continental Shelf vs. Lewes, Delaware	-2.66326527634	0.008717291373023139	1	N/A	N/A
+Back River, Maine vs. Netherlands	Oregon Continental Shelf vs. Damariscotta River, Maine	-2.02104627151	0.04911715375486449	1	N/A	N/A
+Back River, Maine vs. Netherlands	Oregon Continental Shelf vs. Gulf of Mexico	4.58341306707	6.8425804904403975e-06	0.004557158606633305	N/A	N/A
+Back River, Maine vs. Netherlands	Kennebec River, Maine vs. Lewes, Delaware	17.0021571652	0.0	0.0	N/A	N/A
+Back River, Maine vs. Netherlands	Kennebec River, Maine vs. Damariscotta River, Maine	6.24181296835	1.255596460136843e-07	8.362272424511374e-05	N/A	N/A
+Back River, Maine vs. Netherlands	Kennebec River, Maine vs. Gulf of Mexico	-10.8367843791	3.735508754478626e-23	2.4878488304827648e-20	N/A	N/A
+Back River, Maine vs. Netherlands	Lewes, Delaware vs. Damariscotta River, Maine	5.52970535258	1.879890722644717e-06	0.0012520072212813815	N/A	N/A
+Back River, Maine vs. Netherlands	Lewes, Delaware vs. Gulf of Mexico	-6.18952607121	3.3064401025253245e-09	2.2020891082818662e-06	N/A	N/A
+Back River, Maine vs. Netherlands	Damariscotta River, Maine vs. Gulf of Mexico	-7.06646230913	2.935521694147469e-09	1.955057448302214e-06	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Back River, Maine vs. Oregon Continental Shelf	-64.7567778959	1.4902402213356106e-142	9.924999874095166e-140	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Back River, Maine vs. Kennebec River, Maine	-17.612735312	1.6448226937722629e-43	1.095451914052327e-40	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Back River, Maine vs. Lewes, Delaware	-35.6650803952	4.013599627847647e-86	2.6730573521465327e-83	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Back River, Maine vs. Damariscotta River, Maine	-11.7124008423	7.806167096148325e-23	5.198907286034785e-20	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Back River, Maine vs. Gulf of Mexico	-65.055815087	3.4429726032739764e-166	2.2930197537804684e-163	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Netherlands vs. Sheepscot River, Maine	-33.1443983339	5.975655351006109e-100	3.9797864637700685e-97	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Netherlands vs. Oregon Continental Shelf	-46.8852053897	1.5553182189114002e-114	1.0358419337949925e-111	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Netherlands vs. Kennebec River, Maine	-34.5375249791	1.8355500236993588e-89	1.2224763157837729e-86	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Netherlands vs. Lewes, Delaware	-33.3864537315	2.0196571270538709e-81	1.345091646617878e-78	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Netherlands vs. Damariscotta River, Maine	-18.7365183372	6.721985817361258e-41	4.476842554362598e-38	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Netherlands vs. Gulf of Mexico	-61.0791827828	2.605212434611232e-159	1.7350714814510806e-156	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Sheepscot River, Maine vs. Oregon Continental Shelf	-84.9124562584	8.444765927622715e-271	5.624214107796728e-268	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Sheepscot River, Maine vs. Kennebec River, Maine	-8.20218477804	2.7567939659402603e-15	1.8360247813162134e-12	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Sheepscot River, Maine vs. Lewes, Delaware	-42.2656166116	4.277718478153647e-136	2.848960506450329e-133	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Sheepscot River, Maine vs. Damariscotta River, Maine	-17.5012100603	1.5607908052529097e-39	1.0394866762984379e-36	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Sheepscot River, Maine vs. Gulf of Mexico	-71.5010168613	4.468212464880946e-309	2.97582950161071e-306	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Oregon Continental Shelf vs. Kennebec River, Maine	-80.1160067857	5.916083710497322e-198	3.940111751191216e-195	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Oregon Continental Shelf vs. Lewes, Delaware	-77.2931272572	1.373501005423218e-170	9.147516696118632e-168	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Oregon Continental Shelf vs. Damariscotta River, Maine	-38.2209106681	1.7462661114394284e-80	1.1630132302186593e-77	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Oregon Continental Shelf vs. Gulf of Mexico	-29.0166310073	7.487021902707171e-100	4.986356587202976e-97	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Kennebec River, Maine vs. Lewes, Delaware	-30.2399663264	1.747172969529104e-83	1.1636171977063833e-80	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Kennebec River, Maine vs. Damariscotta River, Maine	-14.2088983634	8.241247520359427e-30	5.488670848559379e-27	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Kennebec River, Maine vs. Gulf of Mexico	-79.1905649491	4.358485469201579e-244	2.9027513224882518e-241	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Lewes, Delaware vs. Damariscotta River, Maine	-10.6587571477	4.237047919229337e-20	2.821873914206739e-17	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Lewes, Delaware vs. Gulf of Mexico	-60.939541314	1.3137352298028018e-174	8.74947663048666e-172	N/A	N/A
+Back River, Maine vs. Sheepscot River, Maine	Damariscotta River, Maine vs. Gulf of Mexico	-55.2313967648	1.9090707927307566e-107	1.271441147958684e-104	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Back River, Maine vs. Kennebec River, Maine	35.112040869	0.0	0.0	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Back River, Maine vs. Lewes, Delaware	17.4039503271	0.0	0.0	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Back River, Maine vs. Damariscotta River, Maine	10.3465279941	4.440892098500626e-16	2.957634137601417e-13	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Back River, Maine vs. Gulf of Mexico	-12.4894405128	1.0253106604800418e-26	6.828568998797079e-24	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Netherlands vs. Sheepscot River, Maine	2.16011458183	0.03187514505697542	1	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Netherlands vs. Oregon Continental Shelf	5.63565700908	9.065775241623442e-08	6.037806310921212e-05	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Netherlands vs. Kennebec River, Maine	1.1957052804	0.233804503517147	1	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Netherlands vs. Lewes, Delaware	7.48289870066	1.4239720513842258e-11	9.483653862218944e-09	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Netherlands vs. Damariscotta River, Maine	2.49683166823	0.014695392269992835	1	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Netherlands vs. Gulf of Mexico	-7.90454258733	1.905133920633536e-13	1.2688191911419348e-10	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Sheepscot River, Maine vs. Oregon Continental Shelf	0.533408245496	0.5940820058986542	1	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Sheepscot River, Maine vs. Kennebec River, Maine	49.7532322072	0.0	0.0	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Sheepscot River, Maine vs. Lewes, Delaware	31.3015698772	0.0	0.0	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Sheepscot River, Maine vs. Damariscotta River, Maine	22.0978198648	0.0	0.0	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Sheepscot River, Maine vs. Gulf of Mexico	-13.9463123501	2.7953885553962036e-38	1.8617287778938716e-35	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Oregon Continental Shelf vs. Kennebec River, Maine	-6.13595813984	4.045588588916684e-09	2.6943620002185114e-06	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Oregon Continental Shelf vs. Lewes, Delaware	-5.9679730615	1.4113091101484652e-08	9.399318673588778e-06	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Oregon Continental Shelf vs. Damariscotta River, Maine	-5.67087517363	2.065218698502639e-07	0.00013754356532027576	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Oregon Continental Shelf vs. Gulf of Mexico	6.57470058157	1.967170870642576e-10	1.3101357998479557e-07	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Kennebec River, Maine vs. Lewes, Delaware	35.9135279618	0.0	0.0	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Kennebec River, Maine vs. Damariscotta River, Maine	16.198644795	0.0	0.0	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Kennebec River, Maine vs. Gulf of Mexico	-17.2182635465	1.4741897935070123e-47	9.818104024756702e-45	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Lewes, Delaware vs. Damariscotta River, Maine	14.7009660351	0.0	0.0	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Lewes, Delaware vs. Gulf of Mexico	-10.0065903152	6.678305195460712e-20	4.4477512601768346e-17	N/A	N/A
+Back River, Maine vs. Oregon Continental Shelf	Damariscotta River, Maine vs. Gulf of Mexico	-16.1955949204	1.5145828068888917e-28	1.0087121493880018e-25	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Back River, Maine vs. Lewes, Delaware	-14.9816201406	4.5166864694956725e-29	3.008113188684118e-26	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Back River, Maine vs. Damariscotta River, Maine	-4.05620289726	0.00011970936549717096	0.07972643742111586	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Back River, Maine vs. Gulf of Mexico	-36.908548633	3.5240004713407213e-90	2.3469843139129206e-87	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Netherlands vs. Sheepscot River, Maine	-16.1679076292	5.93324283798705e-39	3.9515397300993755e-36	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Netherlands vs. Oregon Continental Shelf	-23.2227513157	3.316002196132643e-50	2.20845746262434e-47	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Netherlands vs. Kennebec River, Maine	-17.3478197193	6.746182920614012e-37	4.492957825128932e-34	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Netherlands vs. Lewes, Delaware	-15.5105186201	2.956097765198497e-30	1.968761111622199e-27	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Netherlands vs. Damariscotta River, Maine	-9.79222138675	4.113015206188388e-15	2.7392681273214667e-12	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Netherlands vs. Gulf of Mexico	-33.6360523218	2.3823303655928337e-83	1.5866320234848273e-80	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Sheepscot River, Maine vs. Oregon Continental Shelf	-43.8448372597	5.292649479399891e-146	3.524904553280327e-143	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Sheepscot River, Maine vs. Kennebec River, Maine	9.89351892275	0.0	0.0	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Sheepscot River, Maine vs. Lewes, Delaware	-13.5355580666	5.225837047661439e-32	3.4804074737425184e-29	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Sheepscot River, Maine vs. Damariscotta River, Maine	-4.06966343299	9.800335831782547e-05	0.06527023663967177	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Sheepscot River, Maine vs. Gulf of Mexico	-40.112349114	1.2233048787506646e-168	8.147210492479426e-166	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Oregon Continental Shelf vs. Kennebec River, Maine	-43.8070796052	8.126421785398008e-109	5.412196909075074e-106	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Oregon Continental Shelf vs. Lewes, Delaware	-43.0867965245	4.901397063765742e-92	3.264330444467984e-89	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Oregon Continental Shelf vs. Damariscotta River, Maine	-23.0039118951	1.6129797208707242e-37	1.0742444940999023e-34	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Oregon Continental Shelf vs. Gulf of Mexico	-12.7441820331	2.12440161584613e-30	1.4148514761535225e-27	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Kennebec River, Maine vs. Lewes, Delaware	-6.78545805551	1.9492690898598775e-10	1.2982132138466784e-07	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Kennebec River, Maine vs. Damariscotta River, Maine	-3.95926472936	0.00015932327245367925	0.10610929945415039	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Kennebec River, Maine vs. Gulf of Mexico	-45.240098152	1.4088276251526982e-141	9.38279198351697e-139	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Lewes, Delaware vs. Damariscotta River, Maine	-2.39179523152	0.01917418337082129	1	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Lewes, Delaware vs. Gulf of Mexico	-33.9105965173	4.213484825966098e-93	2.8061808940934217e-90	N/A	N/A
+Back River, Maine vs. Kennebec River, Maine	Damariscotta River, Maine vs. Gulf of Mexico	-34.3273329102	7.247766652218088e-54	4.827012590377247e-51	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Back River, Maine vs. Damariscotta River, Maine	2.51543165755	0.015016939834679999	1	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Back River, Maine vs. Gulf of Mexico	-21.1345259847	1.1051008857445101e-49	7.359971899058438e-47	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Netherlands vs. Sheepscot River, Maine	-5.99923972836	9.832762238417712e-09	6.548619650786196e-06	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Netherlands vs. Oregon Continental Shelf	-8.40620106078	1.1164259542092641e-13	7.435396855033698e-11	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Netherlands vs. Kennebec River, Maine	-7.04650748758	1.3237989039127663e-10	8.816500700059023e-08	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Netherlands vs. Lewes, Delaware	-4.01342019697	0.00012020476936027559	0.08005637639394354	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Netherlands vs. Damariscotta River, Maine	-4.17937163442	0.00011221986419760035	0.07473842955560184	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Netherlands vs. Gulf of Mexico	-17.918992819	3.4604922922872053e-41	2.3046878666632787e-38	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Sheepscot River, Maine vs. Oregon Continental Shelf	-19.2143278262	6.066974504371839e-56	4.0406050199116446e-53	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Sheepscot River, Maine vs. Kennebec River, Maine	24.6094624581	0.0	0.0	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Sheepscot River, Maine vs. Lewes, Delaware	6.85282234696	6.153832998734288e-11	4.0984527771570356e-08	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Sheepscot River, Maine vs. Damariscotta River, Maine	7.77558029632	4.7301940142574495e-11	3.1503092134954613e-08	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Sheepscot River, Maine vs. Gulf of Mexico	-22.5125384409	4.902064046934416e-80	3.2647746552583208e-77	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Oregon Continental Shelf vs. Kennebec River, Maine	-22.603282092	9.409963673263953e-56	6.267035806393793e-53	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Oregon Continental Shelf vs. Lewes, Delaware	-23.3009362594	2.2705259490372416e-50	1.5121702820588028e-47	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Oregon Continental Shelf vs. Damariscotta River, Maine	-15.8944440304	8.429534473096897e-23	5.614069959082534e-20	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Oregon Continental Shelf vs. Gulf of Mexico	-2.73312333344	0.006648595917154722	1	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Kennebec River, Maine vs. Lewes, Delaware	12.1517299039	0.0	0.0	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Kennebec River, Maine vs. Damariscotta River, Maine	5.27963387854	2.023282788643499e-06	0.0013475063372365703	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Kennebec River, Maine vs. Gulf of Mexico	-26.343063356	8.36023229398119e-80	5.5679147077914724e-77	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Lewes, Delaware vs. Damariscotta River, Maine	5.51813844913	9.973901800020002e-07	0.0006642618598813321	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Lewes, Delaware vs. Gulf of Mexico	-18.6102452839	1.2862167693007002e-46	8.566203683542664e-44	N/A	N/A
+Back River, Maine vs. Lewes, Delaware	Damariscotta River, Maine vs. Gulf of Mexico	-24.3722817561	5.085815396116885e-35	3.3871530538138456e-32	N/A	N/A
+Back River, Maine vs. Damariscotta River, Maine	Back River, Maine vs. Gulf of Mexico	-9.12563005677	1.1702745743932908e-15	7.794028665459316e-13	N/A	N/A
+Back River, Maine vs. Damariscotta River, Maine	Netherlands vs. Sheepscot River, Maine	-3.11163287749	0.0022331980060281316	1	N/A	N/A
+Back River, Maine vs. Damariscotta River, Maine	Netherlands vs. Oregon Continental Shelf	-5.12642723621	2.1835161698162272e-06	0.0014542217690976073	N/A	N/A
+Back River, Maine vs. Damariscotta River, Maine	Netherlands vs. Kennebec River, Maine	-3.58911243466	0.0005851733415281614	0.38972544545775545	N/A	N/A
+Back River, Maine vs. Damariscotta River, Maine	Netherlands vs. Lewes, Delaware	-2.95959585942	0.004629818899201288	1	N/A	N/A
+Back River, Maine vs. Damariscotta River, Maine	Netherlands vs. Damariscotta River, Maine	-3.45734078962	0.006150082180530597	1	N/A	N/A
+Back River, Maine vs. Damariscotta River, Maine	Netherlands vs. Gulf of Mexico	-8.05472674431	4.4488346952179e-13	2.9629239070151214e-10	N/A	N/A
+Back River, Maine vs. Damariscotta River, Maine	Sheepscot River, Maine vs. Oregon Continental Shelf	-9.74586487658	1.2957958219353979e-19	8.63000017408975e-17	N/A	N/A
+Back River, Maine vs. Damariscotta River, Maine	Sheepscot River, Maine vs. Kennebec River, Maine	6.97467411446	2.0542234580034346e-11	1.3681128230302875e-08	N/A	N/A
+Back River, Maine vs. Damariscotta River, Maine	Sheepscot River, Maine vs. Lewes, Delaware	0.046420638302	0.9630222504215971	1	N/A	N/A
+Back River, Maine vs. Damariscotta River, Maine	Sheepscot River, Maine vs. Damariscotta River, Maine	1.87691181562	0.0709868693057707	1	N/A	N/A
+Back River, Maine vs. Damariscotta River, Maine	Sheepscot River, Maine vs. Gulf of Mexico	-9.39185733743	1.9837998813107293e-19	1.3212107209529458e-16	N/A	N/A
+Back River, Maine vs. Damariscotta River, Maine	Oregon Continental Shelf vs. Kennebec River, Maine	-11.1449174294	2.5097294097698955e-21	1.6714797869067504e-18	N/A	N/A
+Back River, Maine vs. Damariscotta River, Maine	Oregon Continental Shelf vs. Lewes, Delaware	-12.4096951789	5.821782575340945e-22	3.877307195177069e-19	N/A	N/A
+Back River, Maine vs. Damariscotta River, Maine	Oregon Continental Shelf vs. Damariscotta River, Maine	-15.3888738794	5.202140493386689e-11	3.464625568595535e-08	N/A	N/A
+Back River, Maine vs. Damariscotta River, Maine	Oregon Continental Shelf vs. Gulf of Mexico	-1.96770232498	0.05018174272831731	1	N/A	N/A
+Back River, Maine vs. Damariscotta River, Maine	Kennebec River, Maine vs. Lewes, Delaware	2.40446943708	0.01803629555709141	1	N/A	N/A
+Back River, Maine vs. Damariscotta River, Maine	Kennebec River, Maine vs. Damariscotta River, Maine	1.26591278224	0.2236670485184602	1	N/A	N/A
+Back River, Maine vs. Damariscotta River, Maine	Kennebec River, Maine vs. Gulf of Mexico	-11.0525977749	1.7846881668849423e-23	1.1886023191453716e-20	N/A	N/A
+Back River, Maine vs. Damariscotta River, Maine	Lewes, Delaware vs. Damariscotta River, Maine	2.04898447731	0.06298452125146614	1	N/A	N/A
+Back River, Maine vs. Damariscotta River, Maine	Lewes, Delaware vs. Gulf of Mexico	-8.04320122761	1.3623637353146894e-13	9.073342477195831e-11	N/A	N/A
+Back River, Maine vs. Damariscotta River, Maine	Damariscotta River, Maine vs. Gulf of Mexico	-12.5775484231	2.6050626222185508e-12	1.7349717063975548e-09	N/A	N/A
+Back River, Maine vs. Gulf of Mexico	Netherlands vs. Sheepscot River, Maine	12.8511686309	0.0	0.0	N/A	N/A
+Back River, Maine vs. Gulf of Mexico	Netherlands vs. Oregon Continental Shelf	16.0243814716	0.0	0.0	N/A	N/A
+Back River, Maine vs. Gulf of Mexico	Netherlands vs. Kennebec River, Maine	10.587608441	0.0	0.0	N/A	N/A
+Back River, Maine vs. Gulf of Mexico	Netherlands vs. Lewes, Delaware	15.3425919553	0.0	0.0	N/A	N/A
+Back River, Maine vs. Gulf of Mexico	Netherlands vs. Damariscotta River, Maine	5.14928193495	9.439647985498567e-07	0.0006286805558342046	N/A	N/A
+Back River, Maine vs. Gulf of Mexico	Netherlands vs. Gulf of Mexico	5.11808112985	6.158532539490835e-07	0.0004101582671300896	N/A	N/A
+Back River, Maine vs. Gulf of Mexico	Sheepscot River, Maine vs. Oregon Continental Shelf	21.266662266	0.0	0.0	N/A	N/A
+Back River, Maine vs. Gulf of Mexico	Sheepscot River, Maine vs. Kennebec River, Maine	68.2894024052	0.0	0.0	N/A	N/A
+Back River, Maine vs. Gulf of Mexico	Sheepscot River, Maine vs. Lewes, Delaware	44.1700817784	0.0	0.0	N/A	N/A
+Back River, Maine vs. Gulf of Mexico	Sheepscot River, Maine vs. Damariscotta River, Maine	20.0547836273	0.0	0.0	N/A	N/A
+Back River, Maine vs. Gulf of Mexico	Sheepscot River, Maine vs. Gulf of Mexico	-1.10672552938	0.268836360219833	1	N/A	N/A
+Back River, Maine vs. Gulf of Mexico	Oregon Continental Shelf vs. Kennebec River, Maine	11.0660796369	0.0	0.0	N/A	N/A
+Back River, Maine vs. Gulf of Mexico	Oregon Continental Shelf vs. Lewes, Delaware	9.89260199685	0.0	0.0	N/A	N/A
+Back River, Maine vs. Gulf of Mexico	Oregon Continental Shelf vs. Damariscotta River, Maine	2.50167549231	0.01354664473436018	1	N/A	N/A
+Back River, Maine vs. Gulf of Mexico	Oregon Continental Shelf vs. Gulf of Mexico	19.336724317	0.0	0.0	N/A	N/A
+Back River, Maine vs. Gulf of Mexico	Kennebec River, Maine vs. Lewes, Delaware	38.4226166289	0.0	0.0	N/A	N/A
+Back River, Maine vs. Gulf of Mexico	Kennebec River, Maine vs. Damariscotta River, Maine	13.8789357172	0.0	0.0	N/A	N/A
+Back River, Maine vs. Gulf of Mexico	Kennebec River, Maine vs. Gulf of Mexico	-3.31426982167	0.0010080938192675191	0.6713904836321677	N/A	N/A
+Back River, Maine vs. Gulf of Mexico	Lewes, Delaware vs. Damariscotta River, Maine	11.9312641787	0.0	0.0	N/A	N/A
+Back River, Maine vs. Gulf of Mexico	Lewes, Delaware vs. Gulf of Mexico	2.21379573464	0.0276154655649552	1	N/A	N/A
+Back River, Maine vs. Gulf of Mexico	Damariscotta River, Maine vs. Gulf of Mexico	-3.42432747785	0.0008016431834522322	0.5338943601791867	N/A	N/A
+Netherlands vs. Sheepscot River, Maine	Netherlands vs. Oregon Continental Shelf	1.24114743094	0.21591007712680743	1	N/A	N/A
+Netherlands vs. Sheepscot River, Maine	Netherlands vs. Kennebec River, Maine	-0.851673276593	0.39534750425473075	1	N/A	N/A
+Netherlands vs. Sheepscot River, Maine	Netherlands vs. Lewes, Delaware	2.85235289216	0.004820232581354	1	N/A	N/A
+Netherlands vs. Sheepscot River, Maine	Netherlands vs. Damariscotta River, Maine	0.354062402938	0.7237960353107291	1	N/A	N/A
+Netherlands vs. Sheepscot River, Maine	Netherlands vs. Gulf of Mexico	-8.85995118909	1.133962490150589e-16	7.552190184402923e-14	N/A	N/A
+Netherlands vs. Sheepscot River, Maine	Sheepscot River, Maine vs. Oregon Continental Shelf	-3.542753533	0.0004393187636863558	0.292586296615113	N/A	N/A
+Netherlands vs. Sheepscot River, Maine	Sheepscot River, Maine vs. Kennebec River, Maine	36.7709609902	0.0	0.0	N/A	N/A
+Netherlands vs. Sheepscot River, Maine	Sheepscot River, Maine vs. Lewes, Delaware	16.4343741633	0.0	0.0	N/A	N/A
+Netherlands vs. Sheepscot River, Maine	Sheepscot River, Maine vs. Damariscotta River, Maine	7.71763395501	1.0504930259003231e-12	6.996283552496152e-10	N/A	N/A
+Netherlands vs. Sheepscot River, Maine	Sheepscot River, Maine vs. Gulf of Mexico	-19.5864572297	2.0849371412557534e-67	1.3885681360763318e-64	N/A	N/A
+Netherlands vs. Sheepscot River, Maine	Oregon Continental Shelf vs. Kennebec River, Maine	-6.74961318139	8.238408387387125e-11	5.486779985999825e-08	N/A	N/A
+Netherlands vs. Sheepscot River, Maine	Oregon Continental Shelf vs. Lewes, Delaware	-5.56963956925	6.877971275837734e-08	4.580728869707931e-05	N/A	N/A
+Netherlands vs. Sheepscot River, Maine	Oregon Continental Shelf vs. Damariscotta River, Maine	-2.9578841034	0.0035865308909689216	1	N/A	N/A
+Netherlands vs. Sheepscot River, Maine	Oregon Continental Shelf vs. Gulf of Mexico	4.89225204055	1.455417349527366e-06	0.0009693079547852257	N/A	N/A
+Netherlands vs. Sheepscot River, Maine	Kennebec River, Maine vs. Lewes, Delaware	15.1840882275	0.0	0.0	N/A	N/A
+Netherlands vs. Sheepscot River, Maine	Kennebec River, Maine vs. Damariscotta River, Maine	5.11860705751	9.059116592435856e-07	0.000603337165056228	N/A	N/A
+Netherlands vs. Sheepscot River, Maine	Kennebec River, Maine vs. Gulf of Mexico	-19.5556751339	5.245481764852726e-60	3.4934908553919155e-57	N/A	N/A
+Netherlands vs. Sheepscot River, Maine	Lewes, Delaware vs. Damariscotta River, Maine	4.57526509407	9.898018438425638e-06	0.006592080279991475	N/A	N/A
+Netherlands vs. Sheepscot River, Maine	Lewes, Delaware vs. Gulf of Mexico	-11.9375745476	2.7743661581249806e-27	1.847727861311237e-24	N/A	N/A
+Netherlands vs. Sheepscot River, Maine	Damariscotta River, Maine vs. Gulf of Mexico	-8.60714758542	6.040412170702578e-15	4.022914505687917e-12	N/A	N/A
+Netherlands vs. Oregon Continental Shelf	Netherlands vs. Kennebec River, Maine	-2.17568392253	0.03123333960081788	1	N/A	N/A
+Netherlands vs. Oregon Continental Shelf	Netherlands vs. Lewes, Delaware	2.60670914199	0.010320686606702933	1	N/A	N/A
+Netherlands vs. Oregon Continental Shelf	Netherlands vs. Damariscotta River, Maine	-0.0427417982141	0.9660194552355288	1	N/A	N/A
+Netherlands vs. Oregon Continental Shelf	Netherlands vs. Gulf of Mexico	-11.8986067575	6.331958485539622e-25	4.217084351369388e-22	N/A	N/A
+Netherlands vs. Oregon Continental Shelf	Sheepscot River, Maine vs. Oregon Continental Shelf	-7.2593630577	2.438751437876435e-12	1.6242084576257057e-09	N/A	N/A
+Netherlands vs. Oregon Continental Shelf	Sheepscot River, Maine vs. Kennebec River, Maine	39.3180400005	0.0	0.0	N/A	N/A
+Netherlands vs. Oregon Continental Shelf	Sheepscot River, Maine vs. Lewes, Delaware	19.8501169131	0.0	0.0	N/A	N/A
+Netherlands vs. Oregon Continental Shelf	Sheepscot River, Maine vs. Damariscotta River, Maine	12.417160194	0.0	0.0	N/A	N/A
+Netherlands vs. Oregon Continental Shelf	Sheepscot River, Maine vs. Gulf of Mexico	-18.4870869521	3.2340843746056723e-60	2.1539001934873778e-57	N/A	N/A
+Netherlands vs. Oregon Continental Shelf	Oregon Continental Shelf vs. Kennebec River, Maine	-11.7650080123	5.695156739192379e-25	3.7929743883021243e-22	N/A	N/A
+Netherlands vs. Oregon Continental Shelf	Oregon Continental Shelf vs. Lewes, Delaware	-10.9891102521	1.8638290047281486e-21	1.241310117148947e-18	N/A	N/A
+Netherlands vs. Oregon Continental Shelf	Oregon Continental Shelf vs. Damariscotta River, Maine	-6.56798049452	4.355050313911704e-09	2.900463509065195e-06	N/A	N/A
+Netherlands vs. Oregon Continental Shelf	Oregon Continental Shelf vs. Gulf of Mexico	2.89966133799	0.0039923645406365615	1	N/A	N/A
+Netherlands vs. Oregon Continental Shelf	Kennebec River, Maine vs. Lewes, Delaware	22.1115122974	0.0	0.0	N/A	N/A
+Netherlands vs. Oregon Continental Shelf	Kennebec River, Maine vs. Damariscotta River, Maine	8.51009567652	6.787903572558207e-13	4.520743779323766e-10	N/A	N/A
+Netherlands vs. Oregon Continental Shelf	Kennebec River, Maine vs. Gulf of Mexico	-21.5376321533	2.3691543664207213e-64	1.5778568080362003e-61	N/A	N/A
+Netherlands vs. Oregon Continental Shelf	Lewes, Delaware vs. Damariscotta River, Maine	7.77384500285	2.577027480299421e-11	1.7163003018794143e-08	N/A	N/A
+Netherlands vs. Oregon Continental Shelf	Lewes, Delaware vs. Gulf of Mexico	-13.8437191161	2.2826970193343016e-32	1.520276214876645e-29	N/A	N/A
+Netherlands vs. Oregon Continental Shelf	Damariscotta River, Maine vs. Gulf of Mexico	-15.5863732081	1.987664582851573e-27	1.3237846121791476e-24	N/A	N/A
+Netherlands vs. Kennebec River, Maine	Netherlands vs. Lewes, Delaware	3.56636602333	0.0005239477394083369	0.3489491944459524	N/A	N/A
+Netherlands vs. Kennebec River, Maine	Netherlands vs. Damariscotta River, Maine	0.675216846589	0.5015871914924646	1	N/A	N/A
+Netherlands vs. Kennebec River, Maine	Netherlands vs. Gulf of Mexico	-7.04233870929	3.119146328972042e-11	2.07735145509538e-08	N/A	N/A
+Netherlands vs. Kennebec River, Maine	Sheepscot River, Maine vs. Oregon Continental Shelf	-1.62925139372	0.10413937472554174	1	N/A	N/A
+Netherlands vs. Kennebec River, Maine	Sheepscot River, Maine vs. Kennebec River, Maine	35.0435938802	0.0	0.0	N/A	N/A
+Netherlands vs. Kennebec River, Maine	Sheepscot River, Maine vs. Lewes, Delaware	17.5380747463	0.0	0.0	N/A	N/A
+Netherlands vs. Kennebec River, Maine	Sheepscot River, Maine vs. Damariscotta River, Maine	8.66506911746	1.2634338020234281e-13	8.414469121476031e-11	N/A	N/A
+Netherlands vs. Kennebec River, Maine	Sheepscot River, Maine vs. Gulf of Mexico	-14.2042144397	1.856193747270761e-39	1.2362250356823268e-36	N/A	N/A
+Netherlands vs. Kennebec River, Maine	Oregon Continental Shelf vs. Kennebec River, Maine	-5.28919895998	3.028387796740087e-07	0.00020169062726288977	N/A	N/A
+Netherlands vs. Kennebec River, Maine	Oregon Continental Shelf vs. Lewes, Delaware	-4.49083702915	1.3231715016953227e-05	0.00881232220129085	N/A	N/A
+Netherlands vs. Kennebec River, Maine	Oregon Continental Shelf vs. Damariscotta River, Maine	-2.6809087995	0.008874160671057217	1	N/A	N/A
+Netherlands vs. Kennebec River, Maine	Oregon Continental Shelf vs. Gulf of Mexico	4.83484321875	2.0674011553811766e-06	0.0013768891694838636	N/A	N/A
+Netherlands vs. Kennebec River, Maine	Kennebec River, Maine vs. Lewes, Delaware	16.6746665994	0.0	0.0	N/A	N/A
+Netherlands vs. Kennebec River, Maine	Kennebec River, Maine vs. Damariscotta River, Maine	5.82252978148	1.0903726921362988e-07	7.26188212962775e-05	N/A	N/A
+Netherlands vs. Kennebec River, Maine	Kennebec River, Maine vs. Gulf of Mexico	-15.5712375001	3.809222275436991e-41	2.536942035441036e-38	N/A	N/A
+Netherlands vs. Kennebec River, Maine	Lewes, Delaware vs. Damariscotta River, Maine	5.18210847565	1.6770699042822912e-06	0.001116928556252006	N/A	N/A
+Netherlands vs. Kennebec River, Maine	Lewes, Delaware vs. Gulf of Mexico	-9.31130094807	8.735869820298727e-18	5.818089300318952e-15	N/A	N/A
+Netherlands vs. Kennebec River, Maine	Damariscotta River, Maine vs. Gulf of Mexico	-8.29990281609	9.137068865132852e-13	6.085287864178479e-10	N/A	N/A
+Netherlands vs. Lewes, Delaware	Netherlands vs. Damariscotta River, Maine	-1.00532002937	0.319398106436495	1	N/A	N/A
+Netherlands vs. Lewes, Delaware	Netherlands vs. Gulf of Mexico	-12.1109388738	8.254647330068008e-25	5.497595121825293e-22	N/A	N/A
+Netherlands vs. Lewes, Delaware	Sheepscot River, Maine vs. Oregon Continental Shelf	-10.0856063639	4.673006228403614e-21	3.112222148116807e-18	N/A	N/A
+Netherlands vs. Lewes, Delaware	Sheepscot River, Maine vs. Kennebec River, Maine	27.9362236243	0.0	0.0	N/A	N/A
+Netherlands vs. Lewes, Delaware	Sheepscot River, Maine vs. Lewes, Delaware	11.8348209106	0.0	0.0	N/A	N/A
+Netherlands vs. Lewes, Delaware	Sheepscot River, Maine vs. Damariscotta River, Maine	7.77248007622	4.792743979464831e-11	3.191967490323577e-08	N/A	N/A
+Netherlands vs. Lewes, Delaware	Sheepscot River, Maine vs. Gulf of Mexico	-17.7205628797	6.3959062112983155e-56	4.2596735367246785e-53	N/A	N/A
+Netherlands vs. Lewes, Delaware	Oregon Continental Shelf vs. Kennebec River, Maine	-12.9122491074	8.597763241737084e-28	5.726110318996898e-25	N/A	N/A
+Netherlands vs. Lewes, Delaware	Oregon Continental Shelf vs. Lewes, Delaware	-12.0267288249	2.050990988549571e-23	1.3659599983740143e-20	N/A	N/A
+Netherlands vs. Lewes, Delaware	Oregon Continental Shelf vs. Damariscotta River, Maine	-6.53403293121	1.7688303609933748e-08	1.1780410204215877e-05	N/A	N/A
+Netherlands vs. Lewes, Delaware	Oregon Continental Shelf vs. Gulf of Mexico	0.393941477002	0.6939059830836558	1	N/A	N/A
+Netherlands vs. Lewes, Delaware	Kennebec River, Maine vs. Lewes, Delaware	14.010188227	0.0	0.0	N/A	N/A
+Netherlands vs. Lewes, Delaware	Kennebec River, Maine vs. Damariscotta River, Maine	5.19044078381	2.8076528200138284e-06	0.0018698967781292097	N/A	N/A
+Netherlands vs. Lewes, Delaware	Kennebec River, Maine vs. Gulf of Mexico	-20.2678874871	5.1668594408430984e-58	3.4411283876015035e-55	N/A	N/A
+Netherlands vs. Lewes, Delaware	Lewes, Delaware vs. Damariscotta River, Maine	4.8541000396	1.072070139351844e-05	0.0071399871280832805	N/A	N/A
+Netherlands vs. Lewes, Delaware	Lewes, Delaware vs. Gulf of Mexico	-13.597641943	9.187520987633626e-31	6.118888977763995e-28	N/A	N/A
+Netherlands vs. Lewes, Delaware	Damariscotta River, Maine vs. Gulf of Mexico	-13.9164574223	1.924086828002766e-21	1.2814418274498423e-18	N/A	N/A
+Netherlands vs. Damariscotta River, Maine	Netherlands vs. Gulf of Mexico	-3.85986965551	0.000177890299709053	0.1184749396062293	N/A	N/A
+Netherlands vs. Damariscotta River, Maine	Sheepscot River, Maine vs. Oregon Continental Shelf	-2.4077382361	0.016671768556411698	1	N/A	N/A
+Netherlands vs. Damariscotta River, Maine	Sheepscot River, Maine vs. Kennebec River, Maine	12.8836466837	0.0	0.0	N/A	N/A
+Netherlands vs. Damariscotta River, Maine	Sheepscot River, Maine vs. Lewes, Delaware	7.34265330271	5.472511332982322e-12	3.644692547766226e-09	N/A	N/A
+Netherlands vs. Damariscotta River, Maine	Sheepscot River, Maine vs. Damariscotta River, Maine	6.94090865668	1.515841356880543e-07	0.00010095503436824416	N/A	N/A
+Netherlands vs. Damariscotta River, Maine	Sheepscot River, Maine vs. Gulf of Mexico	-5.47556293929	6.8671117820007e-08	4.573496446812467e-05	N/A	N/A
+Netherlands vs. Damariscotta River, Maine	Oregon Continental Shelf vs. Kennebec River, Maine	-4.28786891753	3.238427791223829e-05	0.0215679290895507	N/A	N/A
+Netherlands vs. Damariscotta River, Maine	Oregon Continental Shelf vs. Lewes, Delaware	-4.56692840148	1.4136202697473272e-05	0.0094147109965172	N/A	N/A
+Netherlands vs. Damariscotta River, Maine	Oregon Continental Shelf vs. Damariscotta River, Maine	-4.49548439096	0.0003669509872013344	0.24438935747608873	N/A	N/A
+Netherlands vs. Damariscotta River, Maine	Oregon Continental Shelf vs. Gulf of Mexico	0.890511572318	0.37402738534717583	1	N/A	N/A
+Netherlands vs. Damariscotta River, Maine	Kennebec River, Maine vs. Lewes, Delaware	9.86401357515	2.220446049250313e-16	1.4788170688007085e-13	N/A	N/A
+Netherlands vs. Damariscotta River, Maine	Kennebec River, Maine vs. Damariscotta River, Maine	5.55196972055	4.377880838268844e-05	0.0291566863828705	N/A	N/A
+Netherlands vs. Damariscotta River, Maine	Kennebec River, Maine vs. Gulf of Mexico	-6.66008193497	1.6620618840141696e-10	1.1069332147534369e-07	N/A	N/A
+Netherlands vs. Damariscotta River, Maine	Lewes, Delaware vs. Damariscotta River, Maine	5.34306231693	0.00017557795020239908	0.11693491483479779	N/A	N/A
+Netherlands vs. Damariscotta River, Maine	Lewes, Delaware vs. Gulf of Mexico	-4.2987690404	2.8700196090698007e-05	0.019114330596404872	N/A	N/A
+Netherlands vs. Damariscotta River, Maine	Damariscotta River, Maine vs. Gulf of Mexico	-7.25471433985	1.3319589449808971e-07	8.870846573572775e-05	N/A	N/A
+Netherlands vs. Gulf of Mexico	Sheepscot River, Maine vs. Oregon Continental Shelf	13.4428197703	0.0	0.0	N/A	N/A
+Netherlands vs. Gulf of Mexico	Sheepscot River, Maine vs. Kennebec River, Maine	62.42839128	0.0	0.0	N/A	N/A
+Netherlands vs. Gulf of Mexico	Sheepscot River, Maine vs. Lewes, Delaware	38.3602797865	0.0	0.0	N/A	N/A
+Netherlands vs. Gulf of Mexico	Sheepscot River, Maine vs. Damariscotta River, Maine	18.0386343772	0.0	0.0	N/A	N/A
+Netherlands vs. Gulf of Mexico	Sheepscot River, Maine vs. Gulf of Mexico	-7.4471795581	3.1621757313376134e-13	2.1060090370708506e-10	N/A	N/A
+Netherlands vs. Gulf of Mexico	Oregon Continental Shelf vs. Kennebec River, Maine	4.86462216657	1.958345256847238e-06	0.0013042579410602606	N/A	N/A
+Netherlands vs. Gulf of Mexico	Oregon Continental Shelf vs. Lewes, Delaware	4.49221152857	1.1383860694769155e-05	0.007581651222716257	N/A	N/A
+Netherlands vs. Gulf of Mexico	Oregon Continental Shelf vs. Damariscotta River, Maine	0.36864990997	0.7129619292890013	1	N/A	N/A
+Netherlands vs. Gulf of Mexico	Oregon Continental Shelf vs. Gulf of Mexico	14.9445309736	0.0	0.0	N/A	N/A
+Netherlands vs. Gulf of Mexico	Kennebec River, Maine vs. Lewes, Delaware	34.3913777647	0.0	0.0	N/A	N/A
+Netherlands vs. Gulf of Mexico	Kennebec River, Maine vs. Damariscotta River, Maine	12.4246620764	0.0	0.0	N/A	N/A
+Netherlands vs. Gulf of Mexico	Kennebec River, Maine vs. Gulf of Mexico	-9.65138385539	7.752672797472916e-20	5.1632800831169625e-17	N/A	N/A
+Netherlands vs. Gulf of Mexico	Lewes, Delaware vs. Damariscotta River, Maine	10.7769747362	0.0	0.0	N/A	N/A
+Netherlands vs. Gulf of Mexico	Lewes, Delaware vs. Gulf of Mexico	-3.00562998324	0.002880427072896022	1	N/A	N/A
+Netherlands vs. Gulf of Mexico	Damariscotta River, Maine vs. Gulf of Mexico	-6.46885660061	1.4200599782376916e-09	9.457599455063026e-07	N/A	N/A
+Sheepscot River, Maine vs. Oregon Continental Shelf	Sheepscot River, Maine vs. Kennebec River, Maine	81.0825059873	0.0	0.0	N/A	N/A
+Sheepscot River, Maine vs. Oregon Continental Shelf	Sheepscot River, Maine vs. Lewes, Delaware	44.0639016143	0.0	0.0	N/A	N/A
+Sheepscot River, Maine vs. Oregon Continental Shelf	Sheepscot River, Maine vs. Damariscotta River, Maine	22.8941013398	0.0	0.0	N/A	N/A
+Sheepscot River, Maine vs. Oregon Continental Shelf	Sheepscot River, Maine vs. Gulf of Mexico	-26.9197430074	8.897605486235806e-114	5.925805253833047e-111	N/A	N/A
+Sheepscot River, Maine vs. Oregon Continental Shelf	Oregon Continental Shelf vs. Kennebec River, Maine	-9.3840482983	3.7060790904718605e-19	2.468248674254259e-16	N/A	N/A
+Sheepscot River, Maine vs. Oregon Continental Shelf	Oregon Continental Shelf vs. Lewes, Delaware	-8.11742431684	6.612409867201809e-15	4.403864971556405e-12	N/A	N/A
+Sheepscot River, Maine vs. Oregon Continental Shelf	Oregon Continental Shelf vs. Damariscotta River, Maine	-5.6639250135	3.4839174780937154e-08	2.3202890404104146e-05	N/A	N/A
+Sheepscot River, Maine vs. Oregon Continental Shelf	Oregon Continental Shelf vs. Gulf of Mexico	11.9482757595	0.0	0.0	N/A	N/A
+Sheepscot River, Maine vs. Oregon Continental Shelf	Kennebec River, Maine vs. Lewes, Delaware	42.9205605439	0.0	0.0	N/A	N/A
+Sheepscot River, Maine vs. Oregon Continental Shelf	Kennebec River, Maine vs. Damariscotta River, Maine	15.603867726	0.0	0.0	N/A	N/A
+Sheepscot River, Maine vs. Oregon Continental Shelf	Kennebec River, Maine vs. Gulf of Mexico	-30.9415099266	1.6040654922036116e-121	1.0683076178076052e-118	N/A	N/A
+Sheepscot River, Maine vs. Oregon Continental Shelf	Lewes, Delaware vs. Damariscotta River, Maine	13.8557105944	0.0	0.0	N/A	N/A
+Sheepscot River, Maine vs. Oregon Continental Shelf	Lewes, Delaware vs. Gulf of Mexico	-17.9707293726	6.241541860860283e-55	4.156866879332948e-52	N/A	N/A
+Sheepscot River, Maine vs. Oregon Continental Shelf	Damariscotta River, Maine vs. Gulf of Mexico	-18.9853832258	1.0437649264582742e-53	6.951474410212106e-51	N/A	N/A
+Sheepscot River, Maine vs. Kennebec River, Maine	Sheepscot River, Maine vs. Lewes, Delaware	-33.0575331901	1.4149303390984325e-125	9.42343605839556e-123	N/A	N/A
+Sheepscot River, Maine vs. Kennebec River, Maine	Sheepscot River, Maine vs. Damariscotta River, Maine	-10.253684183	1.9558410980913273e-21	1.302590171328824e-18	N/A	N/A
+Sheepscot River, Maine vs. Kennebec River, Maine	Sheepscot River, Maine vs. Gulf of Mexico	-86.6004408715	0.0	0.0	N/A	N/A
+Sheepscot River, Maine vs. Kennebec River, Maine	Oregon Continental Shelf vs. Kennebec River, Maine	-71.3299119662	2.0695595039528898e-240	1.3783266296326248e-237	N/A	N/A
+Sheepscot River, Maine vs. Kennebec River, Maine	Oregon Continental Shelf vs. Lewes, Delaware	-62.5461925876	8.466260979440933e-203	5.638529812307662e-200	N/A	N/A
+Sheepscot River, Maine vs. Kennebec River, Maine	Oregon Continental Shelf vs. Damariscotta River, Maine	-26.2203659179	2.212691986406756e-79	1.4736528629468995e-76	N/A	N/A
+Sheepscot River, Maine vs. Kennebec River, Maine	Oregon Continental Shelf vs. Gulf of Mexico	-32.5308334038	3.7248397508403544e-129	2.480743274059676e-126	N/A	N/A
+Sheepscot River, Maine vs. Kennebec River, Maine	Kennebec River, Maine vs. Lewes, Delaware	-19.4122027031	6.723460158534961e-59	4.4778244655842835e-56	N/A	N/A
+Sheepscot River, Maine vs. Kennebec River, Maine	Kennebec River, Maine vs. Damariscotta River, Maine	-8.21346755612	6.608228693143565e-15	4.401080309633614e-12	N/A	N/A
+Sheepscot River, Maine vs. Kennebec River, Maine	Kennebec River, Maine vs. Gulf of Mexico	-88.8530238242	1e-323	6.58e-321	N/A	N/A
+Sheepscot River, Maine vs. Kennebec River, Maine	Lewes, Delaware vs. Damariscotta River, Maine	-5.87634836322	1.135310804421399e-08	7.5611699574465175e-06	N/A	N/A
+Sheepscot River, Maine vs. Kennebec River, Maine	Lewes, Delaware vs. Gulf of Mexico	-67.0553214109	1.1533884022994738e-237	7.681566759314496e-235	N/A	N/A
+Sheepscot River, Maine vs. Kennebec River, Maine	Damariscotta River, Maine vs. Gulf of Mexico	-43.2489351725	1.2326973570020196e-132	8.20976439763345e-130	N/A	N/A
+Sheepscot River, Maine vs. Lewes, Delaware	Sheepscot River, Maine vs. Damariscotta River, Maine	3.99361384586	8.946670331622109e-05	0.05958482440860324	N/A	N/A
+Sheepscot River, Maine vs. Lewes, Delaware	Sheepscot River, Maine vs. Gulf of Mexico	-50.9224099173	1.4140434601971737e-236	9.417529444913177e-234	N/A	N/A
+Sheepscot River, Maine vs. Lewes, Delaware	Oregon Continental Shelf vs. Kennebec River, Maine	-45.0044380462	7.594309231466551e-144	5.057809948156723e-141	N/A	N/A
+Sheepscot River, Maine vs. Lewes, Delaware	Oregon Continental Shelf vs. Lewes, Delaware	-41.7460888095	1.0794946377372015e-123	7.189434287329762e-121	N/A	N/A
+Sheepscot River, Maine vs. Lewes, Delaware	Oregon Continental Shelf vs. Damariscotta River, Maine	-20.3016128723	1.1446553080489277e-50	7.623404351605859e-48	N/A	N/A
+Sheepscot River, Maine vs. Lewes, Delaware	Oregon Continental Shelf vs. Gulf of Mexico	-10.7095777871	5.959532554329315e-24	3.969048681183324e-21	N/A	N/A
+Sheepscot River, Maine vs. Lewes, Delaware	Kennebec River, Maine vs. Lewes, Delaware	7.33486837895	2.297495527159299e-12	1.530132021088093e-09	N/A	N/A
+Sheepscot River, Maine vs. Lewes, Delaware	Kennebec River, Maine vs. Damariscotta River, Maine	1.9112625868	0.05738646317042395	1	N/A	N/A
+Sheepscot River, Maine vs. Lewes, Delaware	Kennebec River, Maine vs. Gulf of Mexico	-56.4629449557	3.1937621594385844e-204	2.1270455981860973e-201	N/A	N/A
+Sheepscot River, Maine vs. Lewes, Delaware	Lewes, Delaware vs. Damariscotta River, Maine	2.64631585756	0.008791584533299979	1	N/A	N/A
+Sheepscot River, Maine vs. Lewes, Delaware	Lewes, Delaware vs. Gulf of Mexico	-40.776530953	1.3366919565251558e-136	8.902368430457538e-134	N/A	N/A
+Sheepscot River, Maine vs. Lewes, Delaware	Damariscotta River, Maine vs. Gulf of Mexico	-36.0311025422	4.211552034126344e-92	2.804893654728145e-89	N/A	N/A
+Sheepscot River, Maine vs. Damariscotta River, Maine	Sheepscot River, Maine vs. Gulf of Mexico	-20.8813186917	5.659761732700797e-71	3.769401313978731e-68	N/A	N/A
+Sheepscot River, Maine vs. Damariscotta River, Maine	Oregon Continental Shelf vs. Kennebec River, Maine	-24.7764853137	1.1842421687497724e-57	7.887052843873485e-55	N/A	N/A
+Sheepscot River, Maine vs. Damariscotta River, Maine	Oregon Continental Shelf vs. Lewes, Delaware	-26.4900543727	1.709629727343089e-51	1.1386133984104972e-48	N/A	N/A
+Sheepscot River, Maine vs. Damariscotta River, Maine	Oregon Continental Shelf vs. Damariscotta River, Maine	-20.5165167669	9.977708250920876e-21	6.645153695113303e-18	N/A	N/A
+Sheepscot River, Maine vs. Damariscotta River, Maine	Oregon Continental Shelf vs. Gulf of Mexico	-5.52593013052	7.626150866465486e-08	5.0790164770660135e-05	N/A	N/A
+Sheepscot River, Maine vs. Damariscotta River, Maine	Kennebec River, Maine vs. Lewes, Delaware	0.0700060453728	0.9443073500048604	1	N/A	N/A
+Sheepscot River, Maine vs. Damariscotta River, Maine	Kennebec River, Maine vs. Damariscotta River, Maine	-0.85643726238	0.3977520452335612	1	N/A	N/A
+Sheepscot River, Maine vs. Damariscotta River, Maine	Kennebec River, Maine vs. Gulf of Mexico	-24.2490722425	3.724986743810751e-70	2.48084117137796e-67	N/A	N/A
+Sheepscot River, Maine vs. Damariscotta River, Maine	Lewes, Delaware vs. Damariscotta River, Maine	0.195087388002	0.8466397890422197	1	N/A	N/A
+Sheepscot River, Maine vs. Damariscotta River, Maine	Lewes, Delaware vs. Gulf of Mexico	-17.9361264572	9.687258858532861e-43	6.451714399782885e-40	N/A	N/A
+Sheepscot River, Maine vs. Damariscotta River, Maine	Damariscotta River, Maine vs. Gulf of Mexico	-24.1765180417	1.1700516961423628e-26	7.792544296308136e-24	N/A	N/A
+Sheepscot River, Maine vs. Gulf of Mexico	Oregon Continental Shelf vs. Kennebec River, Maine	13.6097984346	0.0	0.0	N/A	N/A
+Sheepscot River, Maine vs. Gulf of Mexico	Oregon Continental Shelf vs. Lewes, Delaware	11.5494034705	0.0	0.0	N/A	N/A
+Sheepscot River, Maine vs. Gulf of Mexico	Oregon Continental Shelf vs. Damariscotta River, Maine	2.88043688676	0.004137022065491047	1	N/A	N/A
+Sheepscot River, Maine vs. Gulf of Mexico	Oregon Continental Shelf vs. Gulf of Mexico	31.4395443284	0.0	0.0	N/A	N/A
+Sheepscot River, Maine vs. Gulf of Mexico	Kennebec River, Maine vs. Lewes, Delaware	41.329740062	0.0	0.0	N/A	N/A
+Sheepscot River, Maine vs. Gulf of Mexico	Kennebec River, Maine vs. Damariscotta River, Maine	14.2941921007	0.0	0.0	N/A	N/A
+Sheepscot River, Maine vs. Gulf of Mexico	Kennebec River, Maine vs. Gulf of Mexico	-3.03361713927	0.0024993540006610806	1	N/A	N/A
+Sheepscot River, Maine vs. Gulf of Mexico	Lewes, Delaware vs. Damariscotta River, Maine	12.2330802992	0.0	0.0	N/A	N/A
+Sheepscot River, Maine vs. Gulf of Mexico	Lewes, Delaware vs. Gulf of Mexico	4.18679529772	3.207043466391113e-05	0.021358909486164812	N/A	N/A
+Sheepscot River, Maine vs. Gulf of Mexico	Damariscotta River, Maine vs. Gulf of Mexico	-3.04812785538	0.0024191828226594013	1	N/A	N/A
+Oregon Continental Shelf vs. Kennebec River, Maine	Oregon Continental Shelf vs. Lewes, Delaware	0.288579527749	0.7731543412601873	1	N/A	N/A
+Oregon Continental Shelf vs. Kennebec River, Maine	Oregon Continental Shelf vs. Damariscotta River, Maine	-2.09898370438	0.03744974634743828	1	N/A	N/A
+Oregon Continental Shelf vs. Kennebec River, Maine	Oregon Continental Shelf vs. Gulf of Mexico	13.1118254814	0.0	0.0	N/A	N/A
+Oregon Continental Shelf vs. Kennebec River, Maine	Kennebec River, Maine vs. Lewes, Delaware	44.72350153	0.0	0.0	N/A	N/A
+Oregon Continental Shelf vs. Kennebec River, Maine	Kennebec River, Maine vs. Damariscotta River, Maine	17.3418181268	0.0	0.0	N/A	N/A
+Oregon Continental Shelf vs. Kennebec River, Maine	Kennebec River, Maine vs. Gulf of Mexico	-17.006956493	4.912949750850725e-49	3.2720245340665826e-46	N/A	N/A
+Oregon Continental Shelf vs. Kennebec River, Maine	Lewes, Delaware vs. Damariscotta River, Maine	15.2687388212	0.0	0.0	N/A	N/A
+Oregon Continental Shelf vs. Kennebec River, Maine	Lewes, Delaware vs. Gulf of Mexico	-8.25682485226	4.3699383418715525e-15	2.910378935686454e-12	N/A	N/A
+Oregon Continental Shelf vs. Kennebec River, Maine	Damariscotta River, Maine vs. Gulf of Mexico	-13.0293921339	4.763197813131589e-27	3.172289743545638e-24	N/A	N/A
+Oregon Continental Shelf vs. Lewes, Delaware	Oregon Continental Shelf vs. Damariscotta River, Maine	-2.49582499628	0.014107561107229313	1	N/A	N/A
+Oregon Continental Shelf vs. Lewes, Delaware	Oregon Continental Shelf vs. Gulf of Mexico	10.8044850798	0.0	0.0	N/A	N/A
+Oregon Continental Shelf vs. Lewes, Delaware	Kennebec River, Maine vs. Lewes, Delaware	44.7780569773	0.0	0.0	N/A	N/A
+Oregon Continental Shelf vs. Lewes, Delaware	Kennebec River, Maine vs. Damariscotta River, Maine	19.1489561413	0.0	0.0	N/A	N/A
+Oregon Continental Shelf vs. Lewes, Delaware	Kennebec River, Maine vs. Gulf of Mexico	-14.7827668621	1.1337191910441573e-38	7.550569812354087e-36	N/A	N/A
+Oregon Continental Shelf vs. Lewes, Delaware	Lewes, Delaware vs. Damariscotta River, Maine	17.0415522274	0.0	0.0	N/A	N/A
+Oregon Continental Shelf vs. Lewes, Delaware	Lewes, Delaware vs. Gulf of Mexico	-7.28256999958	3.835362995037638e-12	2.5543517546950665e-09	N/A	N/A
+Oregon Continental Shelf vs. Lewes, Delaware	Damariscotta River, Maine vs. Gulf of Mexico	-13.5872344331	1.1518786362695755e-25	7.671511717555373e-23	N/A	N/A
+Oregon Continental Shelf vs. Damariscotta River, Maine	Oregon Continental Shelf vs. Gulf of Mexico	4.86045800226	2.019760669380588e-06	0.0013451606058074717	N/A	N/A
+Oregon Continental Shelf vs. Damariscotta River, Maine	Kennebec River, Maine vs. Lewes, Delaware	25.7432831747	0.0	0.0	N/A	N/A
+Oregon Continental Shelf vs. Damariscotta River, Maine	Kennebec River, Maine vs. Damariscotta River, Maine	20.3191291005	8.881784197001252e-16	5.915268275202834e-13	N/A	N/A
+Oregon Continental Shelf vs. Damariscotta River, Maine	Kennebec River, Maine vs. Gulf of Mexico	-4.07114285431	6.199910180233935e-05	0.04129140180035801	N/A	N/A
+Oregon Continental Shelf vs. Damariscotta River, Maine	Lewes, Delaware vs. Damariscotta River, Maine	21.2782494069	3.3084646133829665e-14	2.2034374325130557e-11	N/A	N/A
+Oregon Continental Shelf vs. Damariscotta River, Maine	Lewes, Delaware vs. Gulf of Mexico	-1.49631986507	0.13634129521419167	1	N/A	N/A
+Oregon Continental Shelf vs. Damariscotta River, Maine	Damariscotta River, Maine vs. Gulf of Mexico	-5.98679402471	1.274090271435082e-06	0.0008485441207757646	N/A	N/A
+Oregon Continental Shelf vs. Gulf of Mexico	Kennebec River, Maine vs. Lewes, Delaware	10.9657158758	0.0	0.0	N/A	N/A
+Oregon Continental Shelf vs. Gulf of Mexico	Kennebec River, Maine vs. Damariscotta River, Maine	3.53338534266	0.0004847819180928692	0.3228647574498509	N/A	N/A
+Oregon Continental Shelf vs. Gulf of Mexico	Kennebec River, Maine vs. Gulf of Mexico	-28.9736882649	3.206872517161664e-109	2.1357770964296683e-106	N/A	N/A
+Oregon Continental Shelf vs. Gulf of Mexico	Lewes, Delaware vs. Damariscotta River, Maine	3.29159155364	0.0011353038825854256	0.7561123858018934	N/A	N/A
+Oregon Continental Shelf vs. Gulf of Mexico	Lewes, Delaware vs. Gulf of Mexico	-19.1100639462	5.789946608341028e-59	3.856104441155124e-56	N/A	N/A
+Oregon Continental Shelf vs. Gulf of Mexico	Damariscotta River, Maine vs. Gulf of Mexico	-11.3459384576	1.1368647132397721e-24	7.571518990176882e-22	N/A	N/A
+Kennebec River, Maine vs. Lewes, Delaware	Kennebec River, Maine vs. Damariscotta River, Maine	-1.169636805	0.24477044353818359	1	N/A	N/A
+Kennebec River, Maine vs. Lewes, Delaware	Kennebec River, Maine vs. Gulf of Mexico	-47.1909767229	8.273297934483344e-153	5.510016424365908e-150	N/A	N/A
+Kennebec River, Maine vs. Lewes, Delaware	Lewes, Delaware vs. Damariscotta River, Maine	0.198886578916	0.8427473719515073	1	N/A	N/A
+Kennebec River, Maine vs. Lewes, Delaware	Lewes, Delaware vs. Gulf of Mexico	-34.8407967568	2.4333080230180377e-100	1.620583143330013e-97	N/A	N/A
+Kennebec River, Maine vs. Lewes, Delaware	Damariscotta River, Maine vs. Gulf of Mexico	-38.4886768108	1.571851737507697e-67	1.0468532571801263e-64	N/A	N/A
+Kennebec River, Maine vs. Damariscotta River, Maine	Kennebec River, Maine vs. Gulf of Mexico	-16.7301239807	3.080902391073564e-43	2.0518809924549938e-40	N/A	N/A
+Kennebec River, Maine vs. Damariscotta River, Maine	Lewes, Delaware vs. Damariscotta River, Maine	0.977955376991	0.34105812211088526	1	N/A	N/A
+Kennebec River, Maine vs. Damariscotta River, Maine	Lewes, Delaware vs. Gulf of Mexico	-12.3173603853	1.3021012736822479e-25	8.67199448272377e-23	N/A	N/A
+Kennebec River, Maine vs. Damariscotta River, Maine	Damariscotta River, Maine vs. Gulf of Mexico	-18.4623743897	2.7906648845087977e-18	1.858582813082859e-15	N/A	N/A
+Kennebec River, Maine vs. Gulf of Mexico	Lewes, Delaware vs. Damariscotta River, Maine	14.3080367446	0.0	0.0	N/A	N/A
+Kennebec River, Maine vs. Gulf of Mexico	Lewes, Delaware vs. Gulf of Mexico	6.31155137723	7.05656200139515e-10	4.69967029292917e-07	N/A	N/A
+Kennebec River, Maine vs. Gulf of Mexico	Damariscotta River, Maine vs. Gulf of Mexico	-2.21232858686	0.027777932623912188	1	N/A	N/A
+Lewes, Delaware vs. Damariscotta River, Maine	Lewes, Delaware vs. Gulf of Mexico	-10.60847308	1.3581628703863602e-20	9.045364716773158e-18	N/A	N/A
+Lewes, Delaware vs. Damariscotta River, Maine	Damariscotta River, Maine vs. Gulf of Mexico	-16.206189196	1.951050687749471e-15	1.2993997580411475e-12	N/A	N/A
+Lewes, Delaware vs. Gulf of Mexico	Damariscotta River, Maine vs. Gulf of Mexico	-4.42455796743	1.6386201355305078e-05	0.010913210102633183	N/A	N/A
