@@ -1,0 +1,304 @@
+[2020-12-23 10:59:25,799 - INFO] Nephele, developed by BCBB/OCICB/NIAID/NIH version: 2.5.0, tag: Nephele_2020_Nov_09, commit: abc1e74
+[2020-12-23 10:59:25,912 - INFO] Job Description : ENV_PRJEB15093_trial1_QIIME_Greengenes99_OpenReference_PICRUSt
+[2020-12-23 10:59:25,912 - INFO] Job parameters
+job_id : 7feb884caf8a
+inputs_dir : None
+data_type : PE
+map_file : <_io.TextIOWrapper name='/mnt/EFS/user_uploads/7feb884caf8a/inputs/Metadata_PRJEB15093_modified_Nephele_corrected.txt' mode='r' encoding='UTF-8'>
+min_overlap : 10
+perc_max_diff : 25
+phred_quality : 19
+phred_offset : 33
+max_bad_run : 3
+max_n : 0
+sampling_depth : None
+otu_strategy : open
+ref_db : gg99
+picrust : True
+[2020-12-23 10:59:25,912 - INFO] Checking Mapfile for Gzipped inputs.
+[2020-12-23 10:59:25,913 - INFO] Gzipped files listed in map file, attempting to rm .gz extension.
+[2020-12-23 10:59:25,948 - INFO] Done. Attempting file decompression.
+[2020-12-23 11:01:05,332 - INFO] Finished decompression.
+[2020-12-23 11:01:05,568 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233229_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233229_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233229" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,568 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233230_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233230_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233230" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233231_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233231_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233231" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233232_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233232_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233232" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233233_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233233_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233233" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233234_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233234_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233234" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233235_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233235_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233235" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233236_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233236_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233236" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233237_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233237_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233237" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233238_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233238_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233238" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233239_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233239_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233239" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233240_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233240_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233240" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233241_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233241_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233241" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233242_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233242_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233242" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233243_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233243_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233243" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233244_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233244_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233244" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233245_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233245_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233245" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233246_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233246_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233246" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233247_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233247_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233247" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233248_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233248_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233248" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233249_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233249_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233249" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233250_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233250_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233250" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233251_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233251_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233251" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233252_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233252_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233252" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233253_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233253_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233253" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233254_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233254_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233254" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233255_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233255_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233255" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233256_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233256_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233256" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233257_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233257_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233257" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233258_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233258_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233258" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233259_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233259_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233259" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,569 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233260_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233260_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233260" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233261_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233261_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233261" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233262_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233262_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233262" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233263_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233263_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233263" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233264_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233264_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233264" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233265_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233265_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233265" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233266_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233266_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233266" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233267_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233267_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233267" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233268_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233268_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233268" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233269_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233269_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233269" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233270_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233270_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233270" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233271_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233271_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233271" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233272_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233272_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233272" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233273_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233273_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233273" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233274_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233274_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233274" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233275_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233275_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233275" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233276_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233276_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233276" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233277_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233277_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233277" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233278_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233278_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233278" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233279_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233279_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233279" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233280_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233280_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233280" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233281_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233281_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233281" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233282_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233282_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233282" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233283_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233283_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233283" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233284_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233284_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233284" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233285_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233285_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233285" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233286_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233286_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233286" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233287_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233287_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233287" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233288_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233288_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233288" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233289_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233289_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233289" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233290_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233290_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233290" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233291_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233291_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233291" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,570 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233292_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233292_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233292" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233293_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233293_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233293" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233294_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233294_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233294" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233295_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233295_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233295" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233296_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233296_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233296" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233297_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233297_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233297" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233298_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233298_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233298" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233299_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233299_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233299" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233300_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233300_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233300" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233301_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233301_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233301" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233302_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233302_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233302" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233303_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233303_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233303" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233304_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233304_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233304" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233305_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233305_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233305" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233306_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233306_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233306" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233307_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233307_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233307" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233308_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233308_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233308" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233309_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233309_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233309" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233310_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233310_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233310" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233311_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233311_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233311" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233312_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233312_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233312" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233313_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233313_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233313" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233314_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233314_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233314" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233315_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233315_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233315" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233316_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233316_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233316" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233317_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233317_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233317" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233318_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233318_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233318" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233319_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233319_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233319" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233320_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233320_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233320" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233321_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233321_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233321" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233322_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233322_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233322" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,571 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233323_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233323_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233323" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,572 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233324_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233324_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233324" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,572 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233325_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233325_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233325" -m fastq-join -j 10 -p 25
+[2020-12-23 11:01:05,572 - INFO] join_paired_ends.py -f "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233326_1.fastq" -r "/mnt/EFS/user_uploads/7feb884caf8a/inputs/ERR2233326_2.fastq" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233326" -m fastq-join -j 10 -p 25
+[2020-12-23 11:03:26,677 - INFO] split_libraries_fastq.py -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/split_lib_out" -i "/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233229/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233230/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233231/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233232/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233233/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233234/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233235/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233236/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233237/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233238/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233239/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233240/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233241/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233242/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233243/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233244/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233245/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233246/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233247/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233248/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233249/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233250/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233251/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233252/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233253/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233254/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233255/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233256/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233257/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233258/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233259/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233260/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233261/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233262/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233263/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233264/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233265/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233266/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233267/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233268/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233269/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233270/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233271/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233272/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233273/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233274/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233275/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233276/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233277/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233278/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233279/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233280/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233281/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233282/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233283/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233284/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233285/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233286/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233287/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233288/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233289/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233290/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233291/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233292/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233293/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233294/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233295/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233296/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233297/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233298/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233299/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233300/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233301/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233302/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233303/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233304/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233305/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233306/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233307/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233308/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233309/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233310/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233311/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233312/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233313/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233314/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233315/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233316/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233317/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233318/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233319/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233320/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233321/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233322/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233323/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233324/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233325/fastqjoin.join.fastq","/mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233326/fastqjoin.join.fastq" -q 19 -n 0 -r 3 --phred_offset 33 --barcode_type="not-barcoded" --sample_ids="ERR2233229","ERR2233230","ERR2233231","ERR2233232","ERR2233233","ERR2233234","ERR2233235","ERR2233236","ERR2233237","ERR2233238","ERR2233239","ERR2233240","ERR2233241","ERR2233242","ERR2233243","ERR2233244","ERR2233245","ERR2233246","ERR2233247","ERR2233248","ERR2233249","ERR2233250","ERR2233251","ERR2233252","ERR2233253","ERR2233254","ERR2233255","ERR2233256","ERR2233257","ERR2233258","ERR2233259","ERR2233260","ERR2233261","ERR2233262","ERR2233263","ERR2233264","ERR2233265","ERR2233266","ERR2233267","ERR2233268","ERR2233269","ERR2233270","ERR2233271","ERR2233272","ERR2233273","ERR2233274","ERR2233275","ERR2233276","ERR2233277","ERR2233278","ERR2233279","ERR2233280","ERR2233281","ERR2233282","ERR2233283","ERR2233284","ERR2233285","ERR2233286","ERR2233287","ERR2233288","ERR2233289","ERR2233290","ERR2233291","ERR2233292","ERR2233293","ERR2233294","ERR2233295","ERR2233296","ERR2233297","ERR2233298","ERR2233299","ERR2233300","ERR2233301","ERR2233302","ERR2233303","ERR2233304","ERR2233305","ERR2233306","ERR2233307","ERR2233308","ERR2233309","ERR2233310","ERR2233311","ERR2233312","ERR2233313","ERR2233314","ERR2233315","ERR2233316","ERR2233317","ERR2233318","ERR2233319","ERR2233320","ERR2233321","ERR2233322","ERR2233323","ERR2233324","ERR2233325","ERR2233326"
+[2020-12-23 11:08:34,120 - INFO] pick_open_reference_otus.py -i "/mnt/EFS/user_uploads/7feb884caf8a/outputs/split_lib_out/seqs.fna" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus" -m sortmerna_sumaclust -r "/mnt/EFS/dbs/Greengenes_99/99_otus.fasta" -p "/mnt/EFS/user_uploads/7feb884caf8a/outputs/WAW63HTA.txt" -f 
+[2020-12-24 02:10:49,637 - INFO] core_diversity_analyses.py -i "/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/otu_table_mc2_w_tax_no_pynast_failures.biom" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/core_diversity/TreatmentGroup" -m "/mnt/EFS/user_uploads/7feb884caf8a/outputs/Metadata_PRJEB15093_modified_Nephele_corrected.txt.no_gz" -e 24342 -p "/mnt/EFS/user_uploads/7feb884caf8a/outputs/0TW60FTQ.txt" -c "TreatmentGroup"  -t "/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/rep_set.tre" -a -O 16 --suppress_taxa_summary
+[2020-12-24 02:41:15,308 - INFO] core_diversity_analyses.py -i "/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/otu_table_mc2_w_tax_no_pynast_failures.biom" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/core_diversity/sample_accession" -m "/mnt/EFS/user_uploads/7feb884caf8a/outputs/Metadata_PRJEB15093_modified_Nephele_corrected.txt.no_gz" -e 24342 -p "/mnt/EFS/user_uploads/7feb884caf8a/outputs/7XRL1K2M.txt" -c "sample_accession"  -t "/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/rep_set.tre" -a -O 16 --suppress_taxa_summary
+[2020-12-24 03:27:15,174 - INFO] core_diversity_analyses.py -i "/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/otu_table_mc2_w_tax_no_pynast_failures.biom" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/core_diversity/experiment_accession" -m "/mnt/EFS/user_uploads/7feb884caf8a/outputs/Metadata_PRJEB15093_modified_Nephele_corrected.txt.no_gz" -e 24342 -p "/mnt/EFS/user_uploads/7feb884caf8a/outputs/PRV6QFXV.txt" -c "experiment_accession"  -t "/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/rep_set.tre" -a -O 16 --suppress_taxa_summary
+[2020-12-24 04:16:01,111 - INFO] core_diversity_analyses.py -i "/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/otu_table_mc2_w_tax_no_pynast_failures.biom" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/core_diversity/geographic_location" -m "/mnt/EFS/user_uploads/7feb884caf8a/outputs/Metadata_PRJEB15093_modified_Nephele_corrected.txt.no_gz" -e 24342 -p "/mnt/EFS/user_uploads/7feb884caf8a/outputs/RQETVVE8.txt" -c "geographic_location"  -t "/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/rep_set.tre" -a -O 16 --suppress_taxa_summary
+[2020-12-24 04:46:27,397 - INFO] core_diversity_analyses.py -i "/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/otu_table_mc2_w_tax_no_pynast_failures.biom" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/core_diversity/library_name" -m "/mnt/EFS/user_uploads/7feb884caf8a/outputs/Metadata_PRJEB15093_modified_Nephele_corrected.txt.no_gz" -e 24342 -p "/mnt/EFS/user_uploads/7feb884caf8a/outputs/DCLMJCB6.txt" -c "library_name"  -t "/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/rep_set.tre" -a -O 16 --suppress_taxa_summary
+[2020-12-24 05:31:56,512 - INFO] core_diversity_analyses.py -i "/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/otu_table_mc2_w_tax_no_pynast_failures.biom" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/core_diversity/site_name" -m "/mnt/EFS/user_uploads/7feb884caf8a/outputs/Metadata_PRJEB15093_modified_Nephele_corrected.txt.no_gz" -e 24342 -p "/mnt/EFS/user_uploads/7feb884caf8a/outputs/KY3RWILY.txt" -c "site_name"  -t "/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/rep_set.tre" -a -O 16 --suppress_taxa_summary
+[2020-12-24 06:03:24,430 - INFO] core_diversity_analyses.py -i "/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/otu_table_mc2_w_tax_no_pynast_failures.biom" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/core_diversity/sample_description" -m "/mnt/EFS/user_uploads/7feb884caf8a/outputs/Metadata_PRJEB15093_modified_Nephele_corrected.txt.no_gz" -e 24342 -p "/mnt/EFS/user_uploads/7feb884caf8a/outputs/YMH6V6VR.txt" -c "sample_description"  -t "/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/rep_set.tre" -a -O 16 --suppress_taxa_summary
+[2020-12-24 06:32:56,819 - INFO] core_diversity_analyses.py -i "/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/otu_table_mc2_w_tax_no_pynast_failures.biom" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/core_diversity/base_count" -m "/mnt/EFS/user_uploads/7feb884caf8a/outputs/Metadata_PRJEB15093_modified_Nephele_corrected.txt.no_gz" -e 24342 -p "/mnt/EFS/user_uploads/7feb884caf8a/outputs/2U5TAMUK.txt" -c "base_count"  -t "/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/rep_set.tre" -a -O 16 --suppress_taxa_summary
+[2020-12-24 07:19:04,569 - INFO] core_diversity_analyses.py -i "/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/otu_table_mc2_w_tax_no_pynast_failures.biom" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/core_diversity/sample_title" -m "/mnt/EFS/user_uploads/7feb884caf8a/outputs/Metadata_PRJEB15093_modified_Nephele_corrected.txt.no_gz" -e 24342 -p "/mnt/EFS/user_uploads/7feb884caf8a/outputs/DAAURI0M.txt" -c "sample_title"  -t "/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/rep_set.tre" -a -O 16 --suppress_taxa_summary
+[2020-12-24 08:04:56,621 - INFO] pick_closed_reference_otus.py -i "/mnt/EFS/user_uploads/7feb884caf8a/outputs/split_lib_out/seqs.fna" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus_picrust" -r "/mnt/EFS/dbs/Greengenes_99/99_otus.fasta" -p "/mnt/EFS/user_uploads/7feb884caf8a/outputs/M6IVQQ2F.txt" -f
+[2020-12-24 10:05:58,328 - INFO] normalize_by_copy_number.py -i "/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus_picrust/otu_table.biom" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/PICRUSt_data/normalized_otus.biom"
+[2020-12-24 10:07:23,976 - INFO] predict_metagenomes.py -i "/mnt/EFS/user_uploads/7feb884caf8a/outputs/PICRUSt_data/normalized_otus.biom" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/PICRUSt_data/metagenome_predictions.biom"
+[2020-12-24 10:09:59,760 - INFO] categorize_by_function.py -i "/mnt/EFS/user_uploads/7feb884caf8a/outputs/PICRUSt_data/metagenome_predictions.biom" -c "KEGG_Pathways" -l 2 -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/PICRUSt_data/predicted_metagenomes.L2.biom"
+[2020-12-24 10:10:00,928 - INFO] categorize_by_function.py -i "/mnt/EFS/user_uploads/7feb884caf8a/outputs/PICRUSt_data/metagenome_predictions.biom" -c "KEGG_Pathways" -l 3 -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/PICRUSt_data/predicted_metagenomes.L3.biom"
+[2020-12-24 10:10:02,137 - INFO] summarize_taxa_through_plots.py -i "/mnt/EFS/user_uploads/7feb884caf8a/outputs/PICRUSt_data/predicted_metagenomes.L2.biom" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/PICRUSt_data/picrust_at_lvl2" -p "/mnt/EFS/user_uploads/7feb884caf8a/outputs/43AGGVBC.txt"
+[2020-12-24 10:10:12,856 - INFO] summarize_taxa_through_plots.py -i "/mnt/EFS/user_uploads/7feb884caf8a/outputs/PICRUSt_data/predicted_metagenomes.L3.biom" -o "/mnt/EFS/user_uploads/7feb884caf8a/outputs/PICRUSt_data/picrust_at_lvl3" -p "/mnt/EFS/user_uploads/7feb884caf8a/outputs/HBBW3WPP.txt"
+[2020-12-24 10:16:25,091 - INFO] Loading R module: datavis16s.
+R version 3.5.2 (2018-12-20)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Debian GNU/Linux buster/sid
+
+Matrix products: default
+BLAS: /usr/lib/x86_64-linux-gnu/atlas/libblas.so.3.10.3
+LAPACK: /usr/lib/x86_64-linux-gnu/atlas/liblapack.so.3.10.3
+
+locale:
+[1] en_US.UTF-8
+
+attached base packages:
+[1] tools     stats     graphics  grDevices utils     datasets  methods  
+[8] base     
+
+other attached packages:
+[1] datavis16s_0.1.2
+
+loaded via a namespace (and not attached):
+ [1] network_1.13.0.1   xfun_0.4           tidyselect_0.2.5   purrr_0.3.0       
+ [5] reshape2_1.4.3     splines_3.5.2      lattice_0.20-38    colorspace_1.4-0  
+ [9] htmltools_0.3.6    viridisLite_0.3.0  mgcv_1.8-27        plotly_4.8.0      
+[13] rlang_0.3.1        pillar_1.3.1       glue_1.3.0         RColorBrewer_1.1-2
+[17] bindrcpp_0.2.2     matrixStats_0.54.0 bindr_0.1.1        plyr_1.8.4        
+[21] stringr_1.3.1      munsell_0.5.0      gtable_0.2.0       bpexploder_0.1    
+[25] htmlwidgets_1.3    evaluate_0.12      knitr_1.21         permute_0.9-4     
+[29] parallel_3.5.2     Rcpp_1.0.0         scales_1.0.0       vegan_2.5-4       
+[33] jsonlite_1.6       morpheus_0.1.1.1   ggnet_0.1.0        ggplot2_3.1.0     
+[37] digest_0.6.18      stringi_1.2.4      dplyr_0.7.8        ggrepel_0.8.0     
+[41] ampvis2_2.3.2      GUniFrac_1.1       cowplot_0.9.4      grid_3.5.2        
+[45] magrittr_1.5       lazyeval_0.2.1     tibble_2.0.1       cluster_2.0.7-1   
+[49] crayon_1.3.4       ape_5.2            tidyr_0.8.2        pkgconfig_2.0.2   
+[53] MASS_7.3-51.1      Matrix_1.2-15      data.table_1.12.0  lubridate_1.7.4   
+[57] assertthat_0.2.0   rmarkdown_1.11     httr_1.4.0         R6_2.3.0          
+[61] nlme_3.1-137       compiler_3.5.2    
+
+[2020-12-24 10:16:30.838] "allgraphs"(datafile="/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/otu_table_mc2_w_tax_no_pynast_failures.biom", outdir="/mnt/EFS/user_uploads/7feb884caf8a/outputs//graphs", mapfile="/mnt/EFS/user_uploads/7feb884caf8a/outputs/Metadata_PRJEB15093_modified_Nephele_corrected.txt.no_gz",tsvfile=FALSE, ...)
+[2020-12-24 10:16:30.839] Reading in map file /mnt/EFS/user_uploads/7feb884caf8a/outputs/Metadata_PRJEB15093_modified_Nephele_corrected.txt.no_gz
+[2020-12-24 10:16:30.843] Reading in OTU file /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/otu_table_mc2_w_tax_no_pynast_failures.biom
+[2020-12-24 10:16:30.843] biom <- read_biom(datafile)
+[2020-12-24 10:16:30.854] Attempting to convert biom file to /mnt/EFS/user_uploads/7feb884caf8a/tmp//RtmpEuu9ht/temp.biom
+[2020-12-24 10:17:13.883] otu <- as.data.frame(as.matrix(biomformat::biom_data(biom)))
+[2020-12-24 10:17:20.604] tax <- biomformat::observation_metadata(biom)
+[2020-12-24 10:17:22.401] tax <- t(sapply(tax, "[", i=1:7))
+[2020-12-24 10:17:22.623] otu <- cbind(otu, tax)
+[2020-12-24 10:17:22.695] amp <- amp_load(otu, map)
+ampvis2 object with 3 elements.
+Summary of OTU table:
+     Samples         OTUs  Total#Reads    Min#Reads    Max#Reads Median#Reads 
+          98       235558      4893312           73       111578        51629 
+   Avg#Reads 
+    49931.76 
+
+Assigned taxonomy:
+       Kingdom         Phylum          Class          Order         Family 
+  235558(100%)  173377(73.6%) 169165(71.81%) 145298(61.68%)  98873(41.97%) 
+         Genus        Species 
+ 26662(11.32%)     1644(0.7%) 
+
+Metadata variables: 13 
+ SampleID, ForwardFastqFile, ReverseFastqFile, TreatmentGroup, sample_accession, experiment_accession, geographic_location, library_name, site_name, sample_description, base_count, sample_title, Description
+
+[2020-12-24 10:17:25.381] Rarefaction curve
+[2020-12-24 10:17:25.381] rarefactioncurve(outdir = outdir, amp = amp, colors = allcols)
+[2020-12-24 10:18:07.395] Saving plot to /mnt/EFS/user_uploads/7feb884caf8a/outputs/graphs/rarecurve.html
+[2020-12-24 10:18:08.244] Saving rarefaction curve table to /mnt/EFS/user_uploads/7feb884caf8a/outputs//graphs/rarecurve.txt
+
+[2020-12-24 10:18:08.305] Relative abundance heatmaps
+[2020-12-24 10:18:08.305] morphheatmap(outdir = outdir, amp = amp, colors=allcols, filter_level = 5)
+[2020-12-24 10:18:08.305] Filter taxa below 5 counts/abundance.
+[2020-12-24 10:18:08.306] amp <- filterlowabund(amp, level = 5, abs=T)
+[2020-12-24 10:18:10.598] Calculate relative abundance.
+[2020-12-24 10:18:10.599] amp <- subsetamp(amp, sampdepth = NULL, rarefy=FALSE, normalise = TRUE, printsummary = FALSE)
+0 samples have been filtered.
+[2020-12-24 10:18:10.819] Number of sequence variants > 2000. Making heatmap at species/lowest assigned taxonomic level.
+[2020-12-24 10:18:10.819] makeheatmap("Species", amp)
+Warning: non-unique value when setting 'row.names': 'g__Vibrio Vibrio Genus'
+Error in `.rowNamesDF<-`(x, value = value) : 
+  duplicate 'row.names' are not allowed
+Error in morphheatmap(outdir = outdir, amp = amp, colors = allcols, filter_level = 5) : 
+  Heatmap at  Species  level failed.
+
+[2020-12-24 10:18:20.111] Sampling depth: 24342
+[2020-12-24 10:18:20.212] Filter samples below 24342 counts.
+[2020-12-24 10:18:20.212] amp <- amp_subset_samples(amp, minreads = 24342, ...)
+8 samples and 37 OTUs have been filtered 
+Before: 98 samples and 235558 OTUs
+After: 90 samples and 235521 OTUs
+[2020-12-24 10:18:20.722] Saving excluded sample ids to /mnt/EFS/user_uploads/7feb884caf8a/outputs//graphs/samples_being_ignored.txt
+ampvis2 object with 3 elements.
+Summary of OTU table:
+     Samples         OTUs  Total#Reads    Min#Reads    Max#Reads Median#Reads 
+          90       235521      4883258        24342       111578      52585.5 
+   Avg#Reads 
+    54258.42 
+
+Assigned taxonomy:
+       Kingdom         Phylum          Class          Order         Family 
+  235521(100%)  173342(73.6%) 169130(71.81%) 145263(61.68%)  98839(41.97%) 
+         Genus        Species 
+ 26642(11.31%)     1641(0.7%) 
+
+Metadata variables: 13 
+ SampleID, ForwardFastqFile, ReverseFastqFile, TreatmentGroup, sample_accession, experiment_accession, geographic_location, library_name, site_name, sample_description, base_count, sample_title, Description
+
+[2020-12-24 10:18:21.664] PCoA plot with binomial distance
+[2020-12-24 10:18:21.664] pcoaplot(outdir = outdir, amp = ampsub, distm = "binomial", colors = allcols)
+[2020-12-24 10:18:21.664] pcoa <- amp_ordinate(amp, filter_species =0.1,type="PCOA", distmeasure ="binomial",sample_color_by = "TreatmentGroup", detailed_output = TRUE, transform="none")
+Calculating distance matrix... 
+Done.
+[2020-12-24 10:18:27.521] Saving plot to /mnt/EFS/user_uploads/7feb884caf8a/outputs/graphs/pcoa_binomial.html
+[2020-12-24 10:18:28.355] Saving binomial PCoA table to /mnt/EFS/user_uploads/7feb884caf8a/outputs//graphs/pcoa_binomial.txt
+
+[2020-12-24 10:18:28.394] Rarefying OTU Table to  24342 reads.
+[2020-12-24 10:18:28.394] set.seed(500)
+[2020-12-24 10:18:28.394] otu <- rrarefy(t(amp$abund), sampdepth)
+[2020-12-24 10:18:34.058] amp <- amp_subset_samples(amp, minreads = 24342, ...)
+0 samples have been filtered.
+ampvis2 object with 3 elements.
+Summary of OTU table:
+     Samples         OTUs  Total#Reads    Min#Reads    Max#Reads Median#Reads 
+          90       193207      2190780        24342        24342        24342 
+   Avg#Reads 
+       24342 
+
+Assigned taxonomy:
+       Kingdom         Phylum          Class          Order         Family 
+  193207(100%) 144930(75.01%) 141404(73.19%) 121556(62.91%)   82880(42.9%) 
+         Genus        Species 
+ 22401(11.59%)    1363(0.71%) 
+
+Metadata variables: 13 
+ SampleID, ForwardFastqFile, ReverseFastqFile, TreatmentGroup, sample_accession, experiment_accession, geographic_location, library_name, site_name, sample_description, base_count, sample_title, Description
+[2020-12-24 10:18:35.504] Saving rarefied OTU Table to  /mnt/EFS/user_uploads/7feb884caf8a/outputs//graphs/rarefied_OTU_table_24342.txt
+[2020-12-24 10:18:47.801] Making heatmap from rarefied counts.
+[2020-12-24 10:18:47.802] morphheatmap(outdir = outdir, amp = amprare, colors=allcols, filter_level = 5, filesuffix = "_rarefied")
+[2020-12-24 10:18:47.802] Filter taxa below 5 counts/abundance.
+[2020-12-24 10:18:47.802] amp <- filterlowabund(amp, level = 5, abs=T)
+[2020-12-24 10:18:49.433] Calculate relative abundance.
+[2020-12-24 10:18:49.433] amp <- subsetamp(amp, sampdepth = NULL, rarefy=FALSE, normalise = TRUE, printsummary = FALSE)
+0 samples have been filtered.
+[2020-12-24 10:18:49.520] Number of sequence variants > 2000. Making heatmap at species/lowest assigned taxonomic level.
+[2020-12-24 10:18:49.520] makeheatmap("Species", amp)
+Warning: non-unique value when setting 'row.names': 'g__Vibrio Vibrio Genus'
+Error in `.rowNamesDF<-`(x, value = value) : 
+  duplicate 'row.names' are not allowed
+Error in morphheatmap(outdir = outdir, amp = amprare, colors = allcols,  : 
+  Heatmap at  Species  level failed.
+
+[2020-12-24 10:18:54.349] Normalizing rarefied OTU table to 100 for Bray-Curtis distance.
+0 samples have been filtered.
+[2020-12-24 10:18:56.954] pcoaplot(outdir = outdir, amp = ampbc, distm = "bray", colors = allcols, filesuffix="_rarefied")
+[2020-12-24 10:18:56.954] pcoa <- amp_ordinate(amp, filter_species =0.1,type="PCOA", distmeasure ="bray",sample_color_by = "TreatmentGroup", detailed_output = TRUE, transform="none")
+Calculating distance matrix... 
+Done.
+[2020-12-24 10:19:01.172] Saving plot to /mnt/EFS/user_uploads/7feb884caf8a/outputs/graphs/pcoa_bray_rarefied.html
+[2020-12-24 10:19:02.006] Saving bray PCoA table to /mnt/EFS/user_uploads/7feb884caf8a/outputs//graphs/pcoa_bray_rarefied.txt
+
+[2020-12-24 10:19:02.044] Alpha diversity boxplot
+[2020-12-24 10:19:02.044] adivboxplot(outdir = outdir, amp = amprare, sampdepth = sampdepth, colors = allcols)
+[2020-12-24 10:19:02.044] alphadiv <- amp_alphadiv(amp, measure="shannon", richness = TRUE, rarefy = 24342)
+[2020-12-24 10:19:13.233] Saving alpha diversity table to /mnt/EFS/user_uploads/7feb884caf8a/outputs//graphs/alphadiv.txt
+[2020-12-24 10:19:13.268] Saving plot to /mnt/EFS/user_uploads/7feb884caf8a/outputs/graphs/alphadiv.html
+
+[2020-12-24 10:19:14.028 - WARNING] "allgraphs" completed with some warnings.
+

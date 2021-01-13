@@ -1,0 +1,6 @@
+pick_otus:enable_rev_strand_match	True
+pick_otus:sortmerna_db	/mnt/EFS/dbs/Greengenes_99/99_otus
+assign_taxonomy:id_to_taxonomy_fp	/mnt/EFS/dbs/Greengenes_99/99_otu_taxonomy.txt
+assign_taxonomy:reference_seqs_fp	/mnt/EFS/dbs/Greengenes_99/99_otus.fasta
+assign_taxonomy:assignment_method	sortmerna
+assign_taxonomy:sortmerna_db	/mnt/EFS/dbs/Greengenes_99/99_otus
