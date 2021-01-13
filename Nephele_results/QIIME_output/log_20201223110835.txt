@@ -1,0 +1,205 @@
+Logging started at 11:08:35 on 23 Dec 2020
+QIIME version: 1.9.1
+
+qiime_config values:
+pick_otus_reference_seqs_fp	/usr/local/lib/python2.7/dist-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+sc_queue	all.q
+pynast_template_alignment_fp	/usr/local/lib/python2.7/dist-packages/qiime_default_reference/gg_13_8_otus/rep_set_aligned/85_otus.pynast.fasta
+cluster_jobs_fp	start_parallel_jobs.py
+assign_taxonomy_reference_seqs_fp	/usr/local/lib/python2.7/dist-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+torque_queue	friendlyq
+jobs_to_start	1
+denoiser_min_per_core	50
+assign_taxonomy_id_to_taxonomy_fp	/usr/local/lib/python2.7/dist-packages/qiime_default_reference/gg_13_8_otus/taxonomy/97_otu_taxonomy.txt
+temp_dir	/mnt/EFS/user_uploads/7feb884caf8a/tmp/
+blastall_fp	blastall
+seconds_to_sleep	1
+
+parameter file values:
+assign_taxonomy:sortmerna_db	/mnt/EFS/dbs/Greengenes_99/99_otus
+assign_taxonomy:reference_seqs_fp	/mnt/EFS/dbs/Greengenes_99/99_otus.fasta
+assign_taxonomy:id_to_taxonomy_fp	/mnt/EFS/dbs/Greengenes_99/99_otu_taxonomy.txt
+assign_taxonomy:assignment_method	sortmerna
+parallel:jobs_to_start	1
+pick_otus:sortmerna_db	/mnt/EFS/dbs/Greengenes_99/99_otus
+pick_otus:enable_rev_strand_match	True
+
+Input file md5 sums:
+/mnt/EFS/user_uploads/7feb884caf8a/outputs/split_lib_out/seqs.fna: c5f6cc35a603aef72a2162cadadbe546
+/mnt/EFS/dbs/Greengenes_99/99_otus.fasta: e5b6dd84844118591f3d9e9b6a77a846
+
+Forcing --suppress_new_clusters as this is reference-based OTU picking.
+
+Executing commands.
+
+# Pick Reference OTUs command 
+pick_otus.py -i /mnt/EFS/user_uploads/7feb884caf8a/outputs/split_lib_out/seqs.fna -o /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step1_otus -r /mnt/EFS/dbs/Greengenes_99/99_otus.fasta -m sortmerna --sortmerna_db /mnt/EFS/dbs/Greengenes_99/99_otus --enable_rev_strand_match --suppress_new_clusters
+
+Stdout:
+
+Stderr:
+/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+
+# Generate full failures fasta file command 
+filter_fasta.py -f /mnt/EFS/user_uploads/7feb884caf8a/outputs/split_lib_out/seqs.fna -s /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step1_otus/seqs_failures.txt -o /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step1_otus/failures.fasta
+
+Stdout:
+
+Stderr:
+/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+
+Executing commands.
+
+# Pick rep set command 
+pick_rep_set.py -i /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step1_otus/seqs_otus.txt -o /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step1_otus/step1_rep_set.fna -f /mnt/EFS/user_uploads/7feb884caf8a/outputs/split_lib_out/seqs.fna
+
+Stdout:
+
+Stderr:
+/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+
+# Subsample the failures fasta file using API 
+python -c "import qiime; qiime.util.subsample_fasta('/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step1_otus/failures.fasta', '/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step2_otus/subsampled_failures.fasta', '0.001000')
+
+"Forcing --suppress_new_clusters as this is reference-based OTU picking.
+
+Executing commands.
+
+# Pick de novo OTUs for new clusters command 
+pick_otus.py -i /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step2_otus//subsampled_failures.fasta -o /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step2_otus/ -m sumaclust  --sortmerna_db /mnt/EFS/dbs/Greengenes_99/99_otus --denovo_otu_id_prefix New.ReferenceOTU --enable_rev_strand_match
+
+Stdout:
+
+Stderr:
+/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+
+# Pick representative set for subsampled failures command 
+pick_rep_set.py -i /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step2_otus//subsampled_failures_otus.txt -o /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step2_otus//step2_rep_set.fna -f /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step2_otus//subsampled_failures.fasta
+
+Stdout:
+
+Stderr:
+/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+
+# Pick reference OTUs using de novo rep set command 
+pick_otus.py -i /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step1_otus/failures.fasta -o /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step3_otus/ -r /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step2_otus//step2_rep_set.fna -m sortmerna --enable_rev_strand_match --suppress_new_clusters
+
+Stdout:
+
+Stderr:
+/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+
+# Create fasta file of step3 failures command 
+filter_fasta.py -f /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step1_otus/failures.fasta -s /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step3_otus//failures_failures.txt -o /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step3_otus//failures_failures.fasta
+
+Stdout:
+
+Stderr:
+/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+
+# Pick de novo OTUs on step3 failures command 
+pick_otus.py -i /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step3_otus//failures_failures.fasta -o /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step4_otus/ -m sumaclust  --denovo_otu_id_prefix New.CleanUp.ReferenceOTU --enable_rev_strand_match
+
+Stdout:
+
+Stderr:
+/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+
+# Merge OTU maps command 
+cat /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step1_otus/seqs_otus.txt /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step3_otus//failures_otus.txt /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step4_otus//failures_failures_otus.txt > /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/final_otu_map.txt
+
+Stdout:
+
+Stderr:
+
+# Pick representative set for subsampled failures command 
+pick_rep_set.py -i /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step4_otus//failures_failures_otus.txt -o /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step4_otus//step4_rep_set.fna -f /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step3_otus//failures_failures.fasta
+
+Stdout:
+
+Stderr:
+/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+
+# Filter singletons from the otu map using API 
+python -c "import qiime; qiime.filter.filter_otus_from_otu_map('/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/final_otu_map.txt', '/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/final_otu_map_mc2.txt', '2')"
+
+# Write non-singleton otus representative sequences from step1 to the final rep set file: /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/rep_set.fna
+
+# Copy the full input refseqs file to the new refseq file
+cp /mnt/EFS/dbs/Greengenes_99/99_otus.fasta /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/new_refseqs.fna
+
+# Write non-singleton otus representative sequences from step 2 and step 4 to the final representative set and the new reference set (/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/rep_set.fna and /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/new_refseqs.fna respectively)
+
+Executing commands.
+
+# Make the otu table command 
+make_otu_table.py -i /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/final_otu_map_mc2.txt -o /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/otu_table_mc2.biom
+
+Stdout:
+
+Stderr:
+/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+
+Executing commands.
+
+# Assign taxonomy command 
+assign_taxonomy.py -o /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/sortmerna_assigned_taxonomy -i /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/rep_set.fna --sortmerna_db /mnt/EFS/dbs/Greengenes_99/99_otus --reference_seqs_fp /mnt/EFS/dbs/Greengenes_99/99_otus.fasta --id_to_taxonomy_fp /mnt/EFS/dbs/Greengenes_99/99_otu_taxonomy.txt --assignment_method sortmerna
+
+Stdout:
+
+Stderr:
+/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+
+Executing commands.
+
+# Add taxa to OTU table command 
+biom add-metadata -i /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/otu_table_mc2.biom --observation-metadata-fp /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/sortmerna_assigned_taxonomy/rep_set_tax_assignments.txt -o /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/otu_table_mc2_w_tax.biom --sc-separated taxonomy --observation-header OTUID,taxonomy
+
+Stdout:
+
+Stderr:
+
+Executing commands.
+
+# Align sequences command 
+align_seqs.py -i /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/rep_set.fna -o /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/pynast_aligned_seqs 
+
+Stdout:
+
+Stderr:
+/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+
+# Filter alignment command 
+filter_alignment.py -o /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/pynast_aligned_seqs -i /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/pynast_aligned_seqs/rep_set_aligned.fasta 
+
+Stdout:
+
+Stderr:
+/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+
+# Build phylogenetic tree command 
+make_phylogeny.py -i /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/pynast_aligned_seqs/rep_set_aligned_pfiltered.fasta -o /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/rep_set.tre 
+
+Stdout:
+
+Stderr:
+/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+
+Executing commands.
+
+
+Logging stopped at 02:09:52 on 24 Dec 2020

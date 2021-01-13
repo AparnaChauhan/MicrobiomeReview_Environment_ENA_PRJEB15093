@@ -1,0 +1,9 @@
+OtuPicker parameters:
+denovo_otu_id_prefix:New.CleanUp.ReferenceOTU
+exact:False
+l:True
+prefilter_identical_sequences:True
+similarity:0.97
+threads:1
+Num OTUs: 660784
+Result path: /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step4_otus//failures_failures_otus.txt
