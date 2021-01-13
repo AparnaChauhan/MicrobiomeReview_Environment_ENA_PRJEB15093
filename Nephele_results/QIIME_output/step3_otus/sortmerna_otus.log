@@ -1,0 +1,34 @@
+ Wed Dec 23 13:14:59 2020
+
+ Command: sortmerna --ref /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step2_otus//step2_rep_set.fna,/mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step3_otus/step2_rep_set -e 1.0 --aligned /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step3_otus/sortmerna_otus -a 1 --id 0.97 --coverage 0.97 --log --otu_map --reads /mnt/EFS/user_uploads/7feb884caf8a/tmp/SortMeRNAExactMatchFilterOIeqYg.fasta --de_novo_otu -v --best 1 --fastx 
+ Process pid = 3085
+ Parameters summary:
+    Index: /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step3_otus/step2_rep_set
+     Seed length = 18
+     Pass 1 = 18, Pass 2 = 9, Pass 3 = 3
+     Gumbel lambda = 0.593352
+     Gumbel K = 0.319734
+     Minimal SW score based on E-value = 55
+    Number of seeds = 2
+    Edges = 4 (as integer)
+    SW match = 2
+    SW mismatch = -3
+    SW gap open penalty = 5
+    SW gap extend penalty = 2
+    SW ambiguous nucleotide = -3
+    SQ tags are not output
+    Number of threads = 16
+    Reads file = /mnt/EFS/user_uploads/7feb884caf8a/tmp/SortMeRNAExactMatchFilterOIeqYg.fasta
+
+ Results:
+    Total reads = 1844607
+    Total reads for de novo clustering = 1687168
+    Total reads passing E-value threshold = 1843991 (99.97%)
+    Total reads failing E-value threshold = 616 (0.03%)
+    Minimum read length = 75
+    Maximum read length = 592
+    Mean read length = 411
+ By database:
+    /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step2_otus//step2_rep_set.fna		99.97%
+ Total reads passing %id and %coverage thresholds = 156823
+ Total OTUs = 1963

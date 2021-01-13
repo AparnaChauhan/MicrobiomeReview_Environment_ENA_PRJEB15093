@@ -1,0 +1,15 @@
+OtuPicker parameters:
+best:1
+blast:False
+coverage:0.97
+max_e_value:1.0
+max_pos:10000
+prefilter_identical_sequences:True
+similarity:0.97
+threads:1
+Reference seqs fp (to build sortmerna database): /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step2_otus/step2_rep_set.fna
+SortMeRNA database: /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step3_otus/step2_rep_set
+Num OTUs: 1963
+Num failures: 1941380
+Result path: /mnt/EFS/user_uploads/7feb884caf8a/outputs/otus/step3_otus//failures_otus.txt
+
