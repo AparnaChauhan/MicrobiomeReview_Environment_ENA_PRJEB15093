@@ -1,0 +1,430 @@
+<!--
+*Summary of Emperor's Information*
+Command executed on December 24, 2020 at 05:39:19
+Emperor Version: 0.9.60
+HostName: ip-30-100-1-44
+Metadata: /mnt/EFS/user_uploads/7feb884caf8a/outputs/Metadata_PRJEB15093_modified_Nephele_corrected.txt.no_gz
+Coordinates: /mnt/EFS/user_uploads/7feb884caf8a/outputs/core_diversity/site_name/bdiv_even24342/unweighted_unifrac_pc.txt
+Command: /usr/local/bin/make_emperor.py -i /mnt/EFS/user_uploads/7feb884caf8a/outputs/core_diversity/site_name/bdiv_even24342//unweighted_unifrac_pc.txt -o /mnt/EFS/user_uploads/7feb884caf8a/outputs/core_diversity/site_name/bdiv_even24342//unweighted_unifrac_emperor_pcoa_plot/ -m /mnt/EFS/user_uploads/7feb884caf8a/outputs/Metadata_PRJEB15093_modified_Nephele_corrected.txt.no_gz
+-->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Emperor</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="emperor_required_resources/img/favicon.ico" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <!-- Style files -->
+    <link rel="stylesheet" type="text/css" href="emperor_required_resources/css/emperor.css">
+    <link rel="stylesheet" type="text/css" href="emperor_required_resources/vendor/css/jquery-ui2.css">
+    <link rel="stylesheet" type="text/css" href="emperor_required_resources/vendor/css/colorPicker.css">
+    <link rel="stylesheet" type="text/css" href="emperor_required_resources/vendor/css/spectrum.css">
+    <link rel="stylesheet" type="text/css" href="emperor_required_resources/vendor/css/d3.parcoords.css">
+    <link rel="stylesheet" type="text/css" href="emperor_required_resources/vendor/css/chosen.min.css">
+
+    <!-- Emperor logo for the splash window -->
+    <table id="logotable" style="vertical-align:middle;text-align:center;height:100%;width:100%;margin:0;padding:0;border:0;">
+        <tr><td><img src="emperor_required_resources/img/emperor.png" alt="Emperor" id="logo"/></td></tr>
+    </table>
+
+    <!-- JavaScript code -->
+
+    <!-- jQuery and other plugins -->
+    <script type="text/javascript" src="emperor_required_resources/vendor/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="emperor_required_resources/vendor/js/jquery-ui-1.8.17.custom.min.js"></script>
+    <script type="text/javascript" src="emperor_required_resources/vendor/js/jquery.colorPicker.js"></script>
+    <script type="text/javascript" src="emperor_required_resources/vendor/js/spectrum.js"></script>
+    <script type="text/javascript" src="emperor_required_resources/vendor/js/chosen.jquery.min.js"></script>
+
+    <!-- D3.js for the parallel coordinates plugin -->
+    <script type="text/javascript" src="emperor_required_resources/vendor/js/d3.v3.min.js"></script>
+    <script type="text/javascript" src="emperor_required_resources/vendor/js/d3.parcoords.js"></script>
+
+    <!-- THREE.js and plugins for screenshots -->
+    <script type="text/javascript" src="emperor_required_resources/vendor/js/three.min.js"></script>
+    <script type="text/javascript" src="emperor_required_resources/vendor/js/three.js-plugins/Detector.js"></script>
+    <script type="text/javascript" src="emperor_required_resources/vendor/js/three.js-plugins/OrbitControls.js"></script>
+    <script type="text/javascript" src="emperor_required_resources/vendor/js/three.js-plugins/ColorConverter.js"></script>
+    <script type="text/javascript" src="emperor_required_resources/vendor/js/three.js-plugins/SVGRenderer.js"></script>
+    <script type="text/javascript" src="emperor_required_resources/vendor/js/THREEx.screenshot.js"></script>
+
+    <!-- General utilities (underscore.js and FileSaver.js) -->
+    <script type="text/javascript" src="emperor_required_resources/vendor/js/underscore-min.js"></script>
+    <script type="text/javascript" src="emperor_required_resources/vendor/js/chroma.min.js"></script>
+    <script type="text/javascript" src="emperor_required_resources/vendor/js/FileSaver.min.js"></script>
+
+    <!-- Emperor library code -->
+    <script type="text/javascript" src="emperor_required_resources/js/animate.js"></script>
+    <script type="text/javascript" src="emperor_required_resources/js/draw.js"></script>
+    <script type="text/javascript" src="emperor_required_resources/js/emperor.js"></script>
+    <script type="text/javascript" src="emperor_required_resources/js/trajectory.js"></script>
+    <script type="text/javascript" src="emperor_required_resources/js/ui.js"></script>
+    <script type="text/javascript" src="emperor_required_resources/js/util.js"></script>
+    <script type="text/javascript">
+
+var g_mappingFileHeaders = ['SampleID','TreatmentGroup','geographic_location','site_name','sample_description'];
+var g_mappingFileData = { 'ERR2233238': ['ERR2233238','Sheepscot River, Maine','Sheepscot River, Maine','The Eddy','Worm burrow'],'ERR2233239': ['ERR2233239','Sheepscot River, Maine','Sheepscot River, Maine','The Eddy','Worm burrow'],'ERR2233230': ['ERR2233230','Sheepscot River, Maine','Sheepscot River, Maine','The Eddy','sediment'],'ERR2233231': ['ERR2233231','Sheepscot River, Maine','Sheepscot River, Maine','The Eddy','Worm burrow'],'ERR2233232': ['ERR2233232','Sheepscot River, Maine','Sheepscot River, Maine','The Eddy','Worm burrow'],'ERR2233233': ['ERR2233233','Sheepscot River, Maine','Sheepscot River, Maine','The Eddy','Worm burrow'],'ERR2233234': ['ERR2233234','Sheepscot River, Maine','Sheepscot River, Maine','The Eddy','Worm burrow'],'ERR2233235': ['ERR2233235','Sheepscot River, Maine','Sheepscot River, Maine','The Eddy','Worm burrow'],'ERR2233236': ['ERR2233236','Sheepscot River, Maine','Sheepscot River, Maine','The Eddy','Worm burrow'],'ERR2233237': ['ERR2233237','Sheepscot River, Maine','Sheepscot River, Maine','The Eddy','Worm burrow'],'ERR2233259': ['ERR2233259','Damariscotta River, Maine','Damariscotta River, Maine','Lowes Cove','worm burrow'],'ERR2233319': ['ERR2233319','Netherlands','Netherlands','Oude Bieten Haven B','sediment'],'ERR2233318': ['ERR2233318','Netherlands','Netherlands','Oude Bieten Haven A','sediment'],'ERR2233229': ['ERR2233229','Sheepscot River, Maine','Sheepscot River, Maine','The Eddy','Worm burrow'],'ERR2233308': ['ERR2233308','Oregon Continental Shelf','Oregon Continental Shelf','HH200','sediment'],'ERR2233309': ['ERR2233309','Oregon Continental Shelf','Oregon Continental Shelf','HH200','sediment'],'ERR2233304': ['ERR2233304','Oregon Continental Shelf','Oregon Continental Shelf','HH200','sediment'],'ERR2233305': ['ERR2233305','Oregon Continental Shelf','Oregon Continental Shelf','HH200','sediment'],'ERR2233306': ['ERR2233306','Oregon Continental Shelf','Oregon Continental Shelf','HH200','sediment'],'ERR2233307': ['ERR2233307','Oregon Continental Shelf','Oregon Continental Shelf','HH200','sediment'],'ERR2233300': ['ERR2233300','Gulf of Mexico','Gulf of Mexico','Station 3','sediment'],'ERR2233301': ['ERR2233301','Gulf of Mexico','Gulf of Mexico','Station 3','sediment'],'ERR2233303': ['ERR2233303','Gulf of Mexico','Gulf of Mexico','Station 3','sediment'],'ERR2233313': ['ERR2233313','Oregon Continental Shelf','Oregon Continental Shelf','HH200','sediment'],'ERR2233312': ['ERR2233312','Oregon Continental Shelf','Oregon Continental Shelf','HH200','sediment'],'ERR2233258': ['ERR2233258','Back River, Maine','Back River, Maine','Cross River','sediment'],'ERR2233310': ['ERR2233310','Oregon Continental Shelf','Oregon Continental Shelf','HH200','sediment'],'ERR2233317': ['ERR2233317','Netherlands','Netherlands','Oude Bieten Haven B','Worm burrow'],'ERR2233316': ['ERR2233316','Netherlands','Netherlands','Oude Bieten Haven A','Worm burrow'],'ERR2233315': ['ERR2233315','Oregon Continental Shelf','Oregon Continental Shelf','HH200','sediment'],'ERR2233314': ['ERR2233314','Oregon Continental Shelf','Oregon Continental Shelf','HH200','sediment'],'ERR2233252': ['ERR2233252','Sheepscot River, Maine','Sheepscot River, Maine','Merrow Island','sediment'],'ERR2233253': ['ERR2233253','Back River, Maine','Back River, Maine','Cross River','worm burrow'],'ERR2233250': ['ERR2233250','Sheepscot River, Maine','Sheepscot River, Maine','The Eddy','sediment'],'ERR2233251': ['ERR2233251','Sheepscot River, Maine','Sheepscot River, Maine','Merrow Island','Worm burrow'],'ERR2233256': ['ERR2233256','Back River, Maine','Back River, Maine','Cross River','sediment'],'ERR2233257': ['ERR2233257','Back River, Maine','Back River, Maine','Cross River','sediment'],'ERR2233254': ['ERR2233254','Back River, Maine','Back River, Maine','Cross River','worm burrow'],'ERR2233255': ['ERR2233255','Back River, Maine','Back River, Maine','Cross River','worm burrow'],'ERR2233249': ['ERR2233249','Sheepscot River, Maine','Sheepscot River, Maine','The Eddy','sediment'],'ERR2233248': ['ERR2233248','Sheepscot River, Maine','Sheepscot River, Maine','The Eddy','sediment'],'ERR2233241': ['ERR2233241','Sheepscot River, Maine','Sheepscot River, Maine','The Eddy','sediment'],'ERR2233240': ['ERR2233240','Sheepscot River, Maine','Sheepscot River, Maine','The Eddy','Worm burrow'],'ERR2233243': ['ERR2233243','Sheepscot River, Maine','Sheepscot River, Maine','The Eddy','sediment'],'ERR2233242': ['ERR2233242','Sheepscot River, Maine','Sheepscot River, Maine','The Eddy','sediment'],'ERR2233245': ['ERR2233245','Sheepscot River, Maine','Sheepscot River, Maine','The Eddy','sediment'],'ERR2233244': ['ERR2233244','Sheepscot River, Maine','Sheepscot River, Maine','The Eddy','sediment'],'ERR2233247': ['ERR2233247','Sheepscot River, Maine','Sheepscot River, Maine','The Eddy','sediment'],'ERR2233246': ['ERR2233246','Sheepscot River, Maine','Sheepscot River, Maine','The Eddy','sediment'],'ERR2233278': ['ERR2233278','Lewes, Delaware','Lewes, Delaware','Cape Shores','worm burrow'],'ERR2233279': ['ERR2233279','Lewes, Delaware','Lewes, Delaware','Cape Shores','worm burrow'],'ERR2233274': ['ERR2233274','Lewes, Delaware','Lewes, Delaware','Cape Shores','sediment'],'ERR2233275': ['ERR2233275','Lewes, Delaware','Lewes, Delaware','Cape Shores','worm burrow'],'ERR2233276': ['ERR2233276','Lewes, Delaware','Lewes, Delaware','Cape Shores','worm burrow'],'ERR2233277': ['ERR2233277','Lewes, Delaware','Lewes, Delaware','Cape Shores','worm burrow'],'ERR2233270': ['ERR2233270','Kennebec River, Maine','Kennebec River, Maine','Fort Popham','sediment'],'ERR2233271': ['ERR2233271','Kennebec River, Maine','Kennebec River, Maine','Fort Popham','sediment'],'ERR2233272': ['ERR2233272','Lewes, Delaware','Lewes, Delaware','Cape Shores','sediment'],'ERR2233273': ['ERR2233273','Lewes, Delaware','Lewes, Delaware','Cape Shores','sediment'],'ERR2233263': ['ERR2233263','Kennebec River, Maine','Kennebec River, Maine','Phippsburg','sediment'],'ERR2233262': ['ERR2233262','Kennebec River, Maine','Kennebec River, Maine','Phippsburg','worm burrow'],'ERR2233261': ['ERR2233261','Kennebec River, Maine','Kennebec River, Maine','Phippsburg','worm burrow'],'ERR2233260': ['ERR2233260','Kennebec River, Maine','Kennebec River, Maine','Phippsburg','worm burrow'],'ERR2233267': ['ERR2233267','Kennebec River, Maine','Kennebec River, Maine','Fort Popham','worm burrow'],'ERR2233266': ['ERR2233266','Kennebec River, Maine','Kennebec River, Maine','Fort Popham','worm burrow'],'ERR2233265': ['ERR2233265','Kennebec River, Maine','Kennebec River, Maine','Phippsburg','sediment'],'ERR2233264': ['ERR2233264','Kennebec River, Maine','Kennebec River, Maine','Phippsburg','sediment'],'ERR2233269': ['ERR2233269','Kennebec River, Maine','Kennebec River, Maine','Fort Popham','sediment'],'ERR2233268': ['ERR2233268','Kennebec River, Maine','Kennebec River, Maine','Fort Popham','worm burrow'],'ERR2233299': ['ERR2233299','Gulf of Mexico','Gulf of Mexico','Station 3','sediment'],'ERR2233296': ['ERR2233296','Gulf of Mexico','Gulf of Mexico','Station 3','sediment'],'ERR2233297': ['ERR2233297','Gulf of Mexico','Gulf of Mexico','Station 3','sediment'],'ERR2233295': ['ERR2233295','Gulf of Mexico','Gulf of Mexico','Station 3','sediment'],'ERR2233292': ['ERR2233292','Gulf of Mexico','Gulf of Mexico','Station 3','sediment'],'ERR2233293': ['ERR2233293','Gulf of Mexico','Gulf of Mexico','Station 3','sediment'],'ERR2233290': ['ERR2233290','Gulf of Mexico','Gulf of Mexico','Station A','sediment'],'ERR2233291': ['ERR2233291','Gulf of Mexico','Gulf of Mexico','Station A','sediment'],'ERR2233289': ['ERR2233289','Gulf of Mexico','Gulf of Mexico','Station A','sediment'],'ERR2233288': ['ERR2233288','Gulf of Mexico','Gulf of Mexico','Station A','sediment'],'ERR2233285': ['ERR2233285','Gulf of Mexico','Gulf of Mexico','Station A','sediment'],'ERR2233284': ['ERR2233284','Gulf of Mexico','Gulf of Mexico','Station A','sediment'],'ERR2233287': ['ERR2233287','Gulf of Mexico','Gulf of Mexico','Station A','sediment'],'ERR2233286': ['ERR2233286','Gulf of Mexico','Gulf of Mexico','Station A','sediment'],'ERR2233281': ['ERR2233281','Gulf of Mexico','Gulf of Mexico','Station A','sediment'],'ERR2233280': ['ERR2233280','Gulf of Mexico','Gulf of Mexico','Station A','sediment'],'ERR2233283': ['ERR2233283','Gulf of Mexico','Gulf of Mexico','Station A','sediment'],'ERR2233282': ['ERR2233282','Gulf of Mexico','Gulf of Mexico','Station A','sediment'],'ERR2233311': ['ERR2233311','Oregon Continental Shelf','Oregon Continental Shelf','HH200','sediment'],'ERR2233320': ['ERR2233320','Netherlands','Netherlands','Oude Bieten Haven A','sediment'],'ERR2233321': ['ERR2233321','Netherlands','Netherlands','Oude Bieten Haven B','sediment'] };
+var g_animatableMappingFileHeaders = [];
+
+var g_spherePositions = new Array();
+g_spherePositions['ERR2233238'] = { 'name': 'ERR2233238', 'color': 0, 'x': 0.203608, 'y': 0.007474, 'z': -0.061669, 'P1': 0.203608, 'P2': 0.007474, 'P3': -0.061669, 'P4': 0.003293, 'P5': -0.061121, 'P6': 0.040264, 'P7': -0.011984, 'P8': 0.106111, 'P9': -0.002980, 'P10': 0.039362 };
+g_spherePositions['ERR2233239'] = { 'name': 'ERR2233239', 'color': 0, 'x': 0.201023, 'y': 0.003877, 'z': -0.075086, 'P1': 0.201023, 'P2': 0.003877, 'P3': -0.075086, 'P4': -0.007264, 'P5': -0.077191, 'P6': 0.065056, 'P7': -0.058493, 'P8': 0.020081, 'P9': -0.067899, 'P10': -0.056956 };
+g_spherePositions['ERR2233230'] = { 'name': 'ERR2233230', 'color': 0, 'x': 0.206380, 'y': -0.007655, 'z': -0.110398, 'P1': 0.206380, 'P2': -0.007655, 'P3': -0.110398, 'P4': -0.029796, 'P5': -0.010746, 'P6': 0.005290, 'P7': 0.037687, 'P8': -0.055970, 'P9': 0.059063, 'P10': 0.042141 };
+g_spherePositions['ERR2233231'] = { 'name': 'ERR2233231', 'color': 0, 'x': 0.207283, 'y': -0.001594, 'z': -0.030984, 'P1': 0.207283, 'P2': -0.001594, 'P3': -0.030984, 'P4': 0.005834, 'P5': -0.067016, 'P6': 0.041128, 'P7': -0.038756, 'P8': 0.169542, 'P9': -0.017206, 'P10': 0.036323 };
+g_spherePositions['ERR2233232'] = { 'name': 'ERR2233232', 'color': 0, 'x': 0.195157, 'y': 0.013050, 'z': -0.044296, 'P1': 0.195157, 'P2': 0.013050, 'P3': -0.044296, 'P4': -0.001231, 'P5': -0.077716, 'P6': 0.057287, 'P7': -0.062097, 'P8': 0.030934, 'P9': -0.055734, 'P10': -0.059580 };
+g_spherePositions['ERR2233233'] = { 'name': 'ERR2233233', 'color': 0, 'x': 0.216678, 'y': -0.002161, 'z': -0.048699, 'P1': 0.216678, 'P2': -0.002161, 'P3': -0.048699, 'P4': -0.002179, 'P5': -0.053236, 'P6': 0.015380, 'P7': -0.010731, 'P8': 0.090281, 'P9': 0.034206, 'P10': 0.055165 };
+g_spherePositions['ERR2233234'] = { 'name': 'ERR2233234', 'color': 0, 'x': 0.199058, 'y': 0.014869, 'z': -0.080744, 'P1': 0.199058, 'P2': 0.014869, 'P3': -0.080744, 'P4': -0.016769, 'P5': -0.065370, 'P6': 0.050919, 'P7': -0.041912, 'P8': -0.040860, 'P9': -0.043254, 'P10': -0.066435 };
+g_spherePositions['ERR2233235'] = { 'name': 'ERR2233235', 'color': 0, 'x': 0.226284, 'y': -0.020565, 'z': -0.101659, 'P1': 0.226284, 'P2': -0.020565, 'P3': -0.101659, 'P4': -0.015879, 'P5': -0.035126, 'P6': 0.025715, 'P7': 0.005580, 'P8': 0.021680, 'P9': 0.025574, 'P10': 0.059186 };
+g_spherePositions['ERR2233236'] = { 'name': 'ERR2233236', 'color': 0, 'x': 0.215842, 'y': -0.019427, 'z': -0.118085, 'P1': 0.215842, 'P2': -0.019427, 'P3': -0.118085, 'P4': -0.028125, 'P5': -0.021414, 'P6': 0.019707, 'P7': 0.034196, 'P8': -0.067031, 'P9': 0.056358, 'P10': 0.064138 };
+g_spherePositions['ERR2233237'] = { 'name': 'ERR2233237', 'color': 0, 'x': 0.220373, 'y': -0.010741, 'z': -0.120842, 'P1': 0.220373, 'P2': -0.010741, 'P3': -0.120842, 'P4': -0.025507, 'P5': -0.031478, 'P6': 0.025037, 'P7': 0.025886, 'P8': -0.033758, 'P9': 0.051772, 'P10': 0.050758 };
+g_spherePositions['ERR2233259'] = { 'name': 'ERR2233259', 'color': 0, 'x': 0.158661, 'y': -0.014153, 'z': 0.137683, 'P1': 0.158661, 'P2': -0.014153, 'P3': 0.137683, 'P4': 0.015268, 'P5': -0.052304, 'P6': 0.043323, 'P7': -0.105656, 'P8': 0.055525, 'P9': -0.111290, 'P10': -0.182536 };
+g_spherePositions['ERR2233319'] = { 'name': 'ERR2233319', 'color': 0, 'x': -0.031876, 'y': 0.111072, 'z': 0.264607, 'P1': -0.031876, 'P2': 0.111072, 'P3': 0.264607, 'P4': -0.056752, 'P5': -0.274822, 'P6': -0.131749, 'P7': 0.112376, 'P8': 0.073807, 'P9': 0.042199, 'P10': -0.097664 };
+g_spherePositions['ERR2233251'] = { 'name': 'ERR2233251', 'color': 0, 'x': 0.198902, 'y': -0.014304, 'z': -0.063746, 'P1': 0.198902, 'P2': -0.014304, 'P3': -0.063746, 'P4': -0.012228, 'P5': -0.038959, 'P6': 0.071016, 'P7': -0.014613, 'P8': 0.083801, 'P9': -0.062909, 'P10': -0.038912 };
+g_spherePositions['ERR2233229'] = { 'name': 'ERR2233229', 'color': 0, 'x': 0.206050, 'y': -0.015477, 'z': -0.084513, 'P1': 0.206050, 'P2': -0.015477, 'P3': -0.084513, 'P4': -0.019457, 'P5': -0.036906, 'P6': 0.055029, 'P7': 0.003215, 'P8': 0.040843, 'P9': -0.040606, 'P10': -0.014871 };
+g_spherePositions['ERR2233308'] = { 'name': 'ERR2233308', 'color': 0, 'x': -0.204318, 'y': 0.284310, 'z': 0.016683, 'P1': -0.204318, 'P2': 0.284310, 'P3': 0.016683, 'P4': -0.043749, 'P5': 0.053215, 'P6': 0.009339, 'P7': -0.051015, 'P8': -0.016248, 'P9': -0.013536, 'P10': 0.037237 };
+g_spherePositions['ERR2233309'] = { 'name': 'ERR2233309', 'color': 0, 'x': -0.207410, 'y': 0.293288, 'z': 0.007667, 'P1': -0.207410, 'P2': 0.293288, 'P3': 0.007667, 'P4': -0.038412, 'P5': 0.056626, 'P6': -0.000100, 'P7': -0.046936, 'P8': 0.000832, 'P9': 0.006861, 'P10': 0.032993 };
+g_spherePositions['ERR2233304'] = { 'name': 'ERR2233304', 'color': 0, 'x': -0.153993, 'y': 0.301563, 'z': 0.002799, 'P1': -0.153993, 'P2': 0.301563, 'P3': 0.002799, 'P4': -0.045268, 'P5': 0.041756, 'P6': -0.003754, 'P7': -0.025011, 'P8': 0.044351, 'P9': 0.062536, 'P10': 0.039083 };
+g_spherePositions['ERR2233305'] = { 'name': 'ERR2233305', 'color': 0, 'x': -0.142572, 'y': 0.304453, 'z': -0.007432, 'P1': -0.142572, 'P2': 0.304453, 'P3': -0.007432, 'P4': -0.039116, 'P5': 0.048212, 'P6': -0.003909, 'P7': -0.023154, 'P8': 0.057434, 'P9': 0.062462, 'P10': 0.017646 };
+g_spherePositions['ERR2233306'] = { 'name': 'ERR2233306', 'color': 0, 'x': -0.159056, 'y': 0.306723, 'z': -0.013400, 'P1': -0.159056, 'P2': 0.306723, 'P3': -0.013400, 'P4': -0.032342, 'P5': 0.079628, 'P6': 0.011618, 'P7': -0.013041, 'P8': 0.047749, 'P9': 0.041332, 'P10': 0.049071 };
+g_spherePositions['ERR2233307'] = { 'name': 'ERR2233307', 'color': 0, 'x': -0.185624, 'y': 0.297400, 'z': 0.006956, 'P1': -0.185624, 'P2': 0.297400, 'P3': 0.006956, 'P4': -0.055235, 'P5': 0.048758, 'P6': 0.022875, 'P7': -0.099927, 'P8': -0.054052, 'P9': -0.058830, 'P10': -0.061159 };
+g_spherePositions['ERR2233300'] = { 'name': 'ERR2233300', 'color': 0, 'x': -0.382025, 'y': -0.186641, 'z': -0.025824, 'P1': -0.382025, 'P2': -0.186641, 'P3': -0.025824, 'P4': -0.107764, 'P5': 0.029264, 'P6': 0.026811, 'P7': 0.059855, 'P8': 0.008653, 'P9': -0.105154, 'P10': 0.060349 };
+g_spherePositions['ERR2233301'] = { 'name': 'ERR2233301', 'color': 0, 'x': -0.363338, 'y': -0.212914, 'z': 0.032616, 'P1': -0.363338, 'P2': -0.212914, 'P3': 0.032616, 'P4': -0.205926, 'P5': -0.011731, 'P6': 0.016868, 'P7': -0.033977, 'P8': -0.017946, 'P9': -0.133967, 'P10': 0.139551 };
+g_spherePositions['ERR2233303'] = { 'name': 'ERR2233303', 'color': 0, 'x': -0.375001, 'y': -0.129381, 'z': -0.061156, 'P1': -0.375001, 'P2': -0.129381, 'P3': -0.061156, 'P4': -0.001362, 'P5': 0.046826, 'P6': 0.021121, 'P7': 0.108813, 'P8': 0.026636, 'P9': -0.072726, 'P10': -0.004650 };
+g_spherePositions['ERR2233313'] = { 'name': 'ERR2233313', 'color': 0, 'x': -0.223943, 'y': 0.265579, 'z': -0.024672, 'P1': -0.223943, 'P2': 0.265579, 'P3': -0.024672, 'P4': -0.040907, 'P5': 0.086491, 'P6': 0.007136, 'P7': 0.000778, 'P8': 0.022323, 'P9': 0.033657, 'P10': 0.067998 };
+g_spherePositions['ERR2233312'] = { 'name': 'ERR2233312', 'color': 0, 'x': -0.168665, 'y': 0.301172, 'z': -0.032245, 'P1': -0.168665, 'P2': 0.301172, 'P3': -0.032245, 'P4': -0.047808, 'P5': 0.099225, 'P6': 0.011696, 'P7': 0.015835, 'P8': 0.043752, 'P9': 0.050978, 'P10': 0.041244 };
+g_spherePositions['ERR2233258'] = { 'name': 'ERR2233258', 'color': 0, 'x': 0.170269, 'y': -0.008940, 'z': -0.117569, 'P1': 0.170269, 'P2': -0.008940, 'P3': -0.117569, 'P4': -0.036324, 'P5': -0.047920, 'P6': 0.068751, 'P7': -0.012943, 'P8': -0.210648, 'P9': -0.050582, 'P10': -0.108965 };
+g_spherePositions['ERR2233310'] = { 'name': 'ERR2233310', 'color': 0, 'x': -0.218306, 'y': 0.275840, 'z': -0.027299, 'P1': -0.218306, 'P2': 0.275840, 'P3': -0.027299, 'P4': -0.039033, 'P5': 0.101851, 'P6': 0.013600, 'P7': 0.015565, 'P8': 0.029106, 'P9': 0.005292, 'P10': 0.061547 };
+g_spherePositions['ERR2233317'] = { 'name': 'ERR2233317', 'color': 0, 'x': -0.063244, 'y': 0.068414, 'z': 0.290182, 'P1': -0.063244, 'P2': 0.068414, 'P3': 0.290182, 'P4': -0.064314, 'P5': -0.214925, 'P6': -0.062181, 'P7': 0.118147, 'P8': -0.034126, 'P9': -0.071265, 'P10': 0.061599 };
+g_spherePositions['ERR2233316'] = { 'name': 'ERR2233316', 'color': 0, 'x': -0.156661, 'y': -0.038583, 'z': 0.267830, 'P1': -0.156661, 'P2': -0.038583, 'P3': 0.267830, 'P4': -0.165856, 'P5': -0.186090, 'P6': -0.044529, 'P7': 0.066866, 'P8': -0.101369, 'P9': -0.211052, 'P10': 0.231587 };
+g_spherePositions['ERR2233315'] = { 'name': 'ERR2233315', 'color': 0, 'x': -0.247919, 'y': 0.215115, 'z': 0.002039, 'P1': -0.247919, 'P2': 0.215115, 'P3': 0.002039, 'P4': -0.083008, 'P5': 0.046049, 'P6': 0.038229, 'P7': -0.123223, 'P8': -0.103540, 'P9': -0.120391, 'P10': -0.087955 };
+g_spherePositions['ERR2233314'] = { 'name': 'ERR2233314', 'color': 0, 'x': -0.191498, 'y': 0.260043, 'z': -0.049972, 'P1': -0.191498, 'P2': 0.260043, 'P3': -0.049972, 'P4': -0.051482, 'P5': 0.105901, 'P6': 0.019313, 'P7': 0.030417, 'P8': 0.022389, 'P9': 0.024978, 'P10': 0.020712 };
+g_spherePositions['ERR2233252'] = { 'name': 'ERR2233252', 'color': 0, 'x': 0.204834, 'y': -0.004758, 'z': -0.107488, 'P1': 0.204834, 'P2': -0.004758, 'P3': -0.107488, 'P4': -0.037720, 'P5': -0.012528, 'P6': 0.018787, 'P7': 0.050967, 'P8': -0.072057, 'P9': 0.061324, 'P10': 0.033206 };
+g_spherePositions['ERR2233253'] = { 'name': 'ERR2233253', 'color': 0, 'x': 0.189112, 'y': -0.021304, 'z': -0.054496, 'P1': 0.189112, 'P2': -0.021304, 'P3': -0.054496, 'P4': 0.006342, 'P5': -0.048858, 'P6': 0.081986, 'P7': -0.040429, 'P8': 0.083547, 'P9': -0.081604, 'P10': -0.034849 };
+g_spherePositions['ERR2233250'] = { 'name': 'ERR2233250', 'color': 0, 'x': 0.199812, 'y': -0.007882, 'z': -0.127514, 'P1': 0.199812, 'P2': -0.007882, 'P3': -0.127514, 'P4': -0.033252, 'P5': -0.028905, 'P6': 0.024212, 'P7': 0.054517, 'P8': -0.076009, 'P9': 0.047481, 'P10': 0.057934 };
+g_spherePositions['ERR2233318'] = { 'name': 'ERR2233318', 'color': 0, 'x': -0.050971, 'y': 0.117938, 'z': 0.267361, 'P1': -0.050971, 'P2': 0.117938, 'P3': 0.267361, 'P4': -0.058213, 'P5': -0.270870, 'P6': -0.128093, 'P7': 0.127776, 'P8': 0.055185, 'P9': 0.043173, 'P10': -0.095747 };
+g_spherePositions['ERR2233256'] = { 'name': 'ERR2233256', 'color': 0, 'x': 0.168430, 'y': -0.000607, 'z': -0.119388, 'P1': 0.168430, 'P2': -0.000607, 'P3': -0.119388, 'P4': -0.031757, 'P5': -0.044456, 'P6': 0.059113, 'P7': -0.016012, 'P8': -0.200293, 'P9': -0.049270, 'P10': -0.119292 };
+g_spherePositions['ERR2233257'] = { 'name': 'ERR2233257', 'color': 0, 'x': 0.196059, 'y': -0.019304, 'z': -0.141319, 'P1': 0.196059, 'P2': -0.019304, 'P3': -0.141319, 'P4': -0.032872, 'P5': -0.025757, 'P6': 0.044474, 'P7': 0.039734, 'P8': -0.101381, 'P9': 0.040167, 'P10': 0.017101 };
+g_spherePositions['ERR2233254'] = { 'name': 'ERR2233254', 'color': 0, 'x': 0.160089, 'y': 0.012812, 'z': -0.087386, 'P1': 0.160089, 'P2': 0.012812, 'P3': -0.087386, 'P4': -0.021230, 'P5': -0.063761, 'P6': 0.091164, 'P7': -0.039617, 'P8': -0.123489, 'P9': -0.105022, 'P10': -0.163482 };
+g_spherePositions['ERR2233255'] = { 'name': 'ERR2233255', 'color': 0, 'x': 0.170933, 'y': -0.005052, 'z': -0.102756, 'P1': 0.170933, 'P2': -0.005052, 'P3': -0.102756, 'P4': -0.010145, 'P5': -0.052618, 'P6': 0.071826, 'P7': 0.000556, 'P8': 0.046708, 'P9': -0.054441, 'P10': -0.040713 };
+g_spherePositions['ERR2233249'] = { 'name': 'ERR2233249', 'color': 0, 'x': 0.190101, 'y': -0.005337, 'z': -0.136834, 'P1': 0.190101, 'P2': -0.005337, 'P3': -0.136834, 'P4': -0.037824, 'P5': -0.013085, 'P6': 0.023924, 'P7': 0.064491, 'P8': -0.113995, 'P9': 0.064801, 'P10': 0.051653 };
+g_spherePositions['ERR2233248'] = { 'name': 'ERR2233248', 'color': 0, 'x': 0.191490, 'y': -0.000552, 'z': -0.140246, 'P1': 0.191490, 'P2': -0.000552, 'P3': -0.140246, 'P4': -0.033323, 'P5': -0.019055, 'P6': 0.034066, 'P7': 0.049881, 'P8': -0.095391, 'P9': 0.065109, 'P10': 0.060256 };
+g_spherePositions['ERR2233241'] = { 'name': 'ERR2233241', 'color': 0, 'x': 0.207469, 'y': 0.000123, 'z': -0.035339, 'P1': 0.207469, 'P2': 0.000123, 'P3': -0.035339, 'P4': 0.006137, 'P5': -0.066180, 'P6': 0.025797, 'P7': -0.027061, 'P8': 0.136273, 'P9': 0.005857, 'P10': 0.036304 };
+g_spherePositions['ERR2233240'] = { 'name': 'ERR2233240', 'color': 0, 'x': 0.207459, 'y': 0.001635, 'z': -0.053652, 'P1': 0.207459, 'P2': 0.001635, 'P3': -0.053652, 'P4': 0.005747, 'P5': -0.061893, 'P6': 0.041054, 'P7': -0.011559, 'P8': 0.093203, 'P9': -0.005720, 'P10': 0.038994 };
+g_spherePositions['ERR2233243'] = { 'name': 'ERR2233243', 'color': 0, 'x': 0.223754, 'y': -0.021538, 'z': -0.066717, 'P1': 0.223754, 'P2': -0.021538, 'P3': -0.066717, 'P4': -0.012599, 'P5': -0.031593, 'P6': 0.020635, 'P7': 0.003916, 'P8': 0.017303, 'P9': 0.034086, 'P10': 0.063170 };
+g_spherePositions['ERR2233242'] = { 'name': 'ERR2233242', 'color': 0, 'x': 0.229076, 'y': -0.020408, 'z': -0.060961, 'P1': 0.229076, 'P2': -0.020408, 'P3': -0.060961, 'P4': -0.003394, 'P5': -0.043676, 'P6': 0.025951, 'P7': -0.019009, 'P8': 0.057669, 'P9': 0.026007, 'P10': 0.055097 };
+g_spherePositions['ERR2233245'] = { 'name': 'ERR2233245', 'color': 0, 'x': 0.227774, 'y': -0.018652, 'z': -0.091077, 'P1': 0.227774, 'P2': -0.018652, 'P3': -0.091077, 'P4': -0.022596, 'P5': -0.022283, 'P6': 0.014383, 'P7': 0.009730, 'P8': -0.008958, 'P9': 0.051357, 'P10': 0.054276 };
+g_spherePositions['ERR2233244'] = { 'name': 'ERR2233244', 'color': 0, 'x': 0.222963, 'y': -0.018803, 'z': -0.069443, 'P1': 0.222963, 'P2': -0.018803, 'P3': -0.069443, 'P4': -0.010338, 'P5': -0.042661, 'P6': 0.027916, 'P7': -0.005823, 'P8': 0.043257, 'P9': 0.024859, 'P10': 0.049892 };
+g_spherePositions['ERR2233247'] = { 'name': 'ERR2233247', 'color': 0, 'x': 0.223426, 'y': -0.018947, 'z': -0.085297, 'P1': 0.223426, 'P2': -0.018947, 'P3': -0.085297, 'P4': -0.011116, 'P5': -0.033002, 'P6': 0.019108, 'P7': 0.009105, 'P8': 0.006897, 'P9': 0.029554, 'P10': 0.051704 };
+g_spherePositions['ERR2233246'] = { 'name': 'ERR2233246', 'color': 0, 'x': 0.223956, 'y': -0.024857, 'z': -0.115792, 'P1': 0.223956, 'P2': -0.024857, 'P3': -0.115792, 'P4': -0.018499, 'P5': -0.022046, 'P6': 0.022572, 'P7': 0.023961, 'P8': -0.035220, 'P9': 0.044700, 'P10': 0.057851 };
+g_spherePositions['ERR2233278'] = { 'name': 'ERR2233278', 'color': 0, 'x': 0.103236, 'y': -0.078926, 'z': 0.286414, 'P1': 0.103236, 'P2': -0.078926, 'P3': 0.286414, 'P4': 0.098087, 'P5': 0.097083, 'P6': 0.156008, 'P7': -0.013342, 'P8': -0.024238, 'P9': 0.017685, 'P10': 0.021102 };
+g_spherePositions['ERR2233279'] = { 'name': 'ERR2233279', 'color': 0, 'x': 0.141167, 'y': -0.056750, 'z': 0.235360, 'P1': 0.141167, 'P2': -0.056750, 'P3': 0.235360, 'P4': 0.100425, 'P5': 0.088838, 'P6': 0.122470, 'P7': -0.030404, 'P8': 0.054633, 'P9': 0.036917, 'P10': -0.021152 };
+g_spherePositions['ERR2233274'] = { 'name': 'ERR2233274', 'color': 0, 'x': 0.042968, 'y': -0.069307, 'z': 0.239980, 'P1': 0.042968, 'P2': -0.069307, 'P3': 0.239980, 'P4': 0.074319, 'P5': 0.092938, 'P6': 0.098581, 'P7': 0.046094, 'P8': -0.094008, 'P9': 0.017016, 'P10': 0.054766 };
+g_spherePositions['ERR2233275'] = { 'name': 'ERR2233275', 'color': 0, 'x': 0.103860, 'y': -0.067530, 'z': 0.252404, 'P1': 0.103860, 'P2': -0.067530, 'P3': 0.252404, 'P4': 0.088744, 'P5': 0.112060, 'P6': 0.095974, 'P7': -0.024397, 'P8': -0.026659, 'P9': 0.046586, 'P10': -0.011390 };
+g_spherePositions['ERR2233276'] = { 'name': 'ERR2233276', 'color': 0, 'x': 0.144176, 'y': -0.064515, 'z': 0.252537, 'P1': 0.144176, 'P2': -0.064515, 'P3': 0.252537, 'P4': 0.103421, 'P5': 0.106776, 'P6': 0.134279, 'P7': -0.027085, 'P8': 0.024702, 'P9': 0.066676, 'P10': -0.008770 };
+g_spherePositions['ERR2233277'] = { 'name': 'ERR2233277', 'color': 0, 'x': 0.115060, 'y': -0.056983, 'z': 0.299943, 'P1': 0.115060, 'P2': -0.056983, 'P3': 0.299943, 'P4': 0.099130, 'P5': 0.087993, 'P6': 0.129881, 'P7': -0.055179, 'P8': 0.046147, 'P9': 0.028275, 'P10': -0.017322 };
+g_spherePositions['ERR2233270'] = { 'name': 'ERR2233270', 'color': 0, 'x': 0.214073, 'y': -0.032234, 'z': -0.005538, 'P1': 0.214073, 'P2': -0.032234, 'P3': -0.005538, 'P4': 0.015414, 'P5': 0.043745, 'P6': -0.075782, 'P7': -0.029108, 'P8': 0.097084, 'P9': -0.049665, 'P10': 0.001143 };
+g_spherePositions['ERR2233271'] = { 'name': 'ERR2233271', 'color': 0, 'x': 0.209924, 'y': -0.034795, 'z': -0.009352, 'P1': 0.209924, 'P2': -0.034795, 'P3': -0.009352, 'P4': 0.008421, 'P5': 0.047870, 'P6': -0.076433, 'P7': -0.012706, 'P8': 0.063604, 'P9': -0.046656, 'P10': 0.005677 };
+g_spherePositions['ERR2233272'] = { 'name': 'ERR2233272', 'color': 0, 'x': 0.115749, 'y': -0.071219, 'z': 0.253464, 'P1': 0.115749, 'P2': -0.071219, 'P3': 0.253464, 'P4': 0.085873, 'P5': 0.112861, 'P6': 0.129954, 'P7': 0.023688, 'P8': -0.076894, 'P9': 0.042130, 'P10': 0.021430 };
+g_spherePositions['ERR2233273'] = { 'name': 'ERR2233273', 'color': 0, 'x': 0.069902, 'y': -0.086046, 'z': 0.247238, 'P1': 0.069902, 'P2': -0.086046, 'P3': 0.247238, 'P4': 0.066610, 'P5': 0.111695, 'P6': 0.118264, 'P7': 0.047886, 'P8': -0.115787, 'P9': 0.006847, 'P10': 0.050815 };
+g_spherePositions['ERR2233263'] = { 'name': 'ERR2233263', 'color': 0, 'x': 0.202442, 'y': -0.057220, 'z': 0.012577, 'P1': 0.202442, 'P2': -0.057220, 'P3': 0.012577, 'P4': 0.006131, 'P5': 0.142956, 'P6': -0.228244, 'P7': -0.010425, 'P8': -0.068574, 'P9': -0.001984, 'P10': -0.004738 };
+g_spherePositions['ERR2233262'] = { 'name': 'ERR2233262', 'color': 0, 'x': 0.179679, 'y': -0.064508, 'z': 0.097309, 'P1': 0.179679, 'P2': -0.064508, 'P3': 0.097309, 'P4': 0.032341, 'P5': 0.122430, 'P6': -0.224362, 'P7': -0.061185, 'P8': 0.055629, 'P9': -0.069595, 'P10': -0.041353 };
+g_spherePositions['ERR2233261'] = { 'name': 'ERR2233261', 'color': 0, 'x': 0.195948, 'y': -0.060885, 'z': -0.016762, 'P1': 0.195948, 'P2': -0.060885, 'P3': -0.016762, 'P4': -0.003800, 'P5': 0.146399, 'P6': -0.225901, 'P7': 0.001571, 'P8': -0.089727, 'P9': 0.002299, 'P10': -0.007803 };
+g_spherePositions['ERR2233260'] = { 'name': 'ERR2233260', 'color': 0, 'x': 0.193819, 'y': -0.071448, 'z': 0.040820, 'P1': 0.193819, 'P2': -0.071448, 'P3': 0.040820, 'P4': 0.018183, 'P5': 0.151130, 'P6': -0.227286, 'P7': -0.030396, 'P8': -0.027669, 'P9': -0.036351, 'P10': -0.018905 };
+g_spherePositions['ERR2233267'] = { 'name': 'ERR2233267', 'color': 0, 'x': 0.213001, 'y': -0.034643, 'z': -0.006523, 'P1': 0.213001, 'P2': -0.034643, 'P3': -0.006523, 'P4': 0.010200, 'P5': 0.037908, 'P6': -0.070850, 'P7': -0.030249, 'P8': 0.114624, 'P9': -0.062014, 'P10': -0.019558 };
+g_spherePositions['ERR2233266'] = { 'name': 'ERR2233266', 'color': 0, 'x': 0.213368, 'y': -0.034830, 'z': 0.008556, 'P1': 0.213368, 'P2': -0.034830, 'P3': 0.008556, 'P4': 0.018499, 'P5': 0.035742, 'P6': -0.063977, 'P7': -0.041965, 'P8': 0.134772, 'P9': -0.070321, 'P10': -0.018953 };
+g_spherePositions['ERR2233265'] = { 'name': 'ERR2233265', 'color': 0, 'x': 0.202892, 'y': -0.065209, 'z': 0.016968, 'P1': 0.202892, 'P2': -0.065209, 'P3': 0.016968, 'P4': 0.006539, 'P5': 0.152946, 'P6': -0.212532, 'P7': -0.009501, 'P8': -0.075719, 'P9': -0.010014, 'P10': -0.004232 };
+g_spherePositions['ERR2233264'] = { 'name': 'ERR2233264', 'color': 0, 'x': 0.205069, 'y': -0.065428, 'z': 0.013795, 'P1': 0.205069, 'P2': -0.065428, 'P3': 0.013795, 'P4': 0.006473, 'P5': 0.148475, 'P6': -0.217637, 'P7': -0.003770, 'P8': -0.076050, 'P9': -0.005122, 'P10': 0.001473 };
+g_spherePositions['ERR2233269'] = { 'name': 'ERR2233269', 'color': 0, 'x': 0.221331, 'y': -0.038340, 'z': -0.020281, 'P1': 0.221331, 'P2': -0.038340, 'P3': -0.020281, 'P4': 0.007741, 'P5': 0.058092, 'P6': -0.069406, 'P7': -0.011213, 'P8': 0.052596, 'P9': -0.033498, 'P10': 0.013579 };
+g_spherePositions['ERR2233268'] = { 'name': 'ERR2233268', 'color': 0, 'x': 0.151330, 'y': 0.028386, 'z': 0.047537, 'P1': 0.151330, 'P2': 0.028386, 'P3': 0.047537, 'P4': 0.014607, 'P5': -0.010032, 'P6': -0.081581, 'P7': 0.009353, 'P8': 0.130234, 'P9': -0.020486, 'P10': -0.021094 };
+g_spherePositions['ERR2233299'] = { 'name': 'ERR2233299', 'color': 0, 'x': -0.377544, 'y': -0.183363, 'z': -0.000493, 'P1': -0.377544, 'P2': -0.183363, 'P3': -0.000493, 'P4': -0.096825, 'P5': -0.000275, 'P6': 0.014001, 'P7': 0.033156, 'P8': -0.012289, 'P9': -0.149164, 'P10': 0.120664 };
+g_spherePositions['ERR2233296'] = { 'name': 'ERR2233296', 'color': 0, 'x': -0.341059, 'y': -0.081984, 'z': -0.105826, 'P1': -0.341059, 'P2': -0.081984, 'P3': -0.105826, 'P4': 0.107365, 'P5': 0.061868, 'P6': 0.023414, 'P7': 0.147023, 'P8': 0.026355, 'P9': -0.070264, 'P10': -0.028085 };
+g_spherePositions['ERR2233297'] = { 'name': 'ERR2233297', 'color': 0, 'x': -0.313297, 'y': -0.056911, 'z': -0.115437, 'P1': -0.313297, 'P2': -0.056911, 'P3': -0.115437, 'P4': 0.122145, 'P5': 0.064066, 'P6': 0.024684, 'P7': 0.176251, 'P8': 0.037882, 'P9': -0.057393, 'P10': -0.050844 };
+g_spherePositions['ERR2233295'] = { 'name': 'ERR2233295', 'color': 0, 'x': -0.310457, 'y': -0.070435, 'z': -0.114103, 'P1': -0.310457, 'P2': -0.070435, 'P3': -0.114103, 'P4': 0.131666, 'P5': 0.060647, 'P6': 0.028956, 'P7': 0.156326, 'P8': 0.037117, 'P9': -0.035426, 'P10': -0.060901 };
+g_spherePositions['ERR2233292'] = { 'name': 'ERR2233292', 'color': 0, 'x': -0.298588, 'y': -0.047796, 'z': -0.122692, 'P1': -0.298588, 'P2': -0.047796, 'P3': -0.122692, 'P4': 0.140588, 'P5': 0.059320, 'P6': 0.023029, 'P7': 0.175125, 'P8': 0.043284, 'P9': -0.032322, 'P10': -0.075332 };
+g_spherePositions['ERR2233293'] = { 'name': 'ERR2233293', 'color': 0, 'x': -0.308799, 'y': -0.057512, 'z': -0.107300, 'P1': -0.308799, 'P2': -0.057512, 'P3': -0.107300, 'P4': 0.149324, 'P5': 0.048089, 'P6': 0.018439, 'P7': 0.162560, 'P8': 0.038287, 'P9': -0.035039, 'P10': -0.053523 };
+g_spherePositions['ERR2233290'] = { 'name': 'ERR2233290', 'color': 0, 'x': -0.367412, 'y': -0.251271, 'z': -0.023180, 'P1': -0.367412, 'P2': -0.251271, 'P3': -0.023180, 'P4': -0.224705, 'P5': 0.040326, 'P6': 0.013709, 'P7': -0.052847, 'P8': 0.043511, 'P9': 0.116534, 'P10': -0.070632 };
+g_spherePositions['ERR2233291'] = { 'name': 'ERR2233291', 'color': 0, 'x': -0.297530, 'y': -0.246475, 'z': 0.064469, 'P1': -0.297530, 'P2': -0.246475, 'P3': 0.064469, 'P4': -0.357177, 'P5': -0.006366, 'P6': 0.004820, 'P7': -0.154966, 'P8': 0.008573, 'P9': 0.053573, 'P10': 0.021452 };
+g_spherePositions['ERR2233289'] = { 'name': 'ERR2233289', 'color': 0, 'x': -0.355713, 'y': -0.256755, 'z': -0.020518, 'P1': -0.355713, 'P2': -0.256755, 'P3': -0.020518, 'P4': -0.273583, 'P5': 0.043698, 'P6': 0.010540, 'P7': -0.059385, 'P8': 0.059745, 'P9': 0.158022, 'P10': -0.110237 };
+g_spherePositions['ERR2233288'] = { 'name': 'ERR2233288', 'color': 0, 'x': -0.353985, 'y': -0.243968, 'z': -0.023764, 'P1': -0.353985, 'P2': -0.243968, 'P3': -0.023764, 'P4': -0.265564, 'P5': 0.061069, 'P6': 0.023365, 'P7': -0.048617, 'P8': 0.059949, 'P9': 0.156372, 'P10': -0.116680 };
+g_spherePositions['ERR2233285'] = { 'name': 'ERR2233285', 'color': 0, 'x': -0.313843, 'y': -0.053435, 'z': -0.025532, 'P1': -0.313843, 'P2': -0.053435, 'P3': -0.025532, 'P4': 0.177661, 'P5': -0.126884, 'P6': -0.047878, 'P7': -0.186528, 'P8': -0.089669, 'P9': 0.020575, 'P10': -0.035230 };
+g_spherePositions['ERR2233284'] = { 'name': 'ERR2233284', 'color': 0, 'x': -0.328462, 'y': -0.080987, 'z': -0.042379, 'P1': -0.328462, 'P2': -0.080987, 'P3': -0.042379, 'P4': 0.196268, 'P5': -0.098333, 'P6': -0.051512, 'P7': -0.091762, 'P8': -0.028368, 'P9': 0.064464, 'P10': 0.036956 };
+g_spherePositions['ERR2233287'] = { 'name': 'ERR2233287', 'color': 0, 'x': -0.340709, 'y': -0.064231, 'z': -0.099985, 'P1': -0.340709, 'P2': -0.064231, 'P3': -0.099985, 'P4': 0.156922, 'P5': 0.013512, 'P6': -0.005498, 'P7': 0.087543, 'P8': 0.027444, 'P9': -0.007958, 'P10': -0.030485 };
+g_spherePositions['ERR2233286'] = { 'name': 'ERR2233286', 'color': 0, 'x': -0.350488, 'y': -0.077016, 'z': -0.090186, 'P1': -0.350488, 'P2': -0.077016, 'P3': -0.090186, 'P4': 0.147573, 'P5': -0.001115, 'P6': -0.005887, 'P7': 0.066255, 'P8': 0.025730, 'P9': -0.009480, 'P10': -0.008761 };
+g_spherePositions['ERR2233281'] = { 'name': 'ERR2233281', 'color': 0, 'x': -0.297941, 'y': -0.055907, 'z': -0.020559, 'P1': -0.297941, 'P2': -0.055907, 'P3': -0.020559, 'P4': 0.225608, 'P5': -0.139523, 'P6': -0.060720, 'P7': -0.138498, 'P8': -0.027705, 'P9': 0.076317, 'P10': 0.057357 };
+g_spherePositions['ERR2233280'] = { 'name': 'ERR2233280', 'color': 0, 'x': -0.293590, 'y': -0.036922, 'z': -0.008290, 'P1': -0.293590, 'P2': -0.036922, 'P3': -0.008290, 'P4': 0.182979, 'P5': -0.144836, 'P6': -0.043355, 'P7': -0.202514, 'P8': -0.088617, 'P9': 0.004902, 'P10': -0.017950 };
+g_spherePositions['ERR2233283'] = { 'name': 'ERR2233283', 'color': 0, 'x': -0.316833, 'y': -0.055067, 'z': -0.035033, 'P1': -0.316833, 'P2': -0.055067, 'P3': -0.035033, 'P4': 0.214367, 'P5': -0.108688, 'P6': -0.059026, 'P7': -0.112001, 'P8': -0.011910, 'P9': 0.077167, 'P10': 0.066080 };
+g_spherePositions['ERR2233282'] = { 'name': 'ERR2233282', 'color': 0, 'x': -0.303662, 'y': -0.043749, 'z': -0.024240, 'P1': -0.303662, 'P2': -0.043749, 'P3': -0.024240, 'P4': 0.230076, 'P5': -0.122867, 'P6': -0.070028, 'P7': -0.128235, 'P8': -0.013716, 'P9': 0.095606, 'P10': 0.069100 };
+g_spherePositions['ERR2233311'] = { 'name': 'ERR2233311', 'color': 0, 'x': -0.193567, 'y': 0.283474, 'z': 0.015534, 'P1': -0.193567, 'P2': 0.283474, 'P3': 0.015534, 'P4': -0.065828, 'P5': 0.032129, 'P6': 0.020336, 'P7': -0.101596, 'P8': -0.071495, 'P9': -0.092540, 'P10': -0.091444 };
+g_spherePositions['ERR2233320'] = { 'name': 'ERR2233320', 'color': 0, 'x': 0.036060, 'y': 0.102365, 'z': 0.137446, 'P1': 0.036060, 'P2': 0.102365, 'P3': 0.137446, 'P4': -0.056008, 'P5': -0.123952, 'P6': -0.067812, 'P7': 0.200076, 'P8': -0.052750, 'P9': 0.123711, 'P10': -0.110111 };
+g_spherePositions['ERR2233321'] = { 'name': 'ERR2233321', 'color': 0, 'x': 0.052540, 'y': 0.074163, 'z': 0.115196, 'P1': 0.052540, 'P2': 0.074163, 'P3': 0.115196, 'P4': -0.054861, 'P5': -0.076296, 'P6': -0.060158, 'P7': 0.198095, 'P8': -0.083593, 'P9': 0.123311, 'P10': -0.087468 };
+
+var g_ellipsesDimensions = new Array();
+var g_segments = 8, g_rings = 8, g_radius = 0.007333;
+var g_xAxisLength = 0.611101;
+var g_yAxisLength = 0.563478;
+var g_zAxisLength = 0.441262;
+var g_xMaximumValue = 0.229076;
+var g_yMaximumValue = 0.306723;
+var g_zMaximumValue = 0.299943;
+var g_xMinimumValue = -0.382025;
+var g_yMinimumValue = -0.256755;
+var g_zMinimumValue = -0.141319;
+var g_maximum = 0.382025;
+var g_pc1Label = "PC1 (16.56 %)";
+var g_pc2Label = "PC2 (5.36 %)";
+var g_pc3Label = "PC3 (4.49 %)";
+var g_number_of_custom_axes = 0;
+var g_fractionExplained = [0.165645, 0.053644, 0.044875, 0.032831, 0.025360, 0.020953, 0.019885, 0.017057, 0.014327, 0.014030];
+var g_fractionExplainedRounded = [16.56, 5.36, 4.49, 3.28, 2.54, 2.10, 1.99, 1.71, 1.43, 1.40];
+
+var g_taxaPositions = new Array();
+
+
+var g_vectorPositions = new Array();
+
+var g_comparisonPositions = new Array();
+var g_isSerialComparisonPlot = true;
+document.getElementById("logo").style.display = 'none';
+document.getElementById("logotable").style.display = 'none';
+
+ </script>
+</head>
+
+<body>
+
+<div id="overlay">
+    <div>
+    <img src="emperor_required_resources/img/emperor.png" alt="Emperor" id="small-logo"/>
+        <h1>WebGL is not enabled!</h1>
+        <p>Emperor's visualization framework is WebGL based, it seems that your system doesn't have this resource available. Here is what you can do:</p>
+        <p id="explanation"><strong>Chrome:</strong> Type "chrome://flags/" into the address bar, then search for "Disable WebGL". Disable this option if you haven't already. <em>Note:</em> If you follow these steps and still don't see an image, go to "chrome://flags/" and then search for "Override software rendering list" and enable this option.</p>
+        <p id="explanation"><strong>Safari:</strong> Open Safari's menu and select Preferences. Click on the advanced tab, and then check "Show Developer" menu. Then open the "Developer" menu and select "Enable WebGL".</p>
+        <p id="explanation"><strong>Firefox:</strong> Go to Options through Firefox > Options or Tools > Options. Go to Advanced, then General. Check "Use hardware acceleration when available" and restart Firefox.</p>
+        <p id="explanation"><strong>Other browsers:</strong> The only browsers that support WebGL are Chrome, Safari, and Firefox. Please switch to these browsers when using Emperor.</p>
+        <p id="explanation"><em>Note:</em> Once you went through these changes, reload the page and it should work!</p>
+        <p id="source">Sources: Instructions for <a href="https://www.biodigitalhuman.com/home/enabling-webgl.html">Chrome and Safari</a>, and <a href="http://www.infewbytes.com/?p=144">Firefox</a></p>
+    </div>
+</div>
+
+<div id="emperor-plot-toggle">
+    <form>
+      <div id="plottype">
+        <input id="pcoa" type="radio" id="pcoa" name="plottype" checked="checked" /><label for="pcoa">PCoA</label>
+        <input id="parallel" type="radio" id="parallel" name="plottype" /><label for="parallel">Parallel</label>
+      </div>
+    </form>
+</div>
+<div id="pcoaPlotWrapper" class="emperor-plot-wrapper">
+    <label id="pointCount" class="ontop">
+    </label>
+
+    <div id="finder" class="arrow-right">
+    </div>
+
+    <div id="labels" class="unselectable">
+    </div>
+
+    <div id="taxalabels" class="unselectable">
+    </div>
+
+    <div id="axislabels" class="axis-labels">
+    </div>
+
+    <div id="main-plot">
+    </div>
+</div>
+
+<div id="parallelPlotWrapper" class="emperor-plot-wrapper">
+</div>
+
+<div id="emperor-separator" class="emperor-separator" ondblclick="separatorDoubleClick()"></div>
+
+<div id="emperor-menu">
+    <div id="emperor-menu-tabs">
+        <ul id="emperor-menu-list">
+            <li><a href="#keytab">Key</a></li>
+            <li><a href="#colorby">Colors</a></li>
+            <li><a href="#showby">Visibility</a></li>
+            <li><a href="#scalingby">Scaling</a></li>
+            <li><a href="#labelby">Labels</a></li>
+            <li><a href="#axes">Axes</a></li>
+            <li><a href="#animations">Animations</a></li>
+            <li><a href="#options">Options</a></li>
+        </ul>
+        <div id="keytab" class="emperor-tab-div">
+            <form name="keyFilter">
+                <label>Filter  </label><input name="filterBox" id="searchBox" type="text" onkeyup="filterKey()"></input>
+            </form>
+            <div id="key">
+            </div>
+        </div>
+        <div id="colorby" class="emperor-tab-div">
+            <select id="colormap-drop-down" class="emperor-tab-drop-down" onchange="colorByMenuChanged()"></select>
+            <br><br>
+            <select id="colorbycombo" onchange="colorByMenuChanged()" class="emperor-tab-drop-down">
+            </select>
+            <div class="list" id="colorbylist">
+            </div>
+        </div>
+        <div id="showby" class="emperor-tab-div">
+            <table class="emperor-tab-table">
+                <tr>
+                    <td>
+                        <select id="showbycombo" onchange="showByMenuChanged()" class="emperor-tab-drop-down">
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="list" id="showbylist" style="height:100%;width:100%">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 12px; padding-right:12px;">
+                        <hr class='section-break'>
+                        <br>
+                        <label for="sphereopacity" class="text">Global Sphere Opacity</label>
+                        <label id="sphereopacity" class="slidervalue"></label>
+                        <div id="sopacityslider" class="slider-range-max"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <button id="toggle-visibility-selection-button" onClick="toggleVisibleCategories()">Invert Selected</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="scalingby" class="emperor-tab-div">
+            <table class="emperor-tab-table">
+                <tr>
+                    <td>
+                        <select id="scalingbycombo" onchange="scalingByMenuChanged()" class="emperor-tab-drop-down">
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="list" id="scalingbylist" style="height:100%;width:100%">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 12px; padding-right:12px;">
+                        <hr class='section-break'>
+                        <br>
+                        <label for="sphereradius" class="text">Global Sphere Scale</label>
+                        <label id="sphereradius" class="slidervalue"></label>
+                        <div id="sradiusslider" class="slider-range-max"></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="labelby" class="emperor-tab-div">
+            <div id="labels-top">
+                <form name="plotoptions">
+                    <input type="checkbox" onClick="toggleLabels()">Samples Label Visibility</input>
+                </form>
+                <br>
+                <label for="labelopacity" class="text">Label Opacity</label>
+                <label id="labelopacity" class="slidervalue"></label>
+                <div id="lopacityslider" class="slider-range-max"></div>
+                <div id="label-color-holder clearfix">
+                    <table class="emperor-tab-table">
+                        <tr><td><div id="labelColor" class="colorbox"></div></td><td><label>Master Label Color</label></td></tr>
+                        <br><br>
+                </table></div>
+            </div>
+            <br>
+            <select id="labelcombo" onchange="labelMenuChanged()" class="emperor-tab-drop-down">
+            </select>
+            <div class="list" id="label-list">
+            </div>
+        </div>
+        <div id="axes" class="emperor-tab-div">
+            <div id="pcoaaxes">
+                <div class="list" id="axeslist">
+                </div>
+            </div>
+        </div>
+        <div id="animations" class="emperor-tab-div">
+            <table class="emperor-tab-table-with-sliders">
+                <tr>
+                    <td>
+                        <a id="reset-button" class="media-button" href="javascript:void(0);" onclick="javascript:resetAnimation()"><img src="emperor_required_resources/img/reset.png" ></img></a>
+                        <a id="play-button" class="media-button" href="javascript:void(0);" onclick="javascript:playAnimation()"><img src="emperor_required_resources/img/play.png"></img></a>
+                        <a id="pause-button" class="media-button" href="javascript:void(0);" onclick="javascript:pauseAnimation()"><img src="emperor_required_resources/img/pause.png"></img></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="animation-speed" class="text">Speed</label>
+                        <label id="animation-speed" class="slidervalue"></label>
+                        <div id="animation-speed-slider" class="slider-range-max"></div>
+                        <div id="labelColorHolder clearfix">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br><label for="gradient-category-drop-down" class="text">Gradient Category</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select id="gradient-category-drop-down" class="emperor-tab-drop-down"></select><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="trajectory-category-drop-down" class="text">Trajectory Category</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select id="trajectory-category-drop-down" class="emperor-tab-drop-down" onchange="colorAnimationsByCategoryChanged()"></select>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="emperor-animation-color-selector">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="options" class="emperor-tab-div">
+            <table class="emperor-tab-table">
+                <tr><td><div id="axeslabelscolor" class="colorbox" name="axeslabelscolor"></div></td><td title="Axes Labels Color">Axes Labels Color</td></tr>
+                <tr><td><div id="axescolor" class="colorbox" name="axescolor"></div></td><td title="Axes Color Title">Axes Color</td></tr>
+                <tr><td><div id="rendererbackgroundcolor" class="colorbox" name="rendererbackgroundcolor"></div></td><td title="Background Color Title">Background Color</td></tr>
+                <tr><td colspan="2">
+                        <div id="pcoaviewoptions" class="">
+                            <form name="settingsoptionscolor">
+                            </form>
+                            <div id="pcoaoptions" class="">
+                                <form name="settingsoptions">
+                                    <input type="checkbox" onchange="toggleScaleCoordinates(this)" id="scale_checkbox" name="scale_checkbox">Scale coords by percent explained</input>
+                                </form>
+                            </div>
+                            <br><input id="reset" class="button" type="submit" value="Recenter Camera" style="" onClick="resetCamera()">
+                            <br><br>
+                            <hr class='section-break'>
+                            <br>Filename <small>(only letters, numbers, ., - and _)</small>:
+                            <br><input name="saveas_name" id="saveas_name" value="screenshot" type="text"/>
+                            <br><input id="saveas_legends" class="checkbox" type="checkbox" style=""> Create legend
+                            <input id="saveas" class="button" type="submit" value="Save as SVG" style="" onClick="saveSVG()"/>
+                            <br><br>For a PNG, simply press 'ctrl+p'.
+                            <div id="paralleloptions" class="">
+                            </div>
+                        </div>
+                        <br>
+                </td></tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
