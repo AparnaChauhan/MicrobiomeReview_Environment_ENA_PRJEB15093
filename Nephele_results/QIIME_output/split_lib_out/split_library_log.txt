@@ -1,0 +1,1666 @@
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233229/fastqjoin.join.fastq (md5: b003057a8fd17e0c51371c7e56f492cc)
+Quality filter results
+Total number of input sequences: 78282
+Barcode not in mapping file: 0
+Read too short after quality truncation: 980
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233229	77300
+
+Total number seqs written	77300
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233230/fastqjoin.join.fastq (md5: 3561ea90769bb0b88a1bd53d877a7481)
+Quality filter results
+Total number of input sequences: 67158
+Barcode not in mapping file: 0
+Read too short after quality truncation: 858
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233230	66299
+
+Total number seqs written	66299
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233231/fastqjoin.join.fastq (md5: 8ae338ec2c0132211059fb95029ac160)
+Quality filter results
+Total number of input sequences: 58387
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1647
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233231	56739
+
+Total number seqs written	56739
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233232/fastqjoin.join.fastq (md5: 4e1be655ef50a41468a42791f72e44cd)
+Quality filter results
+Total number of input sequences: 56668
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1693
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233232	54973
+
+Total number seqs written	54973
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233233/fastqjoin.join.fastq (md5: c1d54362a24ee013b25a9c72961d3f34)
+Quality filter results
+Total number of input sequences: 57996
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1586
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233233	56408
+
+Total number seqs written	56408
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233234/fastqjoin.join.fastq (md5: 6f454b4c3ae23d2be183e7241720c96a)
+Quality filter results
+Total number of input sequences: 63273
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1835
+Count of N characters exceeds limit: 5
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233234	61433
+
+Total number seqs written	61433
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233235/fastqjoin.join.fastq (md5: d3287f1805eb584b2b607b6fa3a52bfc)
+Quality filter results
+Total number of input sequences: 51672
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1406
+Count of N characters exceeds limit: 4
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233235	50262
+
+Total number seqs written	50262
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233236/fastqjoin.join.fastq (md5: 8b57baf9efc421d24e25d026ca028646)
+Quality filter results
+Total number of input sequences: 62994
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1848
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233236	61146
+
+Total number seqs written	61146
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233237/fastqjoin.join.fastq (md5: e4120b0de95cc0bba06224680a15b333)
+Quality filter results
+Total number of input sequences: 48417
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1453
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233237	46964
+
+Total number seqs written	46964
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233238/fastqjoin.join.fastq (md5: 9956a6759a94875e357c793feb7811f3)
+Quality filter results
+Total number of input sequences: 47661
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1264
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233238	46396
+
+Total number seqs written	46396
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233239/fastqjoin.join.fastq (md5: c2d31bcf4d76bcb032243bf08e5e9e75)
+Quality filter results
+Total number of input sequences: 59058
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1660
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233239	57397
+
+Total number seqs written	57397
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233240/fastqjoin.join.fastq (md5: 3c611b0a0131f1c42ed7e9ab2b2c5388)
+Quality filter results
+Total number of input sequences: 54443
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1507
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233240	52935
+
+Total number seqs written	52935
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233241/fastqjoin.join.fastq (md5: 6d0fac76e9cce363dacb6df7f57274ee)
+Quality filter results
+Total number of input sequences: 63888
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1731
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233241	62154
+
+Total number seqs written	62154
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233242/fastqjoin.join.fastq (md5: a96b703c8583fc522e2aaadae6623d63)
+Quality filter results
+Total number of input sequences: 57124
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1448
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233242	55673
+
+Total number seqs written	55673
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233243/fastqjoin.join.fastq (md5: 5a6bd635ec18048bd81c9cbed2b8782c)
+Quality filter results
+Total number of input sequences: 49210
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1392
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233243	47817
+
+Total number seqs written	47817
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233244/fastqjoin.join.fastq (md5: 928a369fd4745b7f0d86ab0235a88c62)
+Quality filter results
+Total number of input sequences: 48991
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1350
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233244	47640
+
+Total number seqs written	47640
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233245/fastqjoin.join.fastq (md5: cb90b9a8a0ace1ba86a09a1029874eee)
+Quality filter results
+Total number of input sequences: 52533
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1393
+Count of N characters exceeds limit: 4
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233245	51136
+
+Total number seqs written	51136
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233246/fastqjoin.join.fastq (md5: 40f81ba6d689da5e7cdb815861fa8716)
+Quality filter results
+Total number of input sequences: 46384
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1383
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233246	45000
+
+Total number seqs written	45000
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233247/fastqjoin.join.fastq (md5: e3e6f9dced5efe63a7cd4a2251d3bb40)
+Quality filter results
+Total number of input sequences: 49876
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1276
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233247	48598
+
+Total number seqs written	48598
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233248/fastqjoin.join.fastq (md5: 97ac32cfadc027c3dabb700350457dd5)
+Quality filter results
+Total number of input sequences: 59601
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1503
+Count of N characters exceeds limit: 5
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233248	58093
+
+Total number seqs written	58093
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233249/fastqjoin.join.fastq (md5: 1d526a00a1dffdc81a1c5d7e28db71bb)
+Quality filter results
+Total number of input sequences: 61073
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1695
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233249	59376
+
+Total number seqs written	59376
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233250/fastqjoin.join.fastq (md5: 89fd14ba0abeca6e52703b62ff0294bc)
+Quality filter results
+Total number of input sequences: 59863
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1778
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233250	58082
+
+Total number seqs written	58082
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233251/fastqjoin.join.fastq (md5: faaf3a0b7fdab3e4669eea488d04678a)
+Quality filter results
+Total number of input sequences: 89699
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1089
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233251	88607
+
+Total number seqs written	88607
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233252/fastqjoin.join.fastq (md5: c42594cd747a43e34cb6a22d85f694bb)
+Quality filter results
+Total number of input sequences: 39951
+Barcode not in mapping file: 0
+Read too short after quality truncation: 503
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233252	39446
+
+Total number seqs written	39446
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233253/fastqjoin.join.fastq (md5: f16c0db1ae5043f988ffa09378e0fcc7)
+Quality filter results
+Total number of input sequences: 67780
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1869
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233253	65909
+
+Total number seqs written	65909
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233254/fastqjoin.join.fastq (md5: 0620de70c5adf38773e4bfd6887c1c64)
+Quality filter results
+Total number of input sequences: 70112
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1945
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233254	68166
+
+Total number seqs written	68166
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233255/fastqjoin.join.fastq (md5: 0d397a6c0b1404552ab431a3d52df228)
+Quality filter results
+Total number of input sequences: 64586
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1791
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233255	62795
+
+Total number seqs written	62795
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233256/fastqjoin.join.fastq (md5: a886b26e16545edda0daf05744c053c8)
+Quality filter results
+Total number of input sequences: 68341
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1780
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233256	66559
+
+Total number seqs written	66559
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233257/fastqjoin.join.fastq (md5: 5629bbfe2fc1e6f5fcb7cfc18b876a9a)
+Quality filter results
+Total number of input sequences: 82270
+Barcode not in mapping file: 0
+Read too short after quality truncation: 2142
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233257	80125
+
+Total number seqs written	80125
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233258/fastqjoin.join.fastq (md5: 1d6b290eaa15c8b93ac983354e523957)
+Quality filter results
+Total number of input sequences: 63717
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1737
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233258	61979
+
+Total number seqs written	61979
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233259/fastqjoin.join.fastq (md5: 274247a2a2ffcdada1b5abfb4b191774)
+Quality filter results
+Total number of input sequences: 38274
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1016
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233259	37258
+
+Total number seqs written	37258
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233260/fastqjoin.join.fastq (md5: cd828ef47484c9c7954ef1bb2988fd5c)
+Quality filter results
+Total number of input sequences: 44662
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1181
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233260	43480
+
+Total number seqs written	43480
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233261/fastqjoin.join.fastq (md5: 6bc8a1921a23301f43147242c7c57b10)
+Quality filter results
+Total number of input sequences: 48861
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1466
+Count of N characters exceeds limit: 4
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233261	47391
+
+Total number seqs written	47391
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233262/fastqjoin.join.fastq (md5: f2cc4ff8de2fa860afa53e14cb06884d)
+Quality filter results
+Total number of input sequences: 57921
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1679
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233262	56241
+
+Total number seqs written	56241
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233263/fastqjoin.join.fastq (md5: d64160d94da198eb569c1c7f4510d614)
+Quality filter results
+Total number of input sequences: 58523
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1706
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233263	56815
+
+Total number seqs written	56815
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233264/fastqjoin.join.fastq (md5: c3971dcbc51e50d5eac45b8f9ab02940)
+Quality filter results
+Total number of input sequences: 52298
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1453
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233264	50843
+
+Total number seqs written	50843
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233265/fastqjoin.join.fastq (md5: c517e09a746faf86cfdd6b3a572442b5)
+Quality filter results
+Total number of input sequences: 61391
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1787
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233265	59604
+
+Total number seqs written	59604
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233266/fastqjoin.join.fastq (md5: 75c8bc187c2aec97b79ab162d50ccdc7)
+Quality filter results
+Total number of input sequences: 62484
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1573
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233266	60910
+
+Total number seqs written	60910
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233267/fastqjoin.join.fastq (md5: 766eb3791dab63ed1fce46ef60dc11e7)
+Quality filter results
+Total number of input sequences: 72051
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1948
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233267	70100
+
+Total number seqs written	70100
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233268/fastqjoin.join.fastq (md5: 1d1289babd46e1f05c6b74855bd1490f)
+Quality filter results
+Total number of input sequences: 65558
+Barcode not in mapping file: 0
+Read too short after quality truncation: 2005
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233268	63551
+
+Total number seqs written	63551
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233269/fastqjoin.join.fastq (md5: 148745367ceb9656774d4422d09268cd)
+Quality filter results
+Total number of input sequences: 60684
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1518
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233269	59165
+
+Total number seqs written	59165
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233270/fastqjoin.join.fastq (md5: d1dea7e6666f575ab95b16833593caf8)
+Quality filter results
+Total number of input sequences: 58739
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1634
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233270	57104
+
+Total number seqs written	57104
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233271/fastqjoin.join.fastq (md5: da1581520c354f1168a66718995a5871)
+Quality filter results
+Total number of input sequences: 53610
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1508
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233271	52101
+
+Total number seqs written	52101
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233272/fastqjoin.join.fastq (md5: f451c37a3802c2bd109b30d4d9a65c69)
+Quality filter results
+Total number of input sequences: 54134
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1365
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233272	52766
+
+Total number seqs written	52766
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233273/fastqjoin.join.fastq (md5: 9b547e812fa622ec484350829fa259ef)
+Quality filter results
+Total number of input sequences: 55628
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1746
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233273	53882
+
+Total number seqs written	53882
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233274/fastqjoin.join.fastq (md5: 5f3dea806aed13c8caa1d084321f17d5)
+Quality filter results
+Total number of input sequences: 56996
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1508
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233274	55485
+
+Total number seqs written	55485
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233275/fastqjoin.join.fastq (md5: 6e615ce6076e816536f17700c3db7eaa)
+Quality filter results
+Total number of input sequences: 58780
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1477
+Count of N characters exceeds limit: 4
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233275	57299
+
+Total number seqs written	57299
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233276/fastqjoin.join.fastq (md5: 2ca740bb73839d143de6d37e40a0903d)
+Quality filter results
+Total number of input sequences: 73356
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1891
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233276	71462
+
+Total number seqs written	71462
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233277/fastqjoin.join.fastq (md5: 624a22331c64003a768a373db87620a8)
+Quality filter results
+Total number of input sequences: 67509
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1751
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233277	65756
+
+Total number seqs written	65756
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233278/fastqjoin.join.fastq (md5: 23bbd4cb7767d4cf0382d942e46627fc)
+Quality filter results
+Total number of input sequences: 71571
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1802
+Count of N characters exceeds limit: 6
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233278	69763
+
+Total number seqs written	69763
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233279/fastqjoin.join.fastq (md5: a62d35c212f884876b50049ead3ecadd)
+Quality filter results
+Total number of input sequences: 51098
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1195
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233279	49900
+
+Total number seqs written	49900
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233280/fastqjoin.join.fastq (md5: 5bf9f0c347f4da78e779bd6885f98af2)
+Quality filter results
+Total number of input sequences: 59584
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1823
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233280	57759
+
+Total number seqs written	57759
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233281/fastqjoin.join.fastq (md5: c098335937985b8cb6e43ce7d14c2149)
+Quality filter results
+Total number of input sequences: 57468
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1552
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233281	55915
+
+Total number seqs written	55915
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233282/fastqjoin.join.fastq (md5: a076c69a929a8beb0a2cbd39fc8cccb3)
+Quality filter results
+Total number of input sequences: 64612
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1799
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233282	62813
+
+Total number seqs written	62813
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233283/fastqjoin.join.fastq (md5: e3f3bb9adc11f703c1708a9053546841)
+Quality filter results
+Total number of input sequences: 68703
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1816
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233283	66885
+
+Total number seqs written	66885
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233284/fastqjoin.join.fastq (md5: 0f54acb3009abe2eb056b76781a834a3)
+Quality filter results
+Total number of input sequences: 57841
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1642
+Count of N characters exceeds limit: 6
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233284	56193
+
+Total number seqs written	56193
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233285/fastqjoin.join.fastq (md5: f4f3a503253d5f922b21c4ad9e131c93)
+Quality filter results
+Total number of input sequences: 76406
+Barcode not in mapping file: 0
+Read too short after quality truncation: 2363
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233285	74040
+
+Total number seqs written	74040
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233286/fastqjoin.join.fastq (md5: dc9742515e91417a5b38ff68449f19c9)
+Quality filter results
+Total number of input sequences: 61080
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1793
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233286	59285
+
+Total number seqs written	59285
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233287/fastqjoin.join.fastq (md5: 187043f7c7d2d4339caa75b83461cecc)
+Quality filter results
+Total number of input sequences: 66310
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1774
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233287	64536
+
+Total number seqs written	64536
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233288/fastqjoin.join.fastq (md5: 5c442d4319a406020dcc57d096fade61)
+Quality filter results
+Total number of input sequences: 52566
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1527
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233288	51038
+
+Total number seqs written	51038
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233289/fastqjoin.join.fastq (md5: 1d66e2266ef27f495a8f84dd70625df6)
+Quality filter results
+Total number of input sequences: 67984
+Barcode not in mapping file: 0
+Read too short after quality truncation: 2028
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233289	65953
+
+Total number seqs written	65953
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233290/fastqjoin.join.fastq (md5: a10f3d7f47d192519c64ec6c586e2892)
+Quality filter results
+Total number of input sequences: 57194
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1630
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233290	55563
+
+Total number seqs written	55563
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233291/fastqjoin.join.fastq (md5: dc15a79eec7de5e054a7517c93320b13)
+Quality filter results
+Total number of input sequences: 67711
+Barcode not in mapping file: 0
+Read too short after quality truncation: 2165
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233291	65543
+
+Total number seqs written	65543
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233292/fastqjoin.join.fastq (md5: baff637dec42b7e5f7fd7121cf4666f5)
+Quality filter results
+Total number of input sequences: 90879
+Barcode not in mapping file: 0
+Read too short after quality truncation: 2706
+Count of N characters exceeds limit: 4
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233292	88169
+
+Total number seqs written	88169
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233293/fastqjoin.join.fastq (md5: 325062daa257f216cc16fca1a0851b22)
+Quality filter results
+Total number of input sequences: 69582
+Barcode not in mapping file: 0
+Read too short after quality truncation: 2193
+Count of N characters exceeds limit: 4
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233293	67385
+
+Total number seqs written	67385
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233294/fastqjoin.join.fastq (md5: f9a74ccba5171e2b1e8cc9a81ad536a6)
+Quality filter results
+Total number of input sequences: 2007
+Barcode not in mapping file: 0
+Read too short after quality truncation: 155
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233294	1852
+
+Total number seqs written	1852
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233295/fastqjoin.join.fastq (md5: 0ca683968e649984c0f070a968f0ce67)
+Quality filter results
+Total number of input sequences: 69637
+Barcode not in mapping file: 0
+Read too short after quality truncation: 2064
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233295	67572
+
+Total number seqs written	67572
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233296/fastqjoin.join.fastq (md5: 79d368b0c7b3352157176b9638e5cf90)
+Quality filter results
+Total number of input sequences: 45100
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1350
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233296	43749
+
+Total number seqs written	43749
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233297/fastqjoin.join.fastq (md5: 842b217143058cd135cca44b428d8cc9)
+Quality filter results
+Total number of input sequences: 64636
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1997
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233297	62636
+
+Total number seqs written	62636
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233298/fastqjoin.join.fastq (md5: 236791eab4efab98ddb0f3feed09ecae)
+Quality filter results
+Total number of input sequences: 687
+Barcode not in mapping file: 0
+Read too short after quality truncation: 43
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233298	644
+
+Total number seqs written	644
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233299/fastqjoin.join.fastq (md5: cbbca912a70c35ecb685c881ad7547b8)
+Quality filter results
+Total number of input sequences: 78891
+Barcode not in mapping file: 0
+Read too short after quality truncation: 2368
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233299	76520
+
+Total number seqs written	76520
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233300/fastqjoin.join.fastq (md5: 9eaf3bbc46d5783f6fffb7b58b17ddf9)
+Quality filter results
+Total number of input sequences: 78122
+Barcode not in mapping file: 0
+Read too short after quality truncation: 2035
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233300	76085
+
+Total number seqs written	76085
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233301/fastqjoin.join.fastq (md5: eef59d34504a65918cfe622a89ef6a75)
+Quality filter results
+Total number of input sequences: 115759
+Barcode not in mapping file: 0
+Read too short after quality truncation: 3349
+Count of N characters exceeds limit: 4
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233301	112406
+
+Total number seqs written	112406
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233302/fastqjoin.join.fastq (md5: c722fc1e4428bb978bb56bf7aac070e7)
+Quality filter results
+Total number of input sequences: 7144
+Barcode not in mapping file: 0
+Read too short after quality truncation: 272
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233302	6871
+
+Total number seqs written	6871
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233303/fastqjoin.join.fastq (md5: a18c5f8cdb72e70b657dc67ea6a1c27c)
+Quality filter results
+Total number of input sequences: 47471
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1385
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233303	46086
+
+Total number seqs written	46086
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233304/fastqjoin.join.fastq (md5: 3878a44468981dacc134771c2ec30696)
+Quality filter results
+Total number of input sequences: 54154
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1497
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233304	52656
+
+Total number seqs written	52656
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233305/fastqjoin.join.fastq (md5: df1b8152cbc566082bd623e6e1e61a5f)
+Quality filter results
+Total number of input sequences: 55407
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1525
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233305	53881
+
+Total number seqs written	53881
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233306/fastqjoin.join.fastq (md5: 8500a0af93b6779c1871977098d57823)
+Quality filter results
+Total number of input sequences: 50553
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1455
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233306	49097
+
+Total number seqs written	49097
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233307/fastqjoin.join.fastq (md5: 5422e66b51bcc47c1a202d7b3e6d5bce)
+Quality filter results
+Total number of input sequences: 64527
+Barcode not in mapping file: 0
+Read too short after quality truncation: 2065
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233307	62461
+
+Total number seqs written	62461
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233308/fastqjoin.join.fastq (md5: 74e47b6a961df8991ff470fcf2fd31cc)
+Quality filter results
+Total number of input sequences: 70738
+Barcode not in mapping file: 0
+Read too short after quality truncation: 2025
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 411.00
+ERR2233308	68712
+
+Total number seqs written	68712
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233309/fastqjoin.join.fastq (md5: 686aaeb32021fd3ef2c83eba38fa14b8)
+Quality filter results
+Total number of input sequences: 81201
+Barcode not in mapping file: 0
+Read too short after quality truncation: 2262
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233309	78938
+
+Total number seqs written	78938
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233310/fastqjoin.join.fastq (md5: 97a334ad9d23da4e8994f2922f87a87b)
+Quality filter results
+Total number of input sequences: 57622
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1518
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233310	56101
+
+Total number seqs written	56101
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233311/fastqjoin.join.fastq (md5: 66aa8978778f6ef96cb39ee6ee289d5b)
+Quality filter results
+Total number of input sequences: 61612
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1857
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233311	59752
+
+Total number seqs written	59752
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233312/fastqjoin.join.fastq (md5: 4a2c2eeacd1cdb9414d6c44f4fe167aa)
+Quality filter results
+Total number of input sequences: 73964
+Barcode not in mapping file: 0
+Read too short after quality truncation: 2130
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233312	71834
+
+Total number seqs written	71834
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233313/fastqjoin.join.fastq (md5: ebd17a5497ec1fa10b9e9e36813db996)
+Quality filter results
+Total number of input sequences: 74441
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1968
+Count of N characters exceeds limit: 3
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233313	72470
+
+Total number seqs written	72470
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233314/fastqjoin.join.fastq (md5: 8ef89eaff167540249b8890fe373edea)
+Quality filter results
+Total number of input sequences: 63929
+Barcode not in mapping file: 0
+Read too short after quality truncation: 1764
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233314	62163
+
+Total number seqs written	62163
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233315/fastqjoin.join.fastq (md5: a89a03c7b3207986ac3cec86d8d12a43)
+Quality filter results
+Total number of input sequences: 93287
+Barcode not in mapping file: 0
+Read too short after quality truncation: 2893
+Count of N characters exceeds limit: 4
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233315	90390
+
+Total number seqs written	90390
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233316/fastqjoin.join.fastq (md5: 4fc76861d14deb12d57d16951c520709)
+Quality filter results
+Total number of input sequences: 47184
+Barcode not in mapping file: 0
+Read too short after quality truncation: 624
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233316	46560
+
+Total number seqs written	46560
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233317/fastqjoin.join.fastq (md5: 819d825c65169b5d8fd84d7409bf2667)
+Quality filter results
+Total number of input sequences: 25189
+Barcode not in mapping file: 0
+Read too short after quality truncation: 305
+Count of N characters exceeds limit: 2
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233317	24882
+
+Total number seqs written	24882
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233318/fastqjoin.join.fastq (md5: b5922d3ede14947bff5ab116ff7df24e)
+Quality filter results
+Total number of input sequences: 39643
+Barcode not in mapping file: 0
+Read too short after quality truncation: 534
+Count of N characters exceeds limit: 1
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233318	39108
+
+Total number seqs written	39108
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233319/fastqjoin.join.fastq (md5: c66e9fec6d1fb7da2d5a2238c3d61235)
+Quality filter results
+Total number of input sequences: 41395
+Barcode not in mapping file: 0
+Read too short after quality truncation: 634
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233319	40761
+
+Total number seqs written	40761
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233320/fastqjoin.join.fastq (md5: 3b32c2e8fce52cf68df3a59c8a2a00f0)
+Quality filter results
+Total number of input sequences: 46500
+Barcode not in mapping file: 0
+Read too short after quality truncation: 630
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233320	45870
+
+Total number seqs written	45870
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233321/fastqjoin.join.fastq (md5: 1fe7b7a0abf20f35e1dbacac0060bf2d)
+Quality filter results
+Total number of input sequences: 48370
+Barcode not in mapping file: 0
+Read too short after quality truncation: 855
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233321	47515
+
+Total number seqs written	47515
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233322/fastqjoin.join.fastq (md5: c1f6086976e3107452a77233f0aabd0e)
+Quality filter results
+Total number of input sequences: 286
+Barcode not in mapping file: 0
+Read too short after quality truncation: 86
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 412.00
+ERR2233322	200
+
+Total number seqs written	200
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233323/fastqjoin.join.fastq (md5: 5f18c0044f29193385c8b7c14dd1d0b6)
+Quality filter results
+Total number of input sequences: 371
+Barcode not in mapping file: 0
+Read too short after quality truncation: 51
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 413.00
+ERR2233323	320
+
+Total number seqs written	320
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233324/fastqjoin.join.fastq (md5: c49a4b13505b44c88978075f87086d96)
+Quality filter results
+Total number of input sequences: 787
+Barcode not in mapping file: 0
+Read too short after quality truncation: 186
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 43.00
+ERR2233324	601
+
+Total number seqs written	601
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233325/fastqjoin.join.fastq (md5: d94c8c46fdbfd5a83ee39a93bcdf61ed)
+Quality filter results
+Total number of input sequences: 1415
+Barcode not in mapping file: 0
+Read too short after quality truncation: 356
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 37.00
+ERR2233325	1059
+
+Total number seqs written	1059
+---
+
+Input file paths
+Sequence read filepath: /mnt/EFS/user_uploads/7feb884caf8a/outputs/join_pair/ERR2233326/fastqjoin.join.fastq (md5: d8fccec90cae9ca5670df0d01456fbf8)
+Quality filter results
+Total number of input sequences: 555
+Barcode not in mapping file: 0
+Read too short after quality truncation: 17
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 37.00
+ERR2233326	538
+
+Total number seqs written	538
+---
+
