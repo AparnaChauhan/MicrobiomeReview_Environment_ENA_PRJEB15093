@@ -1,0 +1,34 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within sample_description	All between sample_description	5.59584290482	2.3424260975346556e-08	6.558793073097036e-07	N/A	N/A
+All within sample_description	Worm burrow vs. Worm burrow	13.0884767468	0.0	0.0	N/A	N/A
+All within sample_description	sediment vs. sediment	-3.73120202135	0.00019331394374764364	0.005412790424934022	N/A	N/A
+All within sample_description	worm burrow vs. worm burrow	8.80740903816	0.0	0.0	N/A	N/A
+All within sample_description	Worm burrow vs. sediment	6.18413462587	7.1288308589601e-10	1.996072640508828e-08	N/A	N/A
+All within sample_description	Worm burrow vs. worm burrow	12.6507799156	0.0	0.0	N/A	N/A
+All within sample_description	sediment vs. worm burrow	-1.45152541092	0.14674034252810547	1	N/A	N/A
+All between sample_description	Worm burrow vs. Worm burrow	11.4934677451	0.0	0.0	N/A	N/A
+All between sample_description	sediment vs. sediment	-9.27513954176	2.8952689538627166e-20	8.106753070815606e-19	N/A	N/A
+All between sample_description	worm burrow vs. worm burrow	7.05674204995	2.311928426479426e-12	6.473399594142393e-11	N/A	N/A
+All between sample_description	Worm burrow vs. sediment	1.87835139234	0.060435802486111356	1	N/A	N/A
+All between sample_description	Worm burrow vs. worm burrow	10.1885921869	0.0	0.0	N/A	N/A
+All between sample_description	sediment vs. worm burrow	-5.91050480233	3.809428915965171e-09	1.0666400964702479e-07	N/A	N/A
+Worm burrow vs. Worm burrow	sediment vs. sediment	-14.7221121919	1.4582181998517376e-46	4.083010959584865e-45	N/A	N/A
+Worm burrow vs. Worm burrow	worm burrow vs. worm burrow	-7.26186517267	9.019454505810971e-12	2.525447261627072e-10	N/A	N/A
+Worm burrow vs. Worm burrow	Worm burrow vs. sediment	-10.4906729657	1.9855521353107915e-24	5.559545978870216e-23	N/A	N/A
+Worm burrow vs. Worm burrow	Worm burrow vs. worm burrow	-8.13359200002	1.1241913362809096e-14	3.147735741586547e-13	N/A	N/A
+Worm burrow vs. Worm burrow	sediment vs. worm burrow	-13.7804174601	1.072414082434386e-39	3.002759430816281e-38	N/A	N/A
+sediment vs. sediment	worm burrow vs. worm burrow	10.3788600627	0.0	0.0	N/A	N/A
+sediment vs. sediment	Worm burrow vs. sediment	9.15526035628	0.0	0.0	N/A	N/A
+sediment vs. sediment	Worm burrow vs. worm burrow	14.8543818552	0.0	0.0	N/A	N/A
+sediment vs. sediment	sediment vs. worm burrow	1.54961763187	0.12134867967753671	1	N/A	N/A
+worm burrow vs. worm burrow	Worm burrow vs. sediment	-6.126401152	1.3113792879680739e-09	3.671862006310607e-08	N/A	N/A
+worm burrow vs. worm burrow	Worm burrow vs. worm burrow	0.344491774299	0.7307078245646839	1	N/A	N/A
+worm burrow vs. worm burrow	sediment vs. worm burrow	-9.51894943855	1.2252811609974874e-20	3.4307872507929645e-19	N/A	N/A
+Worm burrow vs. sediment	Worm burrow vs. worm burrow	8.81250137221	0.0	0.0	N/A	N/A
+Worm burrow vs. sediment	sediment vs. worm burrow	-6.56094033737	7.003579144886332e-11	1.961002160568173e-09	N/A	N/A
+Worm burrow vs. worm burrow	sediment vs. worm burrow	-13.5581259541	6.804452975346126e-39	1.9052468330969153e-37	N/A	N/A
